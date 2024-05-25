@@ -89,7 +89,7 @@ const ContactUs = () => {
             <input type="text" placeholder='Place of Birth' className='bg-[rgba(255,255,255,0.4)] font-medium outline-none w-[45%] border-[0.5px] border-[#E25E3E80] px-6 py-1.5 shadow-[2px_4px_8px_0px_#E25E3E40] rounded' />
             <textarea placeholder='Message' className='resize-none w-full bg-[rgba(255,255,255,0.4)] font-medium outline-none border-[0.5px] border-[#E25E3E80] px-6 py-2 shadow-[2px_4px_8px_0px_#E25E3E40] rounded' rows={3} ></textarea>
             <div className='flex justify-center w-full mt-6'>
-              <button type="submit" className='text-white font-semibold text-xl tracking-wide bg-gradient-to-l from-orange-600 to-orange-500 px-16 py-2.5 border-[0.5px] border-[#E25E3E80] shadow-[2px_4px_8px_0px_#E25E3E40] rounded-md outline-none'>Submit</button>
+              <button type="submit" className='text-white font-semibold text-xl tracking-wide bg-gradient-to-r from-[#FF9B50] to-[#E25E3E] px-16 py-2.5 border-[0.5px] border-[#e25f3e45] shadow-[2px_4px_8px_0px_#E25E3E40] rounded-md outline-none'>Submit</button>
             </div>
           </form>
         </div>
