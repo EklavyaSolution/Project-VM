@@ -15,6 +15,45 @@ import Link from 'next/link'
 
 
 const Numerology = () => {
+
+  const calculator_data = [{
+    name: "Lucky Marriage Date Numerology",
+    width: "28",
+    image: "wedding_numero",
+  },
+  {
+    name: "Car Number Numerology",
+    width: "[104px]",
+    image: "car_no_numero",
+  },
+  {
+    name: "Mobile Number Numerology",
+    width: "[104px]",
+    image: "mob_no_numero",
+  },
+  {
+    name: "House Number Numerology",
+    width: "52",
+    image: "house_no_numero",
+  },
+  {
+    name: "Email ID Number Numerology",
+    width: "28",
+    image: "wedding_numero",
+  },
+  {
+    name: "Job Number Numerology",
+    width: "36",
+    image: "wedding_numero",
+  },
+  {
+    name: "Date of Birth Number Numerology",
+    width: "[168px]",
+    image: "dob_numero",
+  },
+  ]
+
+
   return (
     <div className='bg-[#FFFBF6] w-full h-full min-h-screen'>
       <div className='w-full grid place-items-center h-48 lg:h-52  2xl:h-56 bg-sky-500 '>
@@ -49,34 +88,35 @@ const Numerology = () => {
       </div>
       <div className='bg-[#FFEECE] px-8 w-full mt-12 py-8'>
         <h3 className='mb-6 text-3xl font-semibold text-center text-[#100E6A]'>Numerology Calculation</h3>
-        <div className='flex justify-center gap-8 flex-wrap items-center max-w-[1200px] w-full mx-auto mb-6'>
+        <div className='flex justify-center gap-8 flex-wrap items-center max-w-[1200px] w-full mx-auto mb-6 text-center text-[#100E6A] font-medium leading-5'>
+
           <div className='bg-gradient-to-r from-[#FFD69D] to-[#FFAB6B] border-[0.5px] border-[#FC993E] shadow-[0px_4px_4px_0px_#E25E3E40] flex flex-col items-center w-[240px] h-[208px] py-8  rounded-md'>
-            <Image src={wedding_numero} alt='' className='w-28' />
-            <h3 className='w-48 text-center text-[#100E6A] font-medium text-[17px] mt-3 leading-5'>Lucky Marriage Date Numerology</h3>
+            <Image src={wedding_numero} alt='' className="w-28" />
+            <h3 className='w-48  text-[17px] mt-3 '>Lucky Marriage Date Numerology</h3>
           </div>
           <div className='bg-gradient-to-r from-[#FFD69D] to-[#FFAB6B] border-[0.5px] border-[#FC993E] shadow-[0px_4px_4px_0px_#E25E3E40] flex flex-col items-center w-[240px] h-[208px] py-8 rounded-md'>
             <Image src={car_no_numero} alt='' className='w-[104px]' />
-            <h3 className='w-48 text-center text-[#100E6A] font-medium text-[17px] mt-3 leading-5'>Car Number Numerology </h3>
+            <h3 className='w-48 text-[17px] mt-3'>Car Number Numerology</h3>
           </div>
           <div className='bg-gradient-to-r from-[#FFD69D] to-[#FFAB6B] border-[0.5px] border-[#FC993E] shadow-[0px_4px_4px_0px_#E25E3E40] flex flex-col items-center w-[240px] h-[208px] py-8 rounded-md'>
             <Image src={mob_no_numero} alt='' className='w-[104px]' />
-            <h3 className='w-48 text-center text-[#100E6A] font-medium text-[17px] mt-3 leading-5'>Mobile Number Numerology </h3>
+            <h3 className='w-48 text-[17px] mt-3'>Mobile Number Numerology</h3>
           </div>
           <div className='bg-gradient-to-r from-[#FFD69D] to-[#FFAB6B] border-[0.5px] border-[#FC993E] shadow-[0px_4px_4px_0px_#E25E3E40] flex flex-col items-center w-[240px] h-[208px] py-8 rounded-md'>
             <Image src={house_no_numero} alt='' className='w-52' />
-            <h3 className='w-48 text-center text-[#100E6A] font-medium text-[17px] mt-3 leading-5'>House Number Numerology </h3>
+            <h3 className='w-48 text-[17px] mt-3'>House Number Numerology</h3>
           </div>
           <div className='bg-gradient-to-r from-[#FFD69D] to-[#FFAB6B] border-[0.5px] border-[#FC993E] shadow-[0px_4px_4px_0px_#E25E3E40] flex flex-col items-center w-[240px] h-[208px] py-8 rounded-md'>
             <Image src={email_id_numero} alt='' className='w-28' />
-            <h3 className='w-48 text-center text-[#100E6A] font-medium text-[17px] mt-3 leading-5'>Email ID Number Numerology </h3>
+            <h3 className='w-48 text-[17px] mt-3'>Email ID Number Numerology</h3>
           </div>
           <div className='bg-gradient-to-r from-[#FFD69D] to-[#FFAB6B] border-[0.5px] border-[#FC993E] shadow-[0px_4px_4px_0px_#E25E3E40] flex flex-col items-center w-[240px] h-[208px] py-8 rounded-md'>
             <Image src={job_no_numero} alt='' className='w-36' />
-            <h3 className='w-48 text-center text-[#100E6A] font-medium text-[17px] mt-3 leading-5'>Job Number Numerology </h3>
+            <h3 className='w-48 text-[17px] mt-3'>Job Number Numerology</h3>
           </div>
           <div className='bg-gradient-to-r from-[#FFD69D] to-[#FFAB6B] border-[0.5px] border-[#FC993E] shadow-[0px_4px_4px_0px_#E25E3E40] flex flex-col items-center w-[240px] h-[208px] py-8 rounded-md'>
             <Image src={dob_numero} alt='' className='w-[168px]' />
-            <h3 className='w-48 text-center text-[#100E6A] font-medium text-[17px] mt-3 leading-5'>Date of Birth Number Numerology </h3>
+            <h3 className='w-48 text-[17px] mt-3'>Date of Birth Number Numerology</h3>
           </div>
         </div>
       </div>
