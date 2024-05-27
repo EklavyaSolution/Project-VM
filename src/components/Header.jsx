@@ -41,7 +41,7 @@ const Header = () => {
         link: "/contact-us"
     }];
 
-    const pathname=usePathname();
+    const pathname = usePathname();
 
     return (
         <nav className='w-full px-16 flex items-center justify-between sticky top-0 left-0 bg-white z-[999]'>
