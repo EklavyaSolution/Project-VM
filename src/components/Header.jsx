@@ -2,7 +2,7 @@
 
 import Image from 'next/image'
 import React from 'react'
-import venki_logo from '@/assets/venki_logo.svg'
+import venky_logo from "@/assets/venky_logo.svg"
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
@@ -46,7 +46,7 @@ const Header = () => {
     return (
         <nav className='w-full px-16 flex items-center justify-between sticky top-0 left-0 bg-white z-[999]'>
             <Link href="/">
-                <Image src={venki_logo} alt='Venki Musti (Numerlogy Expert)' className='w-16' />
+                <Image src={venky_logo} alt='Venki Musti (Numerlogy Expert)' className='w-16' />
             </Link>
             <div className='flex items-center gap-6 font-semibold'>
                 {navlinks.map(({ name, link }, index) => {
