@@ -30,7 +30,7 @@ const Header = () => {
     },
     {
         name: "Our Global Presence",
-        link: "/Our Global presence"
+        link: "/our-global-presence"
     },
     {
         name: "Appointment",
