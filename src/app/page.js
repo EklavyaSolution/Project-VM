@@ -37,7 +37,7 @@ const App = () => {
         }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        className="w-full h-[400px]"
+        className="w-full h-[400px] relative overflow-hidden"
       >
         <SwiperSlide>
           <Image src={banner_bg} alt="" className='w-full h-full object-cover' />

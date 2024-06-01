@@ -11,7 +11,7 @@ const ContactUs = () => {
       <div className='w-full grid place-items-center h-48 lg:h-52  2xl:h-56 bg-sky-500 '>
         <h1 className='text-white font-semibold text-lg md:text-xl lg:text-2xl xl:text-4xl 2xl:text-5xl'>Contact Us</h1>
       </div>
-      <div className='w-full mx-auto max-w-[1200px]'>
+      <div className='w-full mx-auto max-w-[1200px] mb-16'>
         <div className=' mt-8 py-4'>
           <h2 className='text-center font-semibold text-[#100E6A] md:text-lg lg:text-xl xl:text-3xl 2xl:text-4xl leading-4'>Contact Details</h2>
           <div className='flex items-center justify-center gap-36 mt-5'>
@@ -88,7 +88,7 @@ const ContactUs = () => {
             <input type="time" placeholder='Birth Time' className='bg-[rgba(255,255,255,0.4)] font-medium outline-none w-[45%] border-[0.5px] border-[#E25E3E80] px-6 py-1.5 shadow-[2px_4px_8px_0px_#E25E3E40] rounded' />
             <input type="text" placeholder='Place of Birth' className='bg-[rgba(255,255,255,0.4)] font-medium outline-none w-[45%] border-[0.5px] border-[#E25E3E80] px-6 py-1.5 shadow-[2px_4px_8px_0px_#E25E3E40] rounded' />
             <textarea placeholder='Message' className='resize-none w-full bg-[rgba(255,255,255,0.4)] font-medium outline-none border-[0.5px] border-[#E25E3E80] px-6 py-2 shadow-[2px_4px_8px_0px_#E25E3E40] rounded' rows={3} ></textarea>
-            <div className='flex justify-center w-full mt-6'>
+            <div className='flex justify-center w-full my-6'>
               <button type="submit" className='text-white font-semibold text-xl tracking-wide bg-gradient-to-r from-[#FF9B50] to-[#E25E3E] px-16 py-2.5 border-[0.5px] border-[#e25f3e45] shadow-[2px_4px_8px_0px_#E25E3E40] rounded-md outline-none'>Submit</button>
             </div>
           </form>
