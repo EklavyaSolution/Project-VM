@@ -3,6 +3,10 @@
 import React, { useState, useEffect } from 'react';
 import banner_bg from "@/assets/banner_bg.svg"
 import banner_man from "@/assets/banner_man.svg"
+import numero_sol1 from "@/assets/numero_sol1.svg"
+import numero_sol2 from "@/assets/numero_sol2.svg"
+import numero_sol3 from "@/assets/numero_sol3.svg"
+import numero_blog from "@/assets/numero_blog.svg"
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -33,7 +37,7 @@ const Slider = () => {
 
     return (
         <div className="w-full h-full relative">
-            <div className="w-full h-full flex overflow-hidden">
+            {/* <div className="w-full h-full flex overflow-hidden">
                 {[...slides, ...slides, ...slides].map((slide, index) => (
                     <div className="w-full flex-grow-0 shrink-0 h-[400px] relative transition-all duration-500 ease-in-out" style={{ translate: `-${currentSlide * 100}%` }} key={index}>
                         <Image src={banner_bg} alt="" className='w-full h-full object-cover' />
@@ -49,9 +53,20 @@ const Slider = () => {
                         </div>
                     </div>
                 ))}
+            </div> */}
+            <div className="w-[1250px] mx-auto h-full flex overflow-hidden gap-16 items-center">
+                {[...slides, ...slides, ...slides].map((slide, index) => (
+                    <div className="w-[370px] flex-grow-0 shrink-0 rounded overflow-hidden text-center bg-white border-[#9E9E9E] border-[0.5px]  relative transition-all duration-500 ease-in-out" style={{ translate: `-${currentSlide * 100}%` }} key={index}>
+                        <Image src={numero_sol1} alt='' className='w-full h-full object-cover' />
+                        <h3 className='font-semibold mt-3 text-lg'>Astro Numerology Consultation</h3>
+                        <p className='font-medium text-[#4E4E4E] mt-3'>Astro Numerology readings provide you with a comprehensive image of your life reading.</p>
+                        <Link href="/appointment"><button className='border-[#F2934C] border font-medium px-4 py-1.5 rounded tracking-wider text-[#FC993E] my-4'>More details</button></Link>
+                    </div>
+                ))}
+
             </div>
-            <button className=" px-4 py-1.5 absolute top-1/2 left-6  translate-y-[-50%] bg-white rounded-full text-xl " onClick={prevSlide}>&#10094;</button>
-            <button className=" px-4 py-1.5 absolute top-1/2 right-6  translate-y-[-50%] bg-white rounded-full text-xl " onClick={nextSlide}>&#10095;</button>
+            <button className=" px-4 py-1.5 absolute top-1/2 left-6  translate-y-[-50%] bg-[#FFFBF6] rounded-full text-xl " onClick={prevSlide}>&#10094;</button>
+            <button className=" px-4 py-1.5 absolute top-1/2 right-6  translate-y-[-50%] bg-[#FFFBF6] rounded-full text-xl " onClick={nextSlide}>&#10095;</button>
         </div>
     );
 };
