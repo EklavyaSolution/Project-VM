@@ -12,6 +12,7 @@ import car_no_numero from "@/assets/car_no_numero.svg"
 import dob_numero from "@/assets/dob_numero.svg"
 import house_no_numero from "@/assets/house_no_numero.svg"
 import Link from 'next/link'
+import BookNumeroSession from '@/components/BookNumeroSession'
 
 
 const Numerology = () => {
@@ -86,8 +87,10 @@ const Numerology = () => {
           </div>
         </div>
       </div>
-      <div className='bg-[#FFEECE] px-8 w-full mt-12 py-8'>
-        <h3 className='mb-6 text-3xl font-semibold text-center text-[#100E6A]'>Numerology Calculation</h3>
+      <BookNumeroSession />
+
+      <div className='bg-[#FFEECE] px-8 w-full py-8 mb-16'>
+        <h3 className='mb-10 text-3xl font-semibold text-center text-[#100E6A]'>Numerology Calculation</h3>
         <div className='flex justify-center gap-8 flex-wrap items-center max-w-[1200px] w-full mx-auto mb-6 text-center text-[#100E6A] font-medium leading-5'>
 
           <div className='bg-gradient-to-r from-[#FFD69D] to-[#FFAB6B] border-[0.5px] border-[#FC993E] shadow-[0px_4px_4px_0px_#E25E3E40] flex flex-col items-center w-[240px] h-[208px] py-8  rounded-md'>

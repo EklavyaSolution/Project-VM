@@ -45,7 +45,7 @@ const Services = () => {
         <div className='mt-16'>
           <h2 className='text-center font-semibold text-[#100E6A] md:text-lg lg:text-xl xl:text-3xl 2xl:text-4xl leading-4'>Services Offered</h2>
           <p className='text-center font-normal mt-4'>Unlock your destiny with Venky Musti, the AstroNumerology expert, and embark on a<br />transformative journey towards abundance and fulfillment, Get Best Astro Numerology Consultation Service</p>
-          <div className='flex mt-8 gap-10 relative'>
+          <div className='flex mt-8 gap-10 relative mb-16'>
             <div className='py-6 px-4 gap-5 flex h-fit flex-col border-[0.5px] border-[#b4b4b4ce] rounded-md sticky top-20 left-0'>
               {services.map((item, index) => {
                 return (

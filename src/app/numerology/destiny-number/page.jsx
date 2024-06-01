@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import React from 'react';
 import destiny_img from "@/assets/destiny_img.svg"
+import num1 from "@/assets/num1.svg"
+import BookNumeroSession from '@/components/BookNumeroSession';
 
 
 const Destiny_number = () => {
@@ -35,6 +37,48 @@ const Destiny_number = () => {
               4 + 4 + 1 + 9 + 8 +5 <br />
               = 31= 3 + 1= 4 <br />
               Your Destiny Number is 4</p>
+          </div>
+        </div>
+      </div>
+      <BookNumeroSession />
+      <div className='w-full px-12 mb-16'>
+        <h3 className='text-center font-semibold text-[#100E6A] md:text-lg lg:text-xl xl:text-3xl 2xl:text-4xl leading-4 mb-12'>Destiny Numbers</h3>
+        <div className='flex flex-wrap items-center justify-center gap-10'>
+          <div className='w-[250px] rounded overflow-hidden bg-white shadow-[0_0px_10px_0px_rgba(0,0,0,0.25)]'>
+            <Image src={num1} alt='' className='w-full object-cover'/>
+            <h3 className='py-3 text-center font-semibold text-lg'>Destiny Number 01</h3>
+          </div>
+          <div className='w-[250px] rounded overflow-hidden bg-white shadow-[0_0px_10px_0px_rgba(0,0,0,0.25)]'>
+            <Image src={num1} alt='' className='w-full object-cover'/>
+            <h3 className='py-3 text-center font-semibold text-lg'>Destiny Number 01</h3>
+          </div>
+          <div className='w-[250px] rounded overflow-hidden bg-white shadow-[0_0px_10px_0px_rgba(0,0,0,0.25)]'>
+            <Image src={num1} alt='' className='w-full object-cover'/>
+            <h3 className='py-3 text-center font-semibold text-lg'>Destiny Number 01</h3>
+          </div>
+          <div className='w-[250px] rounded overflow-hidden bg-white shadow-[0_0px_10px_0px_rgba(0,0,0,0.25)]'>
+            <Image src={num1} alt='' className='w-full object-cover'/>
+            <h3 className='py-3 text-center font-semibold text-lg'>Destiny Number 01</h3>
+          </div>
+          <div className='w-[250px] rounded overflow-hidden bg-white shadow-[0_0px_10px_0px_rgba(0,0,0,0.25)]'>
+            <Image src={num1} alt='' className='w-full object-cover'/>
+            <h3 className='py-3 text-center font-semibold text-lg'>Destiny Number 01</h3>
+          </div>
+          <div className='w-[250px] rounded overflow-hidden bg-white shadow-[0_0px_10px_0px_rgba(0,0,0,0.25)]'>
+            <Image src={num1} alt='' className='w-full object-cover'/>
+            <h3 className='py-3 text-center font-semibold text-lg'>Destiny Number 01</h3>
+          </div>
+          <div className='w-[250px] rounded overflow-hidden bg-white shadow-[0_0px_10px_0px_rgba(0,0,0,0.25)]'>
+            <Image src={num1} alt='' className='w-full object-cover'/>
+            <h3 className='py-3 text-center font-semibold text-lg'>Destiny Number 01</h3>
+          </div>
+          <div className='w-[250px] rounded overflow-hidden bg-white shadow-[0_0px_10px_0px_rgba(0,0,0,0.25)]'>
+            <Image src={num1} alt='' className='w-full object-cover'/>
+            <h3 className='py-3 text-center font-semibold text-lg'>Destiny Number 01</h3>
+          </div>
+          <div className='w-[250px] rounded overflow-hidden bg-white shadow-[0_0px_10px_0px_rgba(0,0,0,0.25)]'>
+            <Image src={num1} alt='' className='w-full object-cover'/>
+            <h3 className='py-3 text-center font-semibold text-lg'>Destiny Number 01</h3>
           </div>
         </div>
       </div>
