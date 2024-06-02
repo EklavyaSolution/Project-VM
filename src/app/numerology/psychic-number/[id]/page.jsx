@@ -64,7 +64,7 @@ const PsychicNumbers = ({ params }) => {
         </div>
       </div>
       {psychicData[params.id - 1].character.map((item, index) => {
-        return <div className='w-full px-44 py-6 bg-[#FFF3E0] mb-4'>
+        return <div key={index} className='w-full px-44 py-6 bg-[#FFF3E0] mb-4'>
           {item.heading && <h3 className='text-[#100E6A] text-3xl font-semibold text-center mb-3'>{item.heading}</h3>}
           <p className='font-medium text-lg mt-3 leading-6 text-center whitespace-break-spaces'>{item.para}</p>
         </div>

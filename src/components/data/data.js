@@ -1,3 +1,4 @@
+
 export const psychicData = [
     {
         number: 1,
@@ -225,3 +226,123 @@ export const psychicData = [
         }]
     }
 ];
+
+export const destinyData = [
+    {
+        number: 1,
+        mainPara: "Number 1 is a good number as Destiny number. People with Destiny/life path number 1 holds creative energy.",
+        videoUrl: "",
+        destiny: [{
+            heading: "Best Profession",
+            para: "The best career options for Destiny number 1 are IPS, IAS, Public relation, Politician, Entrepreneurs, Diplomat, President, Principal, Production manager, Program director. If Destiny number 1 controls Ego, they can get success in nearly any profession they choose.",
+        }, {
+            heading: "Best Marriage Numbers",
+            para: "The most favourable numbers for marriage for Destiny number 1 are 1, 2, 3, 4, 5, 7, 9. They should avoid marrying or having any relationship with Number 6 and 8.",
+        },
+        ]
+    },
+    {
+        number: 2,
+        mainPara: "Number 2 is not a very good number as Destiny number. People with Destiny / life path number 2 are good decision makers.",
+        videoUrl: "",
+        destiny: [{
+            heading: "Best Profession",
+            para: "he best career options for Destiny number 2 are Media, Travel Industry, Engineering, Marketing, Communication, Theatre, Export Commission Merchant, Production house, Creativity, Artistic, Diplomacy. They can also do well in Care Industries, Hotel and Hospitality.",
+        }, {
+            heading: "Best Marriage Numbers",
+            para: "The best numbers to marry or having a relationship for Destiny Number 2 are 1, 3, 4, 7, 8, 9. They should avoid relationship with people of Number 2, 5 and 6.",
+        },
+        ]
+    },
+    {
+        number: 3,
+        mainPara: "Number 3 is not a good number as Destiny number. People with Destiny / life path number 3 are highly positive.",
+        videoUrl: "",
+        destiny: [{
+            heading: "Best Profession",
+            para: "The best career options for Destiny number 3 are Publishing, Business Owner, Research, Travel and Tourism, and the import-export business. They can also work well as a musician, poet, actor, artist. ",
+        }, {
+            heading: "Best Marriage Numbers",
+            para: "The best numbers to marry or having a relationship for Destiny Number 3 are 1, 2, 3, 5, 6, 8, 9. They should avoid having relationship with people of Number 4 and 7.",
+        },
+        ]
+    },
+    {
+        number: 4,
+        mainPara: "Number 4 in numerology is the number of counsellors, advisers, and good listeners who provide unbiased opinions useful for correct decision-making.",
+        videoUrl: "",
+        destiny: [{
+            heading: "Career Path",
+            para: "Choosing the right career path can take a person to pinnacles in the professional world. Destiny number in numerology suggests the best-suited career options favourable for number 4.\n* People with destiny number 4 can choose careers that require counseling skills, such as career counseling or advisory roles, due to their natural ability to provide the right guidance to people.\n* They are also best-suited for professions such as science, technology, farming, and the technology industry because they are practical and methodological in their approach.\n* Careers in architecture, building, engineering, coal, and mining fields are also suitable for number 4.",
+        }, {
+            heading: "Love and Marriage Relationship",
+            para: "Compatibility in relationships is important for stability and happiness. Destiny number can help a person select partners compatible for them. Know the favourable numbers of life path number 4 for marriage and love relationships. \n* People with numerology number 4 are patient listeners, and hence, this quality can help them have good relationships with others.\n* They seek balance and stability in marriage relationships, again a positive quality that can help destiny number 4 people enjoy good relationships.\n* The best numbers to marry, have a relationship or form a business association for destiny number 4 are 1, 2, 5, 6, 7, and 9. Numbers 3, 4, and 8 should be avoided due to inharmonious vibrations.",
+        },
+        ]
+    },
+    {
+        number: 5,
+        mainPara: "Number 5 is one of the best Destiny numbers. Destiny/life path Number 5 people hold impressive and attractive personality.",
+        videoUrl: "",
+        destiny: [{
+            heading: "Best Profession",
+            para: "The best career options for Destiny number 5 are Writer, Lawyer, Business owner, CEO, can work in Top management, Travel Industry, Production house, Creativity, storytellers, sculptors and astrologers.",
+        }, {
+            heading: "Best Marriage Numbers",
+            para: "The best numbers to marry or having a relationship for Destiny Number 5 are 1, 3, 4, 5, 6, 7, 8, 9. They should avoid marrying to Number 2 people.",
+        },
+        ]
+    },
+    {
+        number: 6,
+        mainPara: "Number 6 is not a good number as Destiny number. People with Destiny / life path number 6 remain mostly overburdened with work.",
+        videoUrl: "",
+        destiny: [{
+            heading: "Best Profession",
+            para: "The best career options for Destiny number 6 are Hotel Industry, Entertainment Industry, Politics. They can also work in fields related to Commerce and Law.",
+        }, {
+            heading: "Best Marriage Numbers",
+            para: "The best numbers to marry or having a relationship for Destiny Number 6 are 3, 4, 5, 8, 9. They should avoid marrying people with Number 1, 2, 6, 7.",
+        },
+        ]
+    },
+    {
+        number: 7,
+        mainPara: "Number 7 is a good number as Destiny number. People with Destiny / life path number 7 are merciful and help people with their right advice.",
+        videoUrl: "",
+        destiny: [{
+            heading: "Best Profession",
+            para: "The best career options for Destiny number 7 are research work, teaching, agriculture, photography. They can opt for a career related to Occult science like Astrology, Numerology, etc.",
+        }, {
+            heading: "Best Marriage Numbers",
+            para: "The best numbers to marry or having a relationship for Destiny Number 7 are 1, 2, 4, 5. They should avoid marrying to people with Number 3, 6, 7, 8, 9.",
+        },
+        ]
+    },
+    {
+        number: 8,
+        mainPara: "Destiny number 8 people achieve name and fame and become rich late in their lives. Life path number 8 individuals have more endurance than any other number from 1 to 9.",
+        videoUrl: "",
+        destiny: [{
+            heading: "Best Profession",
+            para: "The destiny number also impacts the career choices. Choosing a career favourable for one’s destiny number can prove to be beneficial for the person. Since, people with conductor number 8 are good in organisation, conversations; the best career options for destiny number 8 are judicial services, banking & commerce, armed forces, philanthropist work. They can handle organizational work in companies.",
+        }, {
+            heading: "Best Marriage Numbers",
+            para: "Destiny number 8 love life can hit a low bottom because they live with the fear of rejection and separation. By feeling secure and giving time to their relationships, they can enjoy a blissful relationship. The lucky numbers for marriage or love for destiny number 8 are 2, 3, 5, 6. They should avoid marrying people with destiny numbers 1, 4, 7, 8 as these numbers are not compatible with number 8.",
+        },
+        ]
+    },
+    {
+        number: 9,
+        mainPara: "Number 9 is a good number as Destiny number. People with Destiny / life path number 9 believe in to keep working.",
+        videoUrl: "",
+        destiny: [{
+            heading: "Best Profession",
+            para: "The best career options for Destiny number 9 are painter, philosopher, dentist, electrician, diplomat, business owner.",
+        }, {
+            heading: "Best Marriage Numbers",
+            para: "The best numbers to marry or have a relationship for Destiny Number 9 are 1, 2, 3, 4, 5, 6, 9. They should avoid marrying people with Number 7, 8.",
+        },
+        ]
+    },
+]
