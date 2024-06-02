@@ -3,6 +3,7 @@ import about_bg from "@/assets/about_bg.svg"
 import banner_man from "@/assets/banner_man.svg"
 import Image from 'next/image'
 import about_vid from "@/assets/about_vid.svg"
+import Link from 'next/link'
 
 
 const About = () => {
@@ -51,6 +52,11 @@ const About = () => {
           <p className='w-[80%] mx-auto font-medium text-lg leading-6 mb-3'>It all started in 1999 when I talked to a friend from Gujarat, India. He was talking about a book that made him understand the connection with his birth number. It made me curious and I started liking the concept. Then by reading multiple books and talking with many experts, I realized the potential of numbers. Get Best Master Astro Numerology Consultation In Melbourne.</p>
           <p className='w-[80%] mx-auto font-medium text-lg leading-6'>Since then I built my knowledge by studying various systems of numerology and researching hundreds of birth dates /event dates etc and found various patterns - Venky</p>
         </div>
+        <div className='flex justify-center my-2'>
+                <Link href="/appointment">
+                    <button className='text-white outline-none rounded-md px-4 py-2.5 mt-5 font-semibold tracking-wider bg-[#F2934C]'>Book Your Appointment</button>
+                </Link>
+            </div>
       </div>
     </div>
   )

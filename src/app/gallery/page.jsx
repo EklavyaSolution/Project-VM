@@ -4,7 +4,7 @@ import gallery_img from '@/assets/gallery_img.svg'
 
 const Gallery = () => {
   return (
-    <div className='bg-[#FFFBF6] w-full h-full min-h-screen'>
+    <div className='bg-[#FFFBF6] w-full h-full min-h-screen mb-16'>
       <div className='w-full grid place-items-center h-48 lg:h-52  2xl:h-56 bg-sky-500 '>
         <h1 className='text-white font-semibold text-lg md:text-xl lg:text-2xl xl:text-4xl 2xl:text-5xl'>Gallery</h1>
       </div>

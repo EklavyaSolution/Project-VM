@@ -1,3 +1,5 @@
+"use client"
+
 import Image from 'next/image'
 import React from 'react';
 import destini_no from "@/assets/destinyno_img.svg"
