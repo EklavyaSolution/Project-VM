@@ -8,8 +8,14 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'header_bg' : "url('../assets/header_bg.svg')",
-        'appointment_bg' : "url('../assets/appointment_bg.svg')",
+        'header_bg': "url('../assets/header_bg.svg')",
+        'appointment_bg': "url('../assets/appointment_bg.svg')",
+        'about_bg': "url('../assets/about_bg.svg')",
+        'booknumerosession_bg': "url('../assets/booknumerosession_bg.svg')",
+      },
+      fontFamily: {
+        inter: ['var(--font-inter)'],
+        poppins: ['var(--font-poppins)'],
       }
     },
   },
