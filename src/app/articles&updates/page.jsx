@@ -10,7 +10,7 @@ import BookNumeroSession from '@/components/BookNumeroSession';
 const ArticlesandUpdates = () => {
   return (
     <div className='bg-[#FFFBF6] w-full h-full min-h-screen'>
-      <div className='w-full grid place-items-center h-48 lg:h-52  2xl:h-56 bg-sky-500 '>
+      <div className='w-full grid place-items-center h-48 lg:h-52  2xl:h-56 bg-header_bg bg-cover bg-center	 '>
         <h1 className='text-white font-semibold text-lg md:text-xl lg:text-2xl xl:text-4xl 2xl:text-5xl'>Articles & Updates</h1>
       </div>
       <div className='w-full mx-auto max-w-[1200px] mt-10'>

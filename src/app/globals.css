@@ -13,7 +13,6 @@ body {
 
 *::-webkit-scrollbar-thumb {
   background: #000;
-  border-radius: 6px;
 }
 
 /* .swiper {

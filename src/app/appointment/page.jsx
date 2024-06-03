@@ -8,8 +8,8 @@ import venky_musti from "@/assets/venky_musti.svg"
 
 const Appointment = () => {
   return (
-    <div className='bg-[#FFFBF6] w-full h-full min-h-screen'>
-      <div className='w-full text-white font-semibold flex flex-col items-center justify-center gap-4 text-lg  h-60 lg:h-68  2xl:h-80 bg-sky-500 '>
+    <div className='bg-[#FFFBF6] w-full h-full min-h-screen mb-16'>
+      <div className='w-full text-white font-semibold flex flex-col items-center justify-center gap-4 text-lg  h-60 lg:h-68  2xl:h-80 bg-appointment_bg bg-cover bg-center'>
         <h4 className='text-[#FF926A]'>“Organize your future with the right numbers.”</h4>
         <h1 className=' text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-[40px]'>Book Your Appointment</h1>
         <h5>with Venky Musti</h5>

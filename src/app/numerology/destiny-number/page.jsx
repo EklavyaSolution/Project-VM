@@ -9,8 +9,8 @@ const Destiny_number = () => {
 
   return (
     <div className='bg-[#FFFBF6] w-full h-full min-h-screen mb-16'>
-      <div className='w-full grid place-items-center h-48 lg:h-52  2xl:h-56 bg-sky-500 '>
-        <h1 className='text-white font-semibold text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-[40px]'>Destiny Number in Numerology</h1>
+      <div className='w-full grid place-items-center h-48 lg:h-52  2xl:h-56 bg-header_bg bg-cover bg-center	 '>
+        <h1 className='text-white font-semibold text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-[40px]'>Number in Numerology</h1>
       </div>
       <div className='w-full mx-auto max-w-[1200px] mt-6'>
         <h2 className='text-center font-semibold text-[#100E6A] md:text-lg lg:text-xl xl:text-3xl 2xl:text-4xl leading-4'>Destiny Number</h2>
@@ -42,47 +42,6 @@ const Destiny_number = () => {
         </div>
       </div>
       <BookNumeroSession />
-      {/* <div className='w-full px-12'>
-        <h3 className='text-center font-semibold text-[#100E6A] md:text-lg lg:text-xl xl:text-3xl 2xl:text-4xl leading-4 mb-12'>Destiny Numbers</h3>
-        <div className='flex flex-wrap items-center justify-center gap-10'>
-          <div className='w-[250px] rounded overflow-hidden bg-white shadow-[0_0px_10px_0px_rgba(0,0,0,0.25)]'>
-            <Image src={num1} alt='' className='w-full object-cover'/>
-            <h3 className='py-3 text-center font-semibold text-lg'>Destiny Number 01</h3>
-          </div>
-          <div className='w-[250px] rounded overflow-hidden bg-white shadow-[0_0px_10px_0px_rgba(0,0,0,0.25)]'>
-            <Image src={num1} alt='' className='w-full object-cover'/>
-            <h3 className='py-3 text-center font-semibold text-lg'>Destiny Number 01</h3>
-          </div>
-          <div className='w-[250px] rounded overflow-hidden bg-white shadow-[0_0px_10px_0px_rgba(0,0,0,0.25)]'>
-            <Image src={num1} alt='' className='w-full object-cover'/>
-            <h3 className='py-3 text-center font-semibold text-lg'>Destiny Number 01</h3>
-          </div>
-          <div className='w-[250px] rounded overflow-hidden bg-white shadow-[0_0px_10px_0px_rgba(0,0,0,0.25)]'>
-            <Image src={num1} alt='' className='w-full object-cover'/>
-            <h3 className='py-3 text-center font-semibold text-lg'>Destiny Number 01</h3>
-          </div>
-          <div className='w-[250px] rounded overflow-hidden bg-white shadow-[0_0px_10px_0px_rgba(0,0,0,0.25)]'>
-            <Image src={num1} alt='' className='w-full object-cover'/>
-            <h3 className='py-3 text-center font-semibold text-lg'>Destiny Number 01</h3>
-          </div>
-          <div className='w-[250px] rounded overflow-hidden bg-white shadow-[0_0px_10px_0px_rgba(0,0,0,0.25)]'>
-            <Image src={num1} alt='' className='w-full object-cover'/>
-            <h3 className='py-3 text-center font-semibold text-lg'>Destiny Number 01</h3>
-          </div>
-          <div className='w-[250px] rounded overflow-hidden bg-white shadow-[0_0px_10px_0px_rgba(0,0,0,0.25)]'>
-            <Image src={num1} alt='' className='w-full object-cover'/>
-            <h3 className='py-3 text-center font-semibold text-lg'>Destiny Number 01</h3>
-          </div>
-          <div className='w-[250px] rounded overflow-hidden bg-white shadow-[0_0px_10px_0px_rgba(0,0,0,0.25)]'>
-            <Image src={num1} alt='' className='w-full object-cover'/>
-            <h3 className='py-3 text-center font-semibold text-lg'>Destiny Number 01</h3>
-          </div>
-          <div className='w-[250px] rounded overflow-hidden bg-white shadow-[0_0px_10px_0px_rgba(0,0,0,0.25)]'>
-            <Image src={num1} alt='' className='w-full object-cover'/>
-            <h3 className='py-3 text-center font-semibold text-lg'>Destiny Number 01</h3>
-          </div>
-        </div>
-      </div> */}
       <Numbers name="destiny" />
     </div>
   )

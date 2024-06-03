@@ -6,6 +6,12 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    extend: {
+      backgroundImage: {
+        'header_bg' : "url('../assets/header_bg.svg')",
+        'appointment_bg' : "url('../assets/appointment_bg.svg')",
+      }
+    },
   },
   plugins: [],
 };
