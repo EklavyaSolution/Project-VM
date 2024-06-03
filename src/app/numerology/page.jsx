@@ -89,37 +89,37 @@ const Numerology = () => {
       </div>
       <BookNumeroSession />
 
-      <div className='bg-[#FFEECE] px-8 w-full py-8 mb-16'>
-        <h3 className='mb-10 text-3xl font-semibold text-center text-[#100E6A]'>Numerology Calculation</h3>
+      <div className='bg-[#FFEECE] w-full py-8 mb-16'>
+        <h3 className='mb-10 font-poppins text-[33px] tracking-wide font-semibold text-center text-[#100E6A]'>Numerology Calculation</h3>
         <div className='flex justify-center gap-8 flex-wrap items-center max-w-[1200px] w-full mx-auto mb-6 text-center text-[#100E6A] font-medium leading-5'>
 
-          <div className='bg-gradient-to-r from-[#FFD69D] to-[#FFAB6B] border-[0.5px] border-[#FC993E] shadow-[0px_4px_4px_0px_#E25E3E40] flex flex-col items-center w-[240px] h-[208px] py-8  rounded-md'>
+          <div className='bg-gradient-to-r from-[#FFD69D] to-[#FFAB6B] border-[0.5px] border-[#FC993E] shadow-[0px_4px_4px_0px_#E25E3E40] flex flex-col items-center w-[240px] h-[215px] py-8  rounded-md'>
             <Image src={wedding_numero} alt='' className="w-28" />
-            <h3 className='w-48  text-[17px] mt-3 '>Lucky Marriage Date Numerology</h3>
+            <h3 className='w-48  text-lg mt-4 leading-[22px] '>Lucky Marriage Date Numerology</h3>
           </div>
           <div className='bg-gradient-to-r from-[#FFD69D] to-[#FFAB6B] border-[0.5px] border-[#FC993E] shadow-[0px_4px_4px_0px_#E25E3E40] flex flex-col items-center w-[240px] h-[208px] py-8 rounded-md'>
-            <Image src={car_no_numero} alt='' className='w-[104px]' />
-            <h3 className='w-48 text-[17px] mt-3'>Car Number Numerology</h3>
+            <Image src={car_no_numero} alt='' className='w-[98px]' />
+            <h3 className='w-48 text-lg mt-4 leading-[22px]'>Car Number Numerology</h3>
           </div>
           <div className='bg-gradient-to-r from-[#FFD69D] to-[#FFAB6B] border-[0.5px] border-[#FC993E] shadow-[0px_4px_4px_0px_#E25E3E40] flex flex-col items-center w-[240px] h-[208px] py-8 rounded-md'>
-            <Image src={mob_no_numero} alt='' className='w-[104px]' />
-            <h3 className='w-48 text-[17px] mt-3'>Mobile Number Numerology</h3>
+            <Image src={mob_no_numero} alt='' className='w-[98px]' />
+            <h3 className='w-48 text-lg mt-4 leading-[22px]'>Mobile Number Numerology</h3>
           </div>
           <div className='bg-gradient-to-r from-[#FFD69D] to-[#FFAB6B] border-[0.5px] border-[#FC993E] shadow-[0px_4px_4px_0px_#E25E3E40] flex flex-col items-center w-[240px] h-[208px] py-8 rounded-md'>
-            <Image src={house_no_numero} alt='' className='w-52' />
-            <h3 className='w-48 text-[17px] mt-3'>House Number Numerology</h3>
+            <Image src={house_no_numero} alt='' className='w-48' />
+            <h3 className='w-48 text-lg mt-4 leading-[22px]'>House Number Numerology</h3>
           </div>
           <div className='bg-gradient-to-r from-[#FFD69D] to-[#FFAB6B] border-[0.5px] border-[#FC993E] shadow-[0px_4px_4px_0px_#E25E3E40] flex flex-col items-center w-[240px] h-[208px] py-8 rounded-md'>
-            <Image src={email_id_numero} alt='' className='w-28' />
-            <h3 className='w-48 text-[17px] mt-3'>Email ID Number Numerology</h3>
+            <Image src={email_id_numero} alt='' className='w-[104px]' />
+            <h3 className='w-48 text-lg mt-4 leading-[22px]'>Email ID Number Numerology</h3>
           </div>
           <div className='bg-gradient-to-r from-[#FFD69D] to-[#FFAB6B] border-[0.5px] border-[#FC993E] shadow-[0px_4px_4px_0px_#E25E3E40] flex flex-col items-center w-[240px] h-[208px] py-8 rounded-md'>
-            <Image src={job_no_numero} alt='' className='w-36' />
-            <h3 className='w-48 text-[17px] mt-3'>Job Number Numerology</h3>
+            <Image src={job_no_numero} alt='' className='w-[136px]' />
+            <h3 className='w-48 text-lg mt-4 leading-[22px]'>Job Number Numerology</h3>
           </div>
           <div className='bg-gradient-to-r from-[#FFD69D] to-[#FFAB6B] border-[0.5px] border-[#FC993E] shadow-[0px_4px_4px_0px_#E25E3E40] flex flex-col items-center w-[240px] h-[208px] py-8 rounded-md'>
-            <Image src={dob_numero} alt='' className='w-[168px]' />
-            <h3 className='w-48 text-[17px] mt-3'>Date of Birth Number Numerology</h3>
+            <Image src={dob_numero} alt='' className='w-[158px]' />
+            <h3 className='w-48 text-lg mt-4 leading-[22px]'>Date of Birth Number Numerology</h3>
           </div>
         </div>
       </div>
