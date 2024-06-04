@@ -1,5 +1,4 @@
 import React from 'react'
-import about_bg from "@/assets/about_bg.svg"
 import banner_man from "@/assets/banner_man.svg"
 import Image from 'next/image'
 import about_vid from "@/assets/about_vid.svg"
@@ -8,18 +7,15 @@ import Link from 'next/link'
 
 const About = () => {
   return (
-    <div className='bg-[#FFFBF6] w-full h-full min-h-screen'>
-      <div className='w-full h-[300px] overflow-hidden relative'>
-        <Image src={about_bg} alt="" className='w-full h-full object-cover' />
-        <div className='w-full absolute top-6 left-0 flex justify-between items-center px-32'>
-          <div className='text-white font-semibold -mt-10'>
-            <h2 className='text-3xl tracking-wider mb-6'>About Venky Musti</h2>
-            <h5 className='text-xl tracking-wider mb-2'>Best Numerologist in New Jersey</h5>
-            <h5 className=' tracking-wider '>Astro Numerology | Career | Relationship | Business</h5>
-          </div>
-          <div>
-            <Image src={banner_man} alt='Venky Musti | Best Numerologist' className='w-80' />
-          </div>
+    <div className='bg-[#FFFBF6] w-full h-full min-h-screen pb-16'>
+      <div className='w-full h-[300px] bg-about_bg bg-cover bg-center overflow-hidden flex justify-between items-center pt-16 px-[152px]'>
+        <div className='text-white font-semibold -mt-8'>
+          <h2 className='font-poppins text-[33px] tracking-wider mb-3'>About Venky Musti</h2>
+          <h5 className='text-2xl tracking-wider mb-1'>Best Numerologist in New Jersey</h5>
+          <h5 className=' tracking-wider '>Astro Numerology | Career | Relationship | Business</h5>
+        </div>
+        <div>
+          <Image src={banner_man} alt='Venky Musti | Best Numerologist' className='w-80' />
         </div>
       </div>
       <div className='w-full mx-auto max-w-[1200px] mt-10 flex flex-col items-center'>
@@ -27,7 +23,7 @@ const About = () => {
           <Image src={about_vid} alt='Meet Veny Musti' className='w-full h-full object-cover' />
         </div>
         <div className='mt-16 text-center'>
-          <h3 className='text-3xl text-[#100E6A] font-semibold mb-6'>Meet Venky Musti</h3>
+          <h3 className='font-poppins text-[26px] tracking-wide text-[#100E6A] font-semibold mb-6'>Meet Venky Musti</h3>
           <p className='w-[80%] mx-auto font-medium text-lg leading-6 mb-3'>Numerology is something that I am very passionate about. I have always been interested in numbers and their meanings. I love finding out what numbers mean and how they can impact our lives. I am constantly studying numerology and finding new and interesting ways to apply it to my life. Best Master Astro Numerology Consultation.</p>
           <p className='w-[80%] mx-auto font-medium text-lg leading-6 mb-3'>It all started in 1999 when I talked to a friend from Gujarat, India. He was talking about a book that made him understand the connection with his birth number. It made me curious and I started liking the concept. Then by reading multiple books and talking with many experts, I realized the potential of numbers. Get Best Master Astro Numerology Consultation In Melbourne.</p>
           <p className='w-[80%] mx-auto font-medium text-lg leading-6'>Since then I built my knowledge by studying various systems of numerology and researching hundreds of birth dates /event dates etc and found various patterns - Venky</p>
@@ -53,10 +49,10 @@ const About = () => {
           <p className='w-[80%] mx-auto font-medium text-lg leading-6'>Since then I built my knowledge by studying various systems of numerology and researching hundreds of birth dates /event dates etc and found various patterns - Venky</p>
         </div>
         <div className='flex justify-center my-2'>
-                <Link href="/appointment">
-                    <button className='text-white outline-none rounded-md px-4 py-2.5 mt-5 font-semibold tracking-wider bg-[#F2934C]'>Book Your Appointment</button>
-                </Link>
-            </div>
+          <Link href="/appointment">
+            <button className='text-white outline-none rounded-md px-6 py-2 mt-5 font-semibold tracking-wider bg-[#F2934C]'>Book Appointment</button>
+          </Link>
+        </div>
       </div>
     </div>
   )

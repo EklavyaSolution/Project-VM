@@ -40,7 +40,7 @@ const DestinyNumbers = ({ params }) => {
                 </div>
                 <div className='flex justify-center mb-12'>
                     <Link href="/appointment">
-                        <button className='text-white outline-none rounded px-4 py-2 font-semibold tracking-wider bg-[#F2934C]'>Book Your Appointment</button>
+                        <button className='text-white outline-none rounded px-4 py-2 font-semibold tracking-wider bg-[#F2934C]'>Book Appointment</button>
                     </Link>
                 </div>
             </div>

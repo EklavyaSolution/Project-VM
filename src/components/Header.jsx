@@ -66,7 +66,7 @@ const Header = () => {
             <Link href="/">
                 <Image src={venky_logo} alt='Venki Musti (Numerlogy Expert)' className='w-16' />
             </Link>
-            <div className='flex items-center gap-6 font-medium text-sm uppercase'>
+            <div className='flex items-center gap-6 font-semibold text-sm uppercase'>
                 {navlinks.map(({ name, link }, index) => {
                     return (
                         <Link key={index} href={link} className={`${pathname.startsWith(link) ? "text-orange-600" : "text-black"} tracking-wide `}>

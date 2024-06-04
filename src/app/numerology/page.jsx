@@ -58,7 +58,7 @@ const Numerology = () => {
   return (
     <div className='bg-[#FFFBF6] w-full h-full min-h-screen'>
       <div className='w-full grid place-items-center h-56 bg-header_bg bg-cover bg-center	 '>
-        <h1 className='text-white font-semibold font-poppins text-5xl tracking-[1px]'>Numerology</h1>
+        <h1 className='text-white font-semibold font-poppins text-5xl tracking-[0.7px]'>Numerology</h1>
       </div>
       <div className='w-full mx-auto max-w-[1200px] mt-10'>
         <h2 className='text-center font-semibold text-[#100E6A] font-poppins text-[33px] tracking-wide'>Numbers In Numerology</h2>

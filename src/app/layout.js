@@ -4,8 +4,8 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-const inter = Inter({ subsets: ["latin"], display: "swap", variable: "--font-inter" });
-const poppins = Poppins({ subsets: ["latin"], weight: ["100", "200", "300", "400", "500", "600", "900", "800", "700"], display: "swap", variable: "--font-poppins" });
+const inter = Inter({ subsets: ["latin"], display: "swap", variable: "--font-inter", adjustFontFallback: false });
+const poppins = Poppins({ subsets: ["latin"], weight: ["100", "200", "300", "400", "500", "600", "900", "800", "700"], display: "swap", variable: "--font-poppins", adjustFontFallback: false });
 
 export const metadata = {
   title: "Venki Musti | Best Numerologist",
