@@ -1,9 +1,10 @@
+"use client"
+
 import React from 'react'
 import banner_man from "@/assets/banner_man.svg"
 import Image from 'next/image'
 import about_vid from "@/assets/about_vid.svg"
 import Link from 'next/link'
-
 
 const About = () => {
   return (

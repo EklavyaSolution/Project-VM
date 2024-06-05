@@ -20,37 +20,37 @@ const Numerology = () => {
   const calculator_data = [{
     name: "Lucky Marriage Date Numerology",
     width: "28",
-    image: "wedding_numero",
+    image: wedding_numero,
   },
   {
     name: "Car Number Numerology",
-    width: "[104px]",
-    image: "car_no_numero",
+    width: "[98px]",
+    image: car_no_numero,
   },
   {
     name: "Mobile Number Numerology",
-    width: "[104px]",
-    image: "mob_no_numero",
+    width: "[98px]",
+    image: mob_no_numero,
   },
   {
     name: "House Number Numerology",
-    width: "52",
-    image: "house_no_numero",
+    width: "48",
+    image: house_no_numero,
   },
   {
     name: "Email ID Number Numerology",
-    width: "28",
-    image: "wedding_numero",
+    width: "[104px]",
+    image: email_id_numero,
   },
   {
     name: "Job Number Numerology",
-    width: "36",
-    image: "wedding_numero",
+    width: "[136px]",
+    image: job_no_numero,
   },
   {
     name: "Date of Birth Number Numerology",
-    width: "[168px]",
-    image: "dob_numero",
+    width: "[158px]",
+    image: dob_numero,
   },
   ]
 
@@ -92,12 +92,14 @@ const Numerology = () => {
       <div className='bg-[#FFEECE] w-full py-8 mb-16'>
         <h3 className='mb-10 font-poppins text-[33px] tracking-wide font-semibold text-center text-[#100E6A]'>Numerology Calculation</h3>
         <div className='flex justify-center gap-8 flex-wrap items-center max-w-[1200px] w-full mx-auto mb-6 text-center text-[#100E6A] font-medium leading-5'>
+          {calculator_data.map((item, index) => {
+            return <div key={index} className='bg-gradient-to-r from-[#FFD69D] to-[#FFAB6B] border-[0.5px] border-[#FC993E] shadow-[0px_4px_4px_0px_#E25E3E40] flex flex-col items-center w-[240px] h-[215px] py-8  rounded-md'>
+              <Image src={item.image} alt='' className={`w-${item.width}`} />
+              <h3 className='w-48  text-lg mt-4 leading-[22px] '>{item.name}</h3>
+            </div>
+          })}
 
-          <div className='bg-gradient-to-r from-[#FFD69D] to-[#FFAB6B] border-[0.5px] border-[#FC993E] shadow-[0px_4px_4px_0px_#E25E3E40] flex flex-col items-center w-[240px] h-[215px] py-8  rounded-md'>
-            <Image src={wedding_numero} alt='' className="w-28" />
-            <h3 className='w-48  text-lg mt-4 leading-[22px] '>Lucky Marriage Date Numerology</h3>
-          </div>
-          <div className='bg-gradient-to-r from-[#FFD69D] to-[#FFAB6B] border-[0.5px] border-[#FC993E] shadow-[0px_4px_4px_0px_#E25E3E40] flex flex-col items-center w-[240px] h-[208px] py-8 rounded-md'>
+          {/* <div className='bg-gradient-to-r from-[#FFD69D] to-[#FFAB6B] border-[0.5px] border-[#FC993E] shadow-[0px_4px_4px_0px_#E25E3E40] flex flex-col items-center w-[240px] h-[208px] py-8 rounded-md'>
             <Image src={car_no_numero} alt='' className='w-[98px]' />
             <h3 className='w-48 text-lg mt-4 leading-[22px]'>Car Number Numerology</h3>
           </div>
@@ -120,7 +122,7 @@ const Numerology = () => {
           <div className='bg-gradient-to-r from-[#FFD69D] to-[#FFAB6B] border-[0.5px] border-[#FC993E] shadow-[0px_4px_4px_0px_#E25E3E40] flex flex-col items-center w-[240px] h-[208px] py-8 rounded-md'>
             <Image src={dob_numero} alt='' className='w-[158px]' />
             <h3 className='w-48 text-lg mt-4 leading-[22px]'>Date of Birth Number Numerology</h3>
-          </div>
+          </div> */}
         </div>
       </div>
     </div >

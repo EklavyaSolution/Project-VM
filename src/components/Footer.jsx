@@ -23,7 +23,7 @@ const Footer = () => {
             <Image src={venki_logo_white} alt='Venki Musti (Numerlogy Expert)' className='w-16' />
           </Link>
           <p className='mt-5 font-medium w-[400px] border-b-2 border-white pb-4 text-justify text-[15px] mb-4 text-[#EEE6FB]'>I have always been interested in numbers and their meanings. I love finding out what numbers mean and how they can impact our lives. I am constantly studying numerology and finding new and interesting ways to apply it to my life.</p>
-          <h4 className='text-[#EEE6FB] mb-3 font-semibold tracking-wider'>Social Media</h4>
+          <h4 className='text-[#EEE6FB] mb-3 font-semibold tracking-wide'>Social Media</h4>
           <div className='flex items-center gap-2'>
             <div className='rounded px-2 py-1 text-white'>
               <Image src={fb} alt="Venky's facebook" className='w-6' />
@@ -45,7 +45,7 @@ const Footer = () => {
         <div className='mr-20'>
           <div className='flex gap-32'>
             <div className='font-medium tracking-wide'>
-              <h2 className='font-semibold mb-3 tracking-wider'>Consultation</h2>
+              <h2 className='font-semibold mb-3 tracking-wide'>Consultation</h2>
               <Link href="#"> <h4 className='mb-1.5 text-sm'>Career Numerology</h4> </Link>
               <Link href="#"> <h4 className='mb-1.5 text-sm'>Relationship Numerology</h4> </Link>
               <Link href="#"> <h4 className='mb-1.5 text-sm'>Name Numerology</h4> </Link>
@@ -53,7 +53,7 @@ const Footer = () => {
               <Link href="#"> <h4 className='mb-1.5 text-sm'>New Born Numerology</h4> </Link>
             </div>
             <div className='font-medium tracking-wide'>
-              <h2 className='font-semibold mb-3 tracking-wider'>Quick Links</h2>
+              <h2 className='font-semibold mb-3 tracking-wide'>Quick Links</h2>
               <Link href="#"> <h4 className='mb-1.5 text-sm'>About</h4> </Link>
               <Link href="#"> <h4 className='mb-1.5 text-sm'>Contact</h4> </Link>
               <Link href="#"> <h4 className='mb-1.5 text-sm'>Testimonials</h4> </Link>
@@ -61,7 +61,7 @@ const Footer = () => {
             </div>
           </div>
           <div className='font-medium mt-6 tracking-wide'>
-            <h2 className='font-semibold mb-3 tracking-wider'>Contact Us</h2>
+            <h2 className='font-semibold mb-3 tracking-wide'>Contact Us</h2>
             <Link href="tel:14512545454545">
               <div className='flex gap-4 items-center mb-3'>
                 <Image src={phone} alt="Venky's Contact" className='h-[18px]' />
