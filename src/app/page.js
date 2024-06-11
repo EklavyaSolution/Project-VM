@@ -159,7 +159,7 @@ const App = () => {
       <div className='mt-20 mb-16'>
         <h3 className='font-semibold text-center text-[#100E6A] font-poppins text-[33px] tracking-[0.5px] mb-12'>Numerology Solutions</h3>
         <SliderComp slides={3} data={services_data.map((item, index) => {
-          return <div>
+          return <div key={index}>
             <div className='w-[350px] h-[400px] mx-auto rounded-md overflow-hidden text-center bg-white border-[#9e9e9eb1] border-[0.5px]'>
               <div className="w-full h-1/2">
                 <Image src={item.image} alt='' className='w-full h-full object-cover' />

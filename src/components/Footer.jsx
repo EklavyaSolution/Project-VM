@@ -16,7 +16,7 @@ import whatsapp from '@/assets/whatsapp.svg'
 
 const Footer = () => {
   return (
-    <footer className='w-full p-12 pb-5 bg-gradient-to-b from-[#9241d8] to-[#15138c] text-white'>
+    <footer className='w-full p-12 pb-5 bg-gradient-to-b from-[#9241d8] to-[#15138c] text-white z-[999]'>
       <div className='flex justify-between'>
         <div className='px-12'>
           <Link href="/">
