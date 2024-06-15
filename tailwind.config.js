@@ -15,8 +15,8 @@ module.exports = {
         'banner_bg': "url('../assets/banner_bg.svg')",
       },
       fontFamily: {
-        inter: ['var(--font-inter)'],
-        poppins: ['var(--font-poppins)'],
+        montserrat: ['var(--font-montserrat)'],
+        nunito: ['var(--font-nunito)'],
       }
     },
   },

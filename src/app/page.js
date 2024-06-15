@@ -17,6 +17,8 @@ import SliderComp from '@/components/SliderComp';
 import carbon_time from "@/assets/carbon_time.svg"
 import gallery_img from '@/assets/gallery_img.svg'
 import vid_testimonials from "@/assets/vid_testimonials.svg"
+import why_numero from "@/assets/why_numero.svg"
+import mandala from "@/assets/mandala.svg"
 
 
 const App = () => {
@@ -90,7 +92,7 @@ const App = () => {
   ];
 
   return (
-    <div className='bg-[#FFFBF6] h-full min-h-screen'>
+    <div className='bg-white h-full min-h-screen'>
       <Slider ref={slider} {...settings}>
         <div>
           <div className='w-full flex justify-between items-center flex-row h-[400px] bg-banner_bg bg-cover bg-center px-32 pt-5'>
@@ -124,77 +126,95 @@ const App = () => {
         </div>
       </Slider>
 
-      <div className='w-full mx-auto max-w-[1200px] mt-16 text-center'>
-        <div>
-          <h3 className=' font-semibold pb-1.5 inline-block text-[#100E6A] md:text-lg lg:text-xl xl:text-3xl 2xl:text-4xl leading-4 border-b-[3px] border-[#100E6A]'>Why Numerology?</h3>
-          <p className='w-[65%] mx-auto text-center leading-6 text-[#4E4E4E] font-normal text-lg mt-5'>Yet it can be a lot harder for most people to imagine those same attributes being represented by a common number or letter of the alphabet. We can have a hard time seeing numbers as anything other than ciphers for quantities and measurements because that's how we use them every day.</p>
+      <div className='w-full mx-auto max-w-[1200px] mt-16 font-semibold'>
+        <div className='flex gap-12'>
+          <picture className='w-[35%] rounded-lg overflow-hidden'>
+            <Image src={why_numero} alt='' className='w-full h-full object-cover' />
+          </picture>
+          <div className='w-[60%]'>
+            <h3 className='tracking-[0.2px] text-[#10101E] text-[33px]'>Why Numerology?</h3>
+            <p className=' text-[#3D3D3D] font-nunito text-lg mt-1'>“Unlock Your Destiny: Why Numerology Matters ” / Unlock Your Life's Code: Discover What Numbers Reveal About You</p>
+            <ul className=' text-[#3D3D3D] font-nunito text-lg list-disc ml-8'>
+              <li><span className='font-bold text-[#10101E]'>Life Roadmap:</span> Numerology guides your purpose. </li>
+              <li><span className='font-bold text-[#10101E]'>Energies Aligned:</span> Use numbers strategically.</li>
+              <li><span className='font-bold text-[#10101E]'>Self-Discovery:</span> Understand strengths and growth.</li>
+              <li><span className='font-bold text-[#10101E]'>Relationship Insights:</span> Decode connections.</li>
+              <li><span className='font-bold text-[#10101E]'>Impact the World:</span> Empower change.</li>
+            </ul>
+          </div>
         </div>
-        <div className='mt-20 flex flex-col items-center'>
-          <h2 className=' font-semibold pb-1.5 inline-block text-[#100E6A] md:text-lg lg:text-xl xl:text-3xl 2xl:text-4xl leading-4 border-b-[3px] border-[#100E6A]'>Meet VENKY MUSTI</h2>
-          <div className='w-[500px] h-[280px] rounded-lg overflow-hidden mt-8'>
+        <div className='mt-20 flex flex-col items-center text-center'>
+          <h2 className='  text-[#10101E] text-[33px]'>Meet <span className='text-[#261891]'>VENKY MUSTI</span></h2>
+          <picture className='w-[650px] h-[320px] rounded-xl overflow-hidden mt-5 shadow-[0_0px_10px_0px_rgba(0,0,0,0.25)]'>
             <Image src={about_vid} alt='Meet Veny Musti' className='w-full h-full object-cover' />
-          </div>
-          <p className='w-[65%] text-center leading-6 text-[#4E4E4E] font-normal text-lg mt-4'>It all started in 1999 when I was talking to a friend from Gujarat experts I realizame attributes being represented all started in 1999 when I was talking to a friend from G when I was talking to a friend from Gd from G when I was talking to a friend from G.</p>
-          <Link href="/appointment"><button className='bg-[#F2934C] px-7 py-2 rounded tracking-wider text-white mt-10 font-semibold'>Book Your Slot</button></Link>
+          </picture>
+          <p className='w-[65%] text-center leading-6 text-[#3D3D3D] font-nunito text-lg mt-8'>It all started in 1999 when I was talking to a friend from Gujarat experts I realizame attributes being represented all started in 1999 when I was talking to a friend from G when I was talking to a friend from Gd from G when I was talking to a friend from G.</p>
+          <Link href="/appointment" className='mt-10'>
+            <button className='bg-gradient-to-r from-[#FD6E0E] to-[#EF9D33] px-7 py-2 rounded-md tracking-wider text-white'>Book Your Slot</button></Link>
         </div>
       </div>
-      <div className='bg-[#FFF3E0CC] w-full py-10 px-40 mt-16'>
-        <h3 className='font-semibold text-center text-[#100E6A] md:text-lg lg:text-xl xl:text-3xl 2xl:text-4xl leading-4'>Why Choose Me</h3>
-        <p className='w-[60%] mx-auto text-center leading-6 text-[#4E4E4E] font-medium text-lg mt-5'>I am not your garden-variety Astro Babaji with a half-baked idea of Vedic Astrology preying on people’s vulnerabilities and promoting blind beliefs. I studied astrology for long years under an eminent guru and worked in the corporate world. My blended experience helps me use my knowledge with Logic, Positivity and Empathy to guide you to the right path.</p>
-        <div className='flex items-center justify-between text-[#EF652E] font-bold mt-10'>
+      <div className='bg-[#FFF3E0] w-full py-10 px-40 mt-16 font-semibold relative'>
+        <h3 className='text-[#10101E] text-[33px] text-center'>Why <span className='text-[#261891]'>Choose Me</span></h3>
+        <p className='w-[90%] mx-auto text-center text-[#3D3D3D] font-nunito text-lg mt-5'>I am not your garden-variety Astro Babaji with a half-baked idea of Vedic Astrology preying on people's vulnerabilities and promoting blind beliefs. I studied astrology for long years under an eminent guru and worked in the corporate world. My blended experience helps me use my knowledge with Logic, Positivity and Empathy to guide you to the right path.</p>
+        <div className='flex items-center justify-between text-[#031D2E] mt-12'>
           <div className='text-center'>
-            <h4 className='text-6xl'>20+</h4>
-            <p className='tracking-wider mt-1 text-lg'>Years of Experience</p>
+            <h4 className='text-6xl tracking-wider'>20+</h4>
+            <p className='tracking-wider text-[#474747] mt-2 text-2xl font-nunito'>Years of Experience</p>
           </div>
           <div className='text-center'>
-            <h4 className='text-6xl'>5000+</h4>
-            <p className='tracking-wider mt-1 text-lg'>Lives Transformed</p>
+            <h4 className='text-6xl tracking-wider'>5000+</h4>
+            <p className='tracking-wider text-[#474747] mt-2 text-2xl font-nunito'>Lives Transformed</p>
           </div>
           <div className='text-center'>
-            <h4 className='text-6xl'>3+</h4>
-            <p className='tracking-wider mt-1 text-lg'>Countries Presence</p>
+            <h4 className='text-6xl tracking-wider'>3+</h4>
+            <p className='tracking-wider text-[#474747] mt-2 text-2xl font-nunito'>Countries Presence</p>
           </div>
         </div>
+        <div className='absolute top-0 right-0'>
+          <Image src={mandala} alt='nothing' />
+        </div>
       </div>
-      <div className='mt-20 mb-16'>
-        <h3 className='font-semibold text-center text-[#100E6A] font-poppins text-[33px] tracking-[0.5px] mb-12'>Numerology Solutions</h3>
+      <div className='mt-16 mb-20 font-semibold'>
+        <h3 className='text-center text-[#10101E] text-[33px] tracking-[0.5px] mb-1'>Numerology <span className='text-[#261891]'>Solutions</span></h3>
+        <p className=' text-center text-[#000000] font-medium font-nunito text-lg mb-10'>Unlocking the Power of Numbers in your Life</p>
         <SliderComp slides={3} data={services_data.map((item, index) => {
           return <div key={index}>
-            <div className='w-[350px] h-[400px] mx-auto rounded-md overflow-hidden text-center bg-white border-[#9e9e9eb1] border-[0.5px]'>
+            <div className='w-[350px] h-[360px] mx-auto rounded-md overflow-hidden bg-white border-[#9e9e9eb3] border-[0.5px]'>
               <div className="w-full h-1/2">
                 <Image src={item.image} alt='' className='w-full h-full object-cover' />
               </div>
-              <div className="py-4 flex flex-col justify-between h-1/2">
+              <div className="p-4 flex flex-col justify-between h-1/2">
                 <div>
-                  <h3 className='font-semibold text-lg w-48 leading-[22px] tracking-wide mx-auto'>{item.name}</h3>
-                  <p className='font-medium text-[#4E4E4E] mt-3 text-[15px] w-80 px-2 leading-5 mx-auto'>{item.para}</p>
+                  <h3 className='text-[#10101E] text-lg'>{item.name}</h3>
+                  <p className='font-medium text-[#3D3D3D] font-nunito mt-1 text-sm tracking-wide'>{item.para}</p>
                 </div>
                 <div>
-                  <Link href={item.link}><button className='border-[#F2934C] hover:text-white hover:bg-[#FC993E] transition-all ease-out duration-300 border font-medium px-4 py-1.5 rounded tracking-wider text-[#FC993E]'>More details</button></Link>
+                  <Link href={item.link}><button className='border-[#EF9D33] hover:text-white hover:bg-[#EF9D33] transition-all ease-out duration-300 border font-medium px-4 py-1.5 rounded tracking-wider text-[#EF9D33]'>More details</button></Link>
                 </div>
               </div>
             </div>
           </div>
         })} />
       </div>
-      <div className='bg-[#FFF3E0] py-12'>
-        <h3 className='font-semibold text-center text-[#100E6A] font-poppins text-[33px] tracking-[0.5px] mb-12'>Latest Articles & Updates</h3>
+      <div className='bg-[#FFF3E0] py-12 font-semibold'>
+        <h3 className='text-center text-[#10101E] text-[33px] tracking-[0.5px] mb-1'>Latest <span className='text-[#261891]'>Articles & Updates</span></h3>
+        <p className=' text-center text-[#000000] font-medium font-nunito text-lg mb-10'>Explore insightful Articles on Numerology</p>
         <SliderComp slides={3} data={[1, 2, 3, 4].map((item, index) => {
           return <div key={index}>
             <Link href="/app">
-              <div className='w-[350px] h-[400px] mx-auto rounded-md overflow-hidden text-center bg-white border-[#9e9e9eb1] border-[0.5px]'>
-                <div className="w-full h-1/2">
+              <div className='w-[350px] h-[400px] mx-auto rounded-md overflow-hidden bg-white border-[#9e9e9eb3] border-[0.5px]'>
+                <div className="w-full h-[180px]">
                   <Image src={numero_sol1} alt='' className='w-full h-full object-cover' />
                 </div>
-                <div className="py-4 flex flex-col items-center justify-between h-1/2">
+                <div className="p-4 flex flex-col justify-between h-[220px]">
                   <div>
-                    <h3 className='font-semibold text-[17px] w-[90%] leading-5 tracking-[0.5px] mx-auto uppercase'>EXPLORING THE NUMBERS: UNRAVELING THE MYSTERIES OF ASTRONUMEROLOGY</h3>
-                    <p className='font-medium text-[#4E4E4E] mt-3 text-[15px] w-80 px-2 mx-auto leading-5'>Introduction: Numbers have always held a mystical allure, playing a...</p>
-                    <p className="text-[#3DB45E] font-medium text-[13px] mt-1">Read More</p>
+                    <h3 className='text-[#10101E] text-lg leading-6'>Exploring the Numbers: Unravelling the Mysteries of Astronumerology</h3>
+                    <p className='font-medium text-[#3D3D3D] font-nunito mt-1 text-sm tracking-wide line-clamp-2'>Introduction: Numbers have always held a mystical allure, playing</p>
+                    <p className="text-[#3DB45E] text-[13px] mt-1">Read More</p>
                   </div>
                   <div className="flex gap-3 items-center">
                     <Image src={carbon_time} alt="time" className="w-4" />
-                    <p className="text-[13px] text-[#9E9E9E] font-medium tracking-wide">July 25, 2023</p>
+                    <p className="text-sm text-[#6B6B6B] font-medium tracking-wide">July 25, 2023</p>
                   </div>
                 </div>
               </div>
@@ -203,11 +223,11 @@ const App = () => {
         })} />
         <div className='flex justify-center'>
           <Link href="/articles&updates">
-            <button className='text-white outline-none rounded px-6 py-2 mt-8 font-semibold tracking-wide bg-[#F2934C]'>View More</button>
+            <button className='text-white outline-none rounded-md bg-gradient-to-r from-[#FD6E0E] to-[#EF9D33] px-6 py-2 mt-8 font-semibold tracking-wide'>View More</button>
           </Link>
         </div>
       </div>
-      <div className='my-16'>
+      {/* <div className='my-16'>
         <h3 className='font-semibold text-center text-[#100E6A] font-poppins text-[33px] tracking-[0.5px] mb-12'>Gallery</h3>
         <SliderComp slides={4} data={[1, 1, 1, 1, 1, 1].map((item, index) => {
           return <div key={index}>
@@ -218,12 +238,13 @@ const App = () => {
         })} />
         <div className='flex justify-center'>
           <Link href="/gallery">
-            <button className='text-white outline-none rounded px-7 py-2 mt-8 font-semibold tracking-wide bg-[#F2934C]'>View All</button>
+            <button className='text-white outline-none rounded-md bg-gradient-to-r from-[#FD6E0E] to-[#EF9D33] px-6 py-2 mt-8 font-semibold tracking-wide'>View All</button>
           </Link>
         </div>
-      </div>
-      <div className='bg-[#FFF3E0] py-12'>
-        <h3 className='font-semibold text-center text-[#100E6A] font-poppins text-[33px] tracking-[0.5px] mb-12'>What Peoples say about us</h3>
+      </div> */}
+      <div className='my-16 font-semibold'>
+        <h3 className='text-center text-[#10101E] text-[33px] tracking-[0.5px] mb-1'>What Peoples say <span className='text-[#261891]'>about us</span></h3>
+        <p className=' text-center text-[#000000] font-medium font-nunito text-lg mb-10'>See what our Clients have to say about their Numerology Experiences</p>
         <SliderComp slides={3} data={[1, 1, 1, 1, 1].map((item, index) => {
           return <div key={index}>
             <div className="w-[380px] h-[220px] overflow-hidden rounded-md mx-auto">
@@ -233,16 +254,21 @@ const App = () => {
         })} />
         <div className='flex justify-center'>
           <Link href="/articles&updates">
-            <button className='text-white outline-none rounded px-6 py-2 mt-8 font-semibold tracking-wide bg-[#F2934C]'>View More</button>
+            <button className='text-white outline-none rounded-md bg-gradient-to-r from-[#FD6E0E] to-[#EF9D33] px-6 py-2 mt-8 font-semibold tracking-wide'>View More</button>
           </Link>
         </div>
       </div>
       <div className='w-full py-12'>
-        <div className='w-[90%] mx-auto max-w-[1200px] bg-[#FFF3E0CC] rounded-md py-6 px-10 flex justify-between items-center'>
-          <h3 className='text-[#EF652E] font-semibold text-2xl'>Subscribe to get latest updates</h3>
-          <div className='flex gap-4'>
-            <input type="email" placeholder='Enter Email Id' className='bg-[rgba(255,255,255,0.4)] font-medium outline-none w-[360px] border-[0.5px] border-[#E25E3E80] px-6 py-1.5 shadow-[2px_4px_8px_0px_#E25E3E40] rounded' />
-            <button className='text-white font-semibold tracking-wide bg-gradient-to-r from-[#FF9B50] to-[#E25E3E] px-8 py-1.5 border-[0.5px] border-[#e25f3e45] shadow-[2px_4px_8px_0px_#E25E3E40] rounded outline-none'>Subscribe</button>
+        <div className='w-[90%] mx-auto max-w-[1200px] bg-[#FFF3E0] rounded-md py-6 px-10 flex justify-between items-center'>
+          <div>
+            <h3 className='text-[#EF652E] font-semibold text-2xl'>Subscribe to get latest updates</h3>
+            <p className=' text-center text-[#000000] font-medium font-nunito'>Stay updated with the latest numerology tips and offers</p>
+          </div>
+          <div className='w-[50%]'>
+            <label className='text-sm text-[#10101E] font-semibold w-full'>Email</label>
+            <input type="email" className='bg-[rgba(255,255,255,0.4)] font-medium outline-none w-full border-[0.5px] border-[#FFD0A4] px-6 py-1.5 rounded' />
+            <p className='text-[12px] text-[#9E9E9E] select-none font-medium'>We respect your privacy</p>
+            <button className='text-white font-semibold tracking-wide bg-gradient-to-r from-[#FF9B50] to-[#E25E3E] px-8 py-1.5 border-[0.5px] border-[#e25f3e45] shadow-[2px_4px_8px_0px_#E25E3E40] rounded outline-none mt-6'>Subscribe</button>
           </div>
         </div>
       </div>

@@ -33,10 +33,6 @@ const Header = () => {
         link: "/our-global-presence"
     },
     {
-        name: "Appointment",
-        link: "/appointment"
-    },
-    {
         name: "Contact Us",
         link: "/contact-us"
     }];
@@ -62,17 +58,20 @@ const Header = () => {
     const pathname = usePathname();
 
     return (
-        <nav className={`w-full px-16 flex items-center transition-all duration-300 ease-in-out delay-200 justify-between sticky left-0 bg-white z-[999] ${visible ? "-top-[100%]" : "top-0"}`}>
+        <nav className={`w-full px-10 flex items-center py-2 transition-all duration-300 ease-in-out delay-200 justify-between sticky left-0 bg-black  z-[999] ${visible ? "-top-[100%]" : "top-0"}`}>
             <Link href="/">
-                <Image src={venky_logo} alt='Venki Musti (Numerlogy Expert)' className='w-16' />
+                <Image src={venky_logo} alt='Venki Musti (Numerology Expert)' className='w-16' />
             </Link>
-            <div className='flex items-center gap-6 font-semibold text-sm uppercase'>
+            <div className='flex items-center gap-6 font-semibold text-[15px] text-white'>
                 {navlinks.map(({ name, link }, index) => {
                     return (
-                        <Link key={index} href={link} className={`${pathname.startsWith(link) ? "text-orange-600" : "text-black"} tracking-wide `}>
+                        <Link key={index} href={link} className={`${pathname.startsWith(link) ? "text-orange-600" : ""} tracking-wide `}>
                             <h3>{name}</h3></Link>
                     )
                 })}
+                 <Link href="/appointment" className='ml-8' >
+                 <button className=' outline-none border-2 border-[#EF9D33]  rounded-lg px-4 py-1.5 tracking-wide text-[#EF9D33] '>Book Appointment</button>
+                 </Link>
             </div>
         </nav>
     )

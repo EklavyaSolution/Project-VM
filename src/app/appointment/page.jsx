@@ -2,9 +2,9 @@
 
 import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
-import appointment_img from "@/assets/appointment_img.svg"
-import chakra_numero_top from "@/assets/chakra_numero_top.svg"
-import chakra_numero_btm from "@/assets/chakra_numero_btm.svg"
+// import appointment_img from "@/assets/appointment_img.svg"
+// import chakra_numero_top from "@/assets/chakra_numero_top.svg"
+// import chakra_numero_btm from "@/assets/chakra_numero_btm.svg"
 import appointment_tv from "@/assets/appointment_tv.svg"
 import venky_musti from "@/assets/venky_musti.svg"
 import { getCalApi } from "@calcom/embed-react";

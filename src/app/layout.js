@@ -1,11 +1,21 @@
-import { Inter } from "next/font/google";
-import { Poppins } from "next/font/google";
+
+
+import localFont from 'next/font/local'
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-const inter = Inter({ subsets: ["latin"], display: "swap", variable: "--font-inter", adjustFontFallback: false });
-const poppins = Poppins({ subsets: ["latin"], weight: ["100", "200", "300", "400", "500", "600", "900", "800", "700"], display: "swap", variable: "--font-poppins", adjustFontFallback: false });
+const montserrat = localFont({
+  src: "../../public/fonts/Montserrat-VariableFont_wght.woff2",
+  display: 'swap',
+  variable: "--font-montserrat"
+});
+
+const nunito = localFont({
+  src: "../../public/fonts/Nunito-VariableFont_wght.woff2",
+  display: 'swap',
+  variable: "--font-nunito"
+});
 
 export const metadata = {
   title: "Venki Musti | Best Numerologist",
@@ -15,7 +25,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${poppins.variable} font-inter`}>
+      <body className={`${montserrat.variable} ${nunito.variable} font-montserrat`}>
         <Header />
         {children}
         <Footer />
