@@ -65,7 +65,7 @@ const Header = () => {
             <div className='flex items-center gap-6 font-semibold text-[15px] text-white'>
                 {navlinks.map(({ name, link }, index) => {
                     return (
-                        <Link key={index} href={link} className={`${pathname.startsWith(link) ? "text-orange-600" : ""} tracking-wide `}>
+                        <Link key={index} href={link} className={`${pathname.startsWith(link) ? "text-orange-500" : ""} tracking-wide `}>
                             <h3>{name}</h3></Link>
                     )
                 })}

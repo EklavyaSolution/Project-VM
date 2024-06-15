@@ -166,7 +166,7 @@ const App = () => {
             <p className='tracking-wider text-[#474747] mt-2 text-2xl font-nunito'>Lives Transformed</p>
           </div>
           <div className='text-center'>
-            <h4 className='text-6xl tracking-wider'>3+</h4>
+            <h4 className='text-6xl tracking-wider'>4+</h4>
             <p className='tracking-wider text-[#474747] mt-2 text-2xl font-nunito'>Countries Presence</p>
           </div>
         </div>
