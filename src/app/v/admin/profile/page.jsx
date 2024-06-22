@@ -23,10 +23,10 @@ const Profile = () => {
     };
     return (
         <div className='w-full h-screen bg-gray-50 flex'>
-            <div className='h-full w-[300px] bg-[#eee] px-10 py-20'>
+            <div className='h-screen w-[300px] bg-[#eee] px-10 py-20'>
                 {links.map((item, index) => (<h4 key={index} className={`font-medium text-lg w-[250px] py-2 px-4 my-3 cursor-pointer hover:bg-[#ccc] rounded ${activeLink === index ? "bg-[#ddd] border border-[#ccc] shadow-md" : ""}`} onClick={() => setActiveLink(index)}>{item}</h4>))}
             </div>
-            <div className='w-full h-full '>
+            <div className='w-[calc(100%-300px)] h-full '>
                 {renderTabs()}
             </div>
 

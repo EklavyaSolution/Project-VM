@@ -13,7 +13,8 @@ import { notFound } from 'next/navigation';
 
 
 const DestinyNumbers = ({ params }) => {
-    if (params.id > 9 || params.id < 1) {
+
+    if ((params.id > 9 && params.id != 11 && params.id != 22 && params.id != 33) || params.id < 1) {
         return notFound();
     }
 
@@ -34,7 +35,7 @@ const DestinyNumbers = ({ params }) => {
             </div>
             <div className='w-full mx-auto max-w-[1200px] mt-16 flex flex-col items-center'>
                 <h3 className='text-center font-semibold text-[#100E6A] md:text-lg lg:text-xl xl:text-3xl 2xl:text-4xl leading-4'>Number {params.id} as Destiny Number</h3>
-                <p className='text-center text-[#EA8427] font-semibold text-2xl mx-auto mt-4 w-[90%]'>{destinyData[params.id - 1].mainPara}</p>
+                <p className='text-center text-[#EA8427] font-semibold text-2xl mx-auto mt-4 w-[90%]'>{destinyData[params.id - 1]?.mainPara}</p>
                 <div className='w-[500px] h-[280px] rounded-lg overflow-hidden mt-12 mb-8'>
                     <Image src={about_vid} alt='Meet Veny Musti' className='w-full h-full object-cover' />
                 </div>
@@ -44,7 +45,7 @@ const DestinyNumbers = ({ params }) => {
                     </Link>
                 </div>
             </div>
-            {destinyData[params.id - 1].destiny.map((item, index) => {
+            {destinyData[params.id - 1]?.destiny.map((item, index) => {
                 return <div key={index} className='w-full px-44 py-6 bg-[#FFF3E0] mb-4'>
                     {item.heading && <h3 className='text-[#100E6A] text-3xl font-semibold text-center mb-3'>{item.heading}</h3>}
                     <p className='font-medium text-lg mt-3 leading-6 text-center whitespace-break-spaces'>{item.para}</p>

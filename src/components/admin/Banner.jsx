@@ -52,12 +52,12 @@ const Banner = () => {
   }, [])
 
   return (
-    <div className='w-full h-full py-8 px-10'>
+    <div className='w-full h-full py-8 pt-16'>
       <h3 className='text-3xl font-semibold tracking-wide text-center mb-8'>Banner</h3>
       <div className='flex justify-center'>
         <button onClick={() => setFormActive(!formActive)} className='text-lg py-1.5 px-6 border border-[#aaa] shadow-md mb-6 rounded-md outline-none bg-gradient-to-r from-[#e59a49] to-[#f00f5e] text-white font-medium'>Add Banner</button>
       </div>
-      <div className=' overflow-y-auto h-[550px]'>
+      <div className=' overflow-y-auto h-fit overflow-x-hidden px-10'>
         {bannerData && bannerData.map((item, index) => {
           return <div key={index} className='rounded p-4 shadow-2xl border border-[#ccc] mb-8 relative'>
             <div className='w-full h-[250px] overflow-hidden rounded bg-red-200'>

@@ -11,6 +11,9 @@ import num6 from "@/assets/num6.svg"
 import num7 from "@/assets/num7.svg"
 import num8 from "@/assets/num8.svg"
 import num9 from "@/assets/num9.svg"
+import num11 from "@/assets/num11.svg"
+import num22 from "@/assets/num22.svg"
+import num33 from "@/assets/num33.svg"
 import Link from 'next/link';
 
 
@@ -51,18 +54,34 @@ const Numbers = ({ name }) => {
         id: 9,
         img: num9,
     },
-    ]
+    {
+        id: 11,
+        img: num11,
+    },
+    {
+        id: 22,
+        img: num22,
+    },
+    {
+        id: 33,
+        img: num33,
+    },
+    ];
     return (
         <section className='w-full px-12'>
             <h3 className='text-center font-semibold text-[#100E6A] font-poppins text-[33px] tracking-wide mb-12 capitalize'>{name} Numbers</h3>
             <div className='flex flex-wrap items-center justify-center gap-10'>
                 {data.map((item) => {
-                    return <Link href={`/numerology/${name}-number/${item.id}`}>
-                        <div key={item.id} className='w-[250px] rounded overflow-hidden bg-white shadow-[0_0px_10px_0px_rgba(0,0,0,0.25)]'>
-                            <Image src={item.img} alt='' className='w-full object-cover' />
-                            <h3 className='py-3 text-center font-semibold text-lg tracking-wide capitalize'>{name} Number 0{item.id}</h3>
-                        </div>
-                    </Link>
+                    if (name !== "destiny" && item.id > 10) {
+                        return;
+                    } else {
+                        return <Link href={`/numerology/${name}-number/${item.id}`}>
+                            <div key={item.id} className='w-[250px] rounded overflow-hidden bg-white shadow-[0_0px_10px_0px_rgba(0,0,0,0.25)]'>
+                                <Image src={item.img} alt='' className='w-full object-cover' />
+                                <h3 className='py-3 text-center font-semibold text-lg tracking-wide capitalize'>{name} Number {item.id > 10 ? "" : 0}{item.id}</h3>
+                            </div>
+                        </Link>
+                    }
                 })}
 
             </div>

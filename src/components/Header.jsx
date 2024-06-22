@@ -56,6 +56,7 @@ const Header = () => {
     }, [prevScrollPos]);
 
     const pathname = usePathname();
+    if (pathname.startsWith("/v")) return <></>;
 
     return (
         <nav className={`w-full px-10 flex items-center py-2 transition-all duration-300 ease-in-out delay-200 justify-between sticky left-0 bg-black  z-[999] ${visible ? "-top-[100%]" : "top-0"}`}>
@@ -69,9 +70,9 @@ const Header = () => {
                             <h3>{name}</h3></Link>
                     )
                 })}
-                 <Link href="/appointment" className='ml-8' >
-                 <button className=' outline-none border-2 border-[#EF9D33]  rounded-lg px-4 py-1.5 tracking-wide text-[#EF9D33] '>Book Appointment</button>
-                 </Link>
+                <Link href="/appointment" className='ml-8' >
+                    <button className=' outline-none border-2 border-[#EF9D33]  rounded-lg px-4 py-1.5 tracking-wide text-[#EF9D33] '>Book Appointment</button>
+                </Link>
             </div>
         </nav>
     )

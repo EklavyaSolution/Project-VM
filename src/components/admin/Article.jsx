@@ -63,12 +63,12 @@ const Article = () => {
     }, [])
 
     return (
-        <div className='w-full h-full py-8 px-10'>
+        <div className='w-full h-full py-8 pt-16'>
             <h3 className='text-3xl font-semibold tracking-wide text-center mb-8'>Article</h3>
             <div className='flex justify-center'>
                 <button onClick={() => setFormActive(!formActive)} className='text-lg py-1.5 px-6 border border-[#aaa] shadow-md mb-6 rounded-md outline-none bg-gradient-to-r from-[#e59a49] to-[#f00f5e] text-white font-medium'>Add Article</button>
             </div>
-            <div className=' overflow-y-auto h-[560px]'>
+            <div className=' overflow-y-auto overflow-x-hidden h-fit px-10'>
                 {articleData && articleData?.map((item, index) => {
                     return <div key={index} className='rounded px-4 py-3 flex gap-8 shadow-2xl border border-[#ccc] mb-8 relative'>
                         <div className='w-[380px] h-[230px] overflow-hidden rounded bg-red-200'>

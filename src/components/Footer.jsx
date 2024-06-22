@@ -12,9 +12,14 @@ import x from '@/assets/x.svg'
 import phone from '@/assets/phone.svg'
 import mail from '@/assets/mail.svg'
 import whatsapp from '@/assets/whatsapp.svg'
+import { usePathname } from 'next/navigation'
 
 
 const Footer = () => {
+
+  const pathname = usePathname();
+  if (pathname.startsWith("/v")) return <></>;
+
   return (
     <footer className='w-full p-12 pb-5 bg-gradient-to-b from-[#9241d8] to-[#15138c] text-white z-[999]'>
       <div className='flex justify-between'>

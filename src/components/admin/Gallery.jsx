@@ -60,12 +60,12 @@ const Gallery = () => {
   }, [])
 
   return (
-    <div className='w-full h-full py-8 px-10 overflow-hidden'>
+    <div className='w-full h-full py-8 pt-16 overflow-hidden'>
       <h3 className='text-3xl font-semibold tracking-wide text-center mb-8'>Gallery</h3>
       <div className='flex justify-center'>
         <button onClick={() => setFormActive(!formActive)} className='text-lg py-1.5 px-6 border border-[#aaa] shadow-md mb-6 rounded-md outline-none bg-gradient-to-r from-[#e59a49] to-[#f00f5e] text-white font-medium'>Add Gallery</button>
       </div>
-      <div className=' overflow-y-auto overflow-x-hidden h-[600px] flex gap-8 flex-wrap mb-10 pb-20'>
+      <div className=' overflow-y-auto overflow-x-hidden h-fit flex gap-8 flex-wrap mb-10 pb-20 px-10'>
         {galleryData && galleryData.map((item, index) => {
           return <div key={index} className='w-[330px] h-[380px] overflow-hidden shadow-2xl relative border border-[#ccc] rounded bg-red-200'>
             <Image src={item.imgUrl} alt={item.caption} width={330} height={380} className="w-full h-full object-cover" />
