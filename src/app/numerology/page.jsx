@@ -62,7 +62,7 @@ const Numerology = () => {
       </div>
       <div className='w-full mx-auto max-w-[1200px] mt-10'>
         <h2 className='text-center font-semibold text-[#10101E] text-[33px]'>Numbers In <span className='text-[#261891]'>Numerology</span></h2>
-        <div className='flex gap-12 bg-[#FDF2F8] mt-12 py-10 px-12'>
+        <div className='flex gap-12 bg-[#FDF2F8] mt-8 py-10 px-12'>
           <div className='w-[400px] h-[280px] overflow-hidden rounded-tl-2xl rounded-br-2xl'>
             <Image src={physic_no} alt='Physic Numbers in Numerology' className='w-full h-full object-cover' />
           </div>
