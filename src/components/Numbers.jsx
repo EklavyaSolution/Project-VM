@@ -69,7 +69,7 @@ const Numbers = ({ name }) => {
     ];
     return (
         <section className='w-full px-12'>
-            <h3 className='text-center font-semibold text-[#100E6A] font-poppins text-[33px] tracking-wide mb-12 capitalize'>{name} Numbers</h3>
+            <h3 className='text-center font-semibold text-[#10101E] text-[33px] mb-12 capitalize'>{name} <span className='text-[#261891]'>Numbers</span></h3>
             <div className='flex flex-wrap items-center justify-center gap-10'>
                 {data.map((item) => {
                     if (name !== "destiny" && item.id > 10) {
