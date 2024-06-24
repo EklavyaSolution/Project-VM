@@ -196,7 +196,7 @@ const App = () => {
           </div>
         })} />
       </div>
-      <div className='bg-[#FFF3E0] py-12 font-semibold'>
+      <div className='bg-[#FFF3E0] py-12 font-semibold relative'>
         <h3 className='text-center text-[#10101E] text-[33px] tracking-[0.5px] mb-1'>Latest <span className='text-[#261891]'>Articles & Updates</span></h3>
         <p className=' text-center text-[#000000] font-medium font-nunito text-lg mb-10'>Explore insightful Articles on Numerology</p>
         <SliderComp slides={3} data={[1, 2, 3, 4].map((item, index) => {
@@ -225,6 +225,9 @@ const App = () => {
           <Link href="/articles&updates">
             <button className='text-white outline-none rounded-md bg-gradient-to-r from-[#FD6E0E] to-[#EF9D33] px-6 py-2 mt-8 font-semibold tracking-wide'>View More</button>
           </Link>
+        </div>
+        <div className='absolute bottom-0 left-0 rotate-180'>
+          <Image src={mandala} alt='nothing' />
         </div>
       </div>
       {/* <div className='my-16'>
@@ -264,9 +267,9 @@ const App = () => {
             <h3 className='text-[#EF652E] font-semibold text-2xl'>Subscribe to get latest updates</h3>
             <p className=' text-center text-[#000000] font-medium font-nunito'>Stay updated with the latest numerology tips and offers</p>
           </div>
-          <div className='w-[50%]'>
-            <label className='text-sm text-[#10101E] font-semibold w-full'>Email</label>
-            <input type="email" className='bg-[rgba(255,255,255,0.4)] font-medium outline-none w-full border-[0.5px] border-[#FFD0A4] px-6 py-1.5 rounded' />
+          <div className='w-[40%]'>
+            <label className='text-sm text-[#10101E] font-semibold w-full inline-block'>Email</label>
+            <input type="email" className='bg-[rgba(255,255,255,0.4)] font-medium outline-none w-[90%] border-[0.5px] border-[#FFD0A4] px-6 py-1.5 rounded' />
             <p className='text-[12px] text-[#9E9E9E] select-none font-medium'>We respect your privacy</p>
             <button className='text-white font-semibold tracking-wide bg-gradient-to-r from-[#FF9B50] to-[#E25E3E] px-8 py-1.5 border-[0.5px] border-[#e25f3e45] shadow-[2px_4px_8px_0px_#E25E3E40] rounded outline-none mt-6'>Subscribe</button>
           </div>

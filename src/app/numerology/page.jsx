@@ -19,7 +19,7 @@ const Numerology = () => {
 
   const calculator_data = [{
     name: "Lucky Marriage Date Numerology",
-    width: "28",
+    width: "[104px]",
     image: wedding_numero,
   },
   {
@@ -48,7 +48,7 @@ const Numerology = () => {
     image: job_no_numero,
   },
   {
-    name: "Date of Birth Number Numerology",
+    name: "Date of Birth Numerology",
     width: "[158px]",
     image: dob_numero,
   },
@@ -56,33 +56,33 @@ const Numerology = () => {
 
 
   return (
-    <div className='bg-[#FFFBF6] w-full h-full min-h-screen'>
+    <div className='w-full h-full min-h-screen'>
       <div className='w-full grid place-items-center h-56 bg-header_bg bg-cover bg-center	 '>
         <h1 className='text-white font-semibold font-poppins text-5xl tracking-[0.7px]'>Numerology</h1>
       </div>
       <div className='w-full mx-auto max-w-[1200px] mt-10'>
-        <h2 className='text-center font-semibold text-[#100E6A] font-poppins text-[33px] tracking-wide'>Numbers In Numerology</h2>
-        <div className='flex gap-12 bg-[#FDF2F8] mt-6 py-10 px-12'>
-          <div className='w-[380px] h-[330px] overflow-hidden rounded-tl-2xl rounded-br-2xl'>
+        <h2 className='text-center font-semibold text-[#10101E] text-[33px]'>Numbers In <span className='text-[#261891]'>Numerology</span></h2>
+        <div className='flex gap-12 bg-[#FDF2F8] mt-12 py-10 px-12'>
+          <div className='w-[400px] h-[280px] overflow-hidden rounded-tl-2xl rounded-br-2xl'>
             <Image src={physic_no} alt='Physic Numbers in Numerology' className='w-full h-full object-cover' />
           </div>
           <div>
-            <h2 className='text-[#100E6A] font-poppins font-semibold text-2xl mb-2 tracking-[0.3px]'>Psychic Number </h2>
-            <p className='w-[600px] font-normal tracking-[0.2px]'>Embark on a transformative journey with Venky Musti's AstroNumerology consultations. Through a unique fusion of astrology and numerology, Venky provides detailed insights into your life's patterns and cosmic influences. Discover the power of aligning your name, business, or partnerships with favorable numbers to attract prosperity and abundance. Uncover the dynamics of your relationships, identify auspicious timings, and receive guidance on overcoming challenges. Venky's personalized approach empowers you to make informed decisions, unlocking your true potential for success and fulfillment. Embrace the cosmic wisdom and take charge of your destiny today, Get Best Astro Numerology In New York City USA.</p>
+            <h2 className='text-[#10101E] text-2xl font-semibold mb-3'>Psychic Number </h2>
+            <p className='w-[600px] text-lg leading-[26px] font-medium font-nunito text-[#3D3D3D]'>Your Psychic number plays a crucial role in shaping your identity. It influences your outlook on life and the way you interact with the world. By understanding your Psychic number, you can gain deeper insights into your personality and uncover hidden aspects of your nature.</p>
             <Link href="/numerology/psychic-number">
-              <button className='text-white outline-none rounded px-6 py-1.5 mt-5 font-semibold tracking-wider bg-gradient-to-r from-[#FFB1DC] to-[#FF57B3] border-[0.5px] border-[#E25E3E80] shadow-[2px_4px_8px_0px_#FFB0DB80]'>Know more</button>
+              <button className='text-white outline-none rounded px-6 py-1.5 mt-8 font-semibold tracking-wider bg-gradient-to-r from-[#FFB1DC] to-[#FF57B3] border-[0.5px] border-[#FEC8E580] shadow-[2px_4px_8px_0px_#FFB0DB80]'>Know more</button>
             </Link>
           </div>
         </div>
         <div className='flex justify-between bg-[#ECF7FF] mt-12 py-10 px-12'>
           <div>
-            <h2 className='text-[#100E6A] font-poppins font-semibold text-2xl mb-2 tracking-[0.3px]'>Destiny Number </h2>
-            <p className='w-[600px] font-normal tracking-[0.2px]'>Embark on a transformative journey with Venky Musti's AstroNumerology consultations. Through a unique fusion of astrology and numerology, Venky provides detailed insights into your life's patterns and cosmic influences. Discover the power of aligning your name, business, or partnerships with favorable numbers to attract prosperity and abundance. Uncover the dynamics of your relationships, identify auspicious timings, and receive guidance on overcoming challenges. Venky's personalized approach empowers you to make informed decisions, unlocking your true potential for success and fulfillment. Embrace the cosmic wisdom and take charge of your destiny today, Get Best Astro Numerology In New York City USA.</p>
+            <h2 className='text-[#10101E] text-2xl font-semibold mb-3'>Destiny Number </h2>
+            <p className='w-[600px] text-lg leading-[26px] font-medium font-nunito text-[#3D3D3D]'>Destiny numbers, also known as Life Path numbers or Bhagyaank, hold special significance in numerology. They reveal a person's natural talents, gifts, and unique path in life. Think of them as spiritual digits that guide you toward fulfilling your purpose. Unlike Life Path numbers, which involve fated challenges, destiny numbers highlight what comes naturally to you.</p>
             <Link href="/numerology/destiny-number">
-              <button className='text-white outline-none rounded px-6 py-1.5 mt-5 font-semibold tracking-wider bg-gradient-to-r from-[#ABDCFF] to-[#75C5FF] border-[0.5px] border-[#CDEAFF80] shadow-[2px_4px_8px_0px_#BDE3FF80]'>Know more</button>
+              <button className='text-white outline-none rounded px-6 py-1.5 mt-8 font-semibold tracking-wider bg-gradient-to-r from-[#ABDCFF] to-[#75C5FF] border-[0.5px] border-[#CDEAFF80] shadow-[2px_4px_8px_0px_#BDE3FF80]'>Know more</button>
             </Link>
           </div>
-          <div className='w-[380px] h-[330px] overflow-hidden rounded-tr-2xl rounded-bl-2xl'>
+          <div className='w-[400px] h-[280px] overflow-hidden rounded-tr-2xl rounded-bl-2xl'>
             <Image src={destini_no} alt='Physic Numbers in Numerology' className='w-full h-full object-cover' />
           </div>
         </div>
@@ -90,39 +90,16 @@ const Numerology = () => {
       <BookNumeroSession />
 
       <div className='bg-[#FFEECE] w-full py-8 mb-16'>
-        <h3 className='mb-10 font-poppins text-[33px] tracking-wide font-semibold text-center text-[#100E6A]'>Numerology Calculation</h3>
+        <h3 className='mb-10 text-center font-semibold text-[#10101E] text-[33px]'>Numerology <span className='text-[#261891]'>Calculation</span></h3>
         <div className='flex justify-center gap-8 flex-wrap items-center max-w-[1200px] w-full mx-auto mb-6 text-center text-[#100E6A] font-medium leading-5'>
           {calculator_data.map((item, index) => {
             return <div key={index} className='bg-gradient-to-r from-[#FFD69D] to-[#FFAB6B] border-[0.5px] border-[#FC993E] shadow-[0px_4px_4px_0px_#E25E3E40] flex flex-col items-center w-[240px] h-[215px] py-8  rounded-md'>
-              <Image src={item.image} alt='' className={`w-${item.width}`} />
-              <h3 className='w-48  text-lg mt-4 leading-[22px] '>{item.name}</h3>
+              <picture className={`w-${item.width}`}>
+              <Image src={item.image} alt=''  className='w-full object-cover'/>
+              </picture>
+              <h3 className='w-48 text-lg mt-6 font-semibold text-[#3D3D3D] leading-6'>{item.name}</h3>
             </div>
           })}
-
-          {/* <div className='bg-gradient-to-r from-[#FFD69D] to-[#FFAB6B] border-[0.5px] border-[#FC993E] shadow-[0px_4px_4px_0px_#E25E3E40] flex flex-col items-center w-[240px] h-[208px] py-8 rounded-md'>
-            <Image src={car_no_numero} alt='' className='w-[98px]' />
-            <h3 className='w-48 text-lg mt-4 leading-[22px]'>Car Number Numerology</h3>
-          </div>
-          <div className='bg-gradient-to-r from-[#FFD69D] to-[#FFAB6B] border-[0.5px] border-[#FC993E] shadow-[0px_4px_4px_0px_#E25E3E40] flex flex-col items-center w-[240px] h-[208px] py-8 rounded-md'>
-            <Image src={mob_no_numero} alt='' className='w-[98px]' />
-            <h3 className='w-48 text-lg mt-4 leading-[22px]'>Mobile Number Numerology</h3>
-          </div>
-          <div className='bg-gradient-to-r from-[#FFD69D] to-[#FFAB6B] border-[0.5px] border-[#FC993E] shadow-[0px_4px_4px_0px_#E25E3E40] flex flex-col items-center w-[240px] h-[208px] py-8 rounded-md'>
-            <Image src={house_no_numero} alt='' className='w-48' />
-            <h3 className='w-48 text-lg mt-4 leading-[22px]'>House Number Numerology</h3>
-          </div>
-          <div className='bg-gradient-to-r from-[#FFD69D] to-[#FFAB6B] border-[0.5px] border-[#FC993E] shadow-[0px_4px_4px_0px_#E25E3E40] flex flex-col items-center w-[240px] h-[208px] py-8 rounded-md'>
-            <Image src={email_id_numero} alt='' className='w-[104px]' />
-            <h3 className='w-48 text-lg mt-4 leading-[22px]'>Email ID Number Numerology</h3>
-          </div>
-          <div className='bg-gradient-to-r from-[#FFD69D] to-[#FFAB6B] border-[0.5px] border-[#FC993E] shadow-[0px_4px_4px_0px_#E25E3E40] flex flex-col items-center w-[240px] h-[208px] py-8 rounded-md'>
-            <Image src={job_no_numero} alt='' className='w-[136px]' />
-            <h3 className='w-48 text-lg mt-4 leading-[22px]'>Job Number Numerology</h3>
-          </div>
-          <div className='bg-gradient-to-r from-[#FFD69D] to-[#FFAB6B] border-[0.5px] border-[#FC993E] shadow-[0px_4px_4px_0px_#E25E3E40] flex flex-col items-center w-[240px] h-[208px] py-8 rounded-md'>
-            <Image src={dob_numero} alt='' className='w-[158px]' />
-            <h3 className='w-48 text-lg mt-4 leading-[22px]'>Date of Birth Number Numerology</h3>
-          </div> */}
         </div>
       </div>
     </div >
