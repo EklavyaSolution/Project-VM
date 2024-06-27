@@ -4,11 +4,9 @@ import React from 'react'
 import banner_man from "@/assets/banner_man.svg"
 import Image from 'next/image'
 import about_vid from "@/assets/about_vid.svg"
-import country from "@/assets/cntry_prsnc.svg"
-import lives from "@/assets/lvs_trsm.svg"
-import experience from "@/assets/yrs_exp.svg"
 import Link from 'next/link'
 import AboutVenky from '@/components/AboutVenky'
+import VenkyExp from '@/components/VenkyExp'
 
 const About = () => {
   return (
@@ -33,30 +31,10 @@ const About = () => {
           <p className='w-[80%] mx-auto text-lg mb-3'>My journey began in 1999 during a conversation with a friend from Gujarat, India. He introduced me to a book that connected him to his birth number, sparking my curiosity. This newfound interest led me to read numerous books and engage with many experts in the field. </p>
           <p className='w-[80%] mx-auto text-lg'>Over the years, I have deepened my understanding by studying different numerology systems and analyzing hundreds of birth and event dates. This research has revealed intriguing patterns, reinforcing my belief in the power and potential of numerology.</p>
         </div>
-        <div className='w-full text-center py-12 mt-6 flex items-center justify-center gap-16 font-semibold text-[#10101E]'>
-          <div className='shadow-[0px_0px_17.6px_2px_rgba(0,0,0,0.10)] flex gap-6 rounded-md px-6 py-2.5'>
-            <Image className='w-12' src={experience} alt='20+ yrs experience' />
-            <div>
-              <h4 className='text-[33px] tracking-wider'>20+</h4>
-              <p className='tracking-wider text-[#3D3D3D] font-nunito'>Years of Experience</p>
-            </div>
-          </div>
-          <div className='shadow-[0px_0px_17.6px_2px_rgba(0,0,0,0.15)] flex gap-6 rounded-md px-6 py-2.5'>
-            <Image className='w-12' src={lives} alt='5000+ lives Transformed' />
-            <div>
-              <h4 className='text-[33px] tracking-wider'>5000+</h4>
-              <p className='tracking-wider text-[#3D3D3D] font-nunito'>Lives Transformed</p>
-            </div>
-          </div>
-          <div className='shadow-[0px_0px_17.6px_2px_rgba(0,0,0,0.15)] flex gap-6 rounded-md px-6 py-2.5'>
-            <Image className='w-12' src={country} alt='3+ country presence' />
-            <div>
-              <h4 className='text-[33px] tracking-wider'>4+</h4>
-              <p className='tracking-wider text-[#3D3D3D] font-nunito'>Countries Presence</p>
-            </div>
-          </div>
+        <div className='my-8'>
+        <VenkyExp />
         </div>
-        <div className='mt-8 mb-16 text-center'>
+        <div className='mb-16 text-center'>
           <h3 className='text-[#10101E] text-center text-[33px] mb-6'>Numerology & Energies</h3>
           <p className='w-[80%] mx-auto text-lg mb-3 font-nunito font-medium text-[#3D3D3D]'>Numerology is the science that aligns your name with your birth date, creating harmony that brings peace, success, and wisdom into your life. The phonetic energy in your name, when synchronized with your core birth numbers, attracts lasting wealth, fame, and happiness.</p>
           <p className='w-[80%] mx-auto text-lg mb-3 font-nunito font-medium text-[#3D3D3D]'>However, if your name and birth numbers clash, it can lead to struggles and disappointments. Understanding and correcting these imbalances is key to transforming your life.</p>
