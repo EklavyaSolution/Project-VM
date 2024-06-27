@@ -8,7 +8,7 @@ import Numbers from '@/components/Numbers';
 const Destiny_number = () => {
 
   return (
-    <div className='bg-[#FFFBF6] w-full h-full min-h-screen mb-16 font-semibold'>
+    <div className='w-full h-full min-h-screen mb-16 font-semibold'>
       <div className='w-full grid place-items-center h-56 bg-header_bg bg-cover bg-center'>
         <h1 className='text-white font-poppins text-5xl tracking-[1px]'>Number in Numerology</h1>
       </div>

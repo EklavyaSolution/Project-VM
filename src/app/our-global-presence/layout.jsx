@@ -8,9 +8,6 @@ import React from 'react';
 
 const layout = ({ children }) => {
     const pathname = usePathname();
-    if (pathname.includes("usa")) {
-        console.log("first")
-    }
 
     return (
         <div className='w-full h-full min-h-screen mb-16'>
@@ -36,6 +33,7 @@ const layout = ({ children }) => {
                 </div>
 
                 {children}
+
             </div>
         </div>
     )
