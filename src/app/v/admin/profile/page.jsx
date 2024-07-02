@@ -3,11 +3,12 @@
 import Article from '@/components/admin/Article';
 import Banner from '@/components/admin/Banner';
 import Gallery from '@/components/admin/Gallery';
+import Leads from '@/components/admin/Leads';
 import React, { useState } from 'react'
 
 const Profile = () => {
     const [activeLink, setActiveLink] = useState(0);
-    const links = ["Article", "Banner", "Gallery"];
+    const links = ["Article", "Banner", "Gallery", "Leads"];
 
     const renderTabs = () => {
         switch (activeLink) {
@@ -17,6 +18,8 @@ const Profile = () => {
                 return <Banner />;
             case 2:
                 return <Gallery />;
+            case 3:
+                return <Leads />;
             default:
                 break;
         }
