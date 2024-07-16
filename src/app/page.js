@@ -149,7 +149,7 @@ const App = () => {
             <Image src={about_vid} alt='Meet Veny Musti' className='w-full h-full object-cover' />
           </picture>
           <p className='w-[65%] text-center leading-6 text-[#3D3D3D] font-nunito text-lg mt-8'>It all started in 1999 when I was talking to a friend from Gujarat experts I realizame attributes being represented all started in 1999 when I was talking to a friend from G when I was talking to a friend from Gd from G when I was talking to a friend from G.</p>
-          <Link href="/appointment" className='mt-10'>
+          <Link href="/services" className='mt-10'>
             <button className='bg-gradient-to-r from-[#FD6E0E] to-[#EF9D33] px-7 py-2 rounded-md tracking-wider text-white'>Book Your Slot</button></Link>
         </div>
       </div>
@@ -177,7 +177,7 @@ const App = () => {
       <div className='mt-16 mb-20 font-semibold'>
         <h3 className='text-center text-[#10101E] text-[33px] tracking-[0.5px] mb-1'>Numerology <span className='text-[#261891]'>Solutions</span></h3>
         <p className=' text-center text-[#000000] font-medium font-nunito text-lg mb-10'>Unlocking the Power of Numbers in your Life</p>
-        <SliderComp slides={3} data={services_data.map((item, index) => {
+        <SliderComp slides={3} auto={false} data={services_data.map((item, index) => {
           return <div key={index}>
             <div className='w-[350px] h-[360px] mx-auto rounded-md overflow-hidden bg-white border-[#9e9e9eb3] border-[0.5px]'>
               <div className="w-full h-1/2">
@@ -199,7 +199,7 @@ const App = () => {
       <div className='bg-[#FFF3E0] py-12 font-semibold relative'>
         <h3 className='text-center text-[#10101E] text-[33px] tracking-[0.5px] mb-1'>Latest <span className='text-[#261891]'>Articles & Updates</span></h3>
         <p className=' text-center text-[#000000] font-medium font-nunito text-lg mb-10'>Explore insightful Articles on Numerology</p>
-        <SliderComp slides={3} data={[1, 2, 3, 4].map((item, index) => {
+        <SliderComp slides={3} auto={false} data={[1, 2, 3, 4].map((item, index) => {
           return <div key={index}>
             <Link href="/app">
               <div className='w-[350px] h-[400px] mx-auto rounded-md overflow-hidden bg-white border-[#9e9e9eb3] border-[0.5px]'>
@@ -248,16 +248,21 @@ const App = () => {
       <div className='my-16 font-semibold'>
         <h3 className='text-center text-[#10101E] text-[33px] tracking-[0.5px] mb-1'>What Peoples say <span className='text-[#261891]'>about us</span></h3>
         <p className=' text-center text-[#000000] font-medium font-nunito text-lg mb-10'>See what our Clients have to say about their Numerology Experiences</p>
-        <SliderComp slides={3} data={[1, 1, 1, 1, 1].map((item, index) => {
+        <SliderComp slides={1} auto={true} data={[1, 1, 1, 1, 1].map((item, index) => {
           return <div key={index}>
-            <div className="w-[380px] h-[220px] overflow-hidden rounded-md mx-auto">
-              <Image src={vid_testimonials} alt="gallery" className="w-full h-full object-cover" />
+            <div className="w-full flex flex-col items-center">
+              <p className='text-[#4D4D4D] text-center font-nunito font-semibold italic leading-7 mb-7'>I am not your garden-variety Astro Babaji with a half-baked idea of Vedic Astrology preying on people's vulnerabilities and promoting blind beliefs. I studied astrology for long years under an eminent guru and worked in the corporate world. My blended experience helps me use my knowledge with Logic, Positivity and Empathy to guide you to the right path.</p>
+              <div className='w-16 h-16 rounded-full overflow-hidden bg-red-300'>
+                <Image src className='w-full h-wfull object-cover' />
+              </div>
+              <h3 className='text-[#E25E3E] font-bold text-lg mt-3'>Rahul Singh</h3>
+              <p className='text-[#4E4E4E] font-nunito leading-5'>BusinessMan</p>
             </div>
           </div>
         })} />
         <div className='flex justify-center'>
-          <Link href="/articles&updates">
-            <button className='text-white outline-none rounded-md bg-gradient-to-r from-[#FD6E0E] to-[#EF9D33] px-6 py-2 mt-8 font-semibold tracking-wide'>View More</button>
+          <Link href="/articles&updates" className='mt-12'>
+            <button className='text-white outline-none rounded-md bg-gradient-to-r from-[#FD6E0E] to-[#EF9D33] px-6 py-2 font-semibold tracking-wide'>View More</button>
           </Link>
         </div>
       </div>

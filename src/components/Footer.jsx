@@ -67,10 +67,10 @@ const Footer = () => {
           </div>
           <div className='font-medium mt-6 tracking-wide'>
             <h2 className='font-semibold mb-3 tracking-wide'>Contact Us</h2>
-            <Link href="tel:14512545454545">
+            <Link href="tel:+17327980415">
               <div className='flex gap-4 items-center mb-3'>
                 <Image src={phone} alt="Venky's Contact" className='h-[18px]' />
-                <h4 className='text-sm'>+14512545454545</h4>
+                <h4 className='text-sm'>+1 7327980415</h4>
               </div>
             </Link>
             <Link href="tel:14512545454545">
@@ -90,9 +90,10 @@ const Footer = () => {
       </div>
       <div className='border-t-2 border-white pt-5 font-medium mt-7 flex justify-between items-center px-8 tracking-wide'>
         <h5 className='text-[15px]'><span className='text-[17px]'>&copy;</span> 2024 All Rights Reserved</h5>
-        <div className='flex items-center gap-24'>
-          <h5 className='text-[15px]'>Terms & Conditions</h5>
-          <h5 className='text-[15px]'>Privacy Policy</h5>
+        <div className='flex items-center gap-12'>
+          <Link href="/disclaimer"><h5 className='text-[15px]'>Disclaimer</h5></Link>
+          <Link href="/terms-conditions"><h5 className='text-[15px]'>Terms & Conditions</h5></Link>
+          <Link href="/privacy-policy"><h5 className='text-[15px]'>Privacy Policy</h5></Link>
         </div>
       </div>
     </footer>

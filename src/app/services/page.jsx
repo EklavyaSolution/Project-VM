@@ -6,7 +6,9 @@ import Image from 'next/image'
 import Link from 'next/link'
 import AstroNumerology from '@/components/services/AstroNumerology'
 import VenkyExp from '@/components/VenkyExp'
-import { usePathname } from 'next/navigation'
+import { usePathname } from 'next/navigation';
+import physic_no from "@/assets/Physicno_img.svg"
+
 
 const Services = () => {
   const pathname = usePathname();
@@ -51,20 +53,117 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className='my-10'>
+
+        <div className='mt-12'>
+          <h2 className='text-center font-semibold text-[#10101E] text-[33px]'>Services <span className='text-[#261891]'>Offered</span></h2>
+          <p className='text-center text-lg font-medium font-nunito text-[#3D3D3D]'>Unlock your destiny with Venky Musti, the AstroNumerology expert, and embark on a<br />transformative journey towards abundance and fulfillment, Get Best Astro Numerology Consultation Service</p>
+          <div className='grid grid-cols-3 gap-10 mt-12'>
+            <div className='bg-[#FFF3E0] p-6 rounded-lg shadow-[0_4px_8px_0px_rgba(0,0,0,0.1),4px_0px_8px_0px_rgba(0,0,0,0.1),-4px_0px_8px_0px_rgba(0,0,0,0.1)]'>
+              <div className='rounded-lg overflow-hidden w-full h-[200px]'>
+                <Image src={physic_no} className='w-full object-cover h-full' />
+              </div>
+              <div className='mt-4 mb-5'>
+                <h3 className='text-[#080810] font-semibold text-lg'>Astro Numerology Consultation</h3>
+                <p className='text-[#656565] font-semibold font-nunito leading-[1.35rem] '>AstroNumerology readings offer a detailed look into your life, covering everything from name compatibility to identifying your lucky years, colors, stones, and elements. They also provide personalized remedies for personal and professional growth, along with success tips for the next five years.</p>
+              </div>
+              <Link href="/appointment">
+                <button className='text-white w-full outline-none rounded-md bg-gradient-to-r from-[#FD6E0E] to-[#EF9D33] px-6 py-2 font-semibold tracking-wide'>Schedule Call</button>
+              </Link>
+            </div>
+            <div className='bg-[#FFF3E0] p-6 rounded-lg shadow-[0_4px_8px_0px_rgba(0,0,0,0.1),4px_0px_8px_0px_rgba(0,0,0,0.1),-4px_0px_8px_0px_rgba(0,0,0,0.1)]'>
+              <div className='rounded-lg overflow-hidden w-full h-[200px]'>
+                <Image src={physic_no} className='w-full object-cover h-full' />
+              </div>
+              <div className='mt-4 mb-5'>
+                <h3 className='text-[#080810] font-semibold text-lg'>Personal Name Consultation</h3>
+                <p className='text-[#656565] font-semibold font-nunito leading-[1.35rem] '>AstroNumerology readings offer a detailed look into your life, covering everything from name compatibility to identifying your lucky years, colors, stones, and elements. They also provide personalized remedies for personal and professional growth, along with success tips for the next five years.</p>
+              </div>
+              <Link href="/appointment">
+                <button className='text-white w-full outline-none rounded-md bg-gradient-to-r from-[#FD6E0E] to-[#EF9D33] px-6 py-2 font-semibold tracking-wide'>Schedule Call</button>
+              </Link>
+            </div>
+            <div className='bg-[#FFF3E0] p-6 rounded-lg shadow-[0_4px_8px_0px_rgba(0,0,0,0.1),4px_0px_8px_0px_rgba(0,0,0,0.1),-4px_0px_8px_0px_rgba(0,0,0,0.1)]'>
+              <div className='rounded-lg overflow-hidden w-full h-[200px]'>
+                <Image src={physic_no} className='w-full object-cover h-full' />
+              </div>
+              <div className='mt-4 mb-5'>
+                <h3 className='text-[#080810] font-semibold text-lg'>Marriage & Love Compatibility </h3>
+                <p className='text-[#656565] font-semibold font-nunito leading-[1.35rem] '>AstroNumerology readings offer a detailed look into your life, covering everything from name compatibility to identifying your lucky years, colors, stones, and elements. They also provide personalized remedies for personal and professional growth, along with success tips for the next five years.</p>
+              </div>
+              <Link href="/appointment">
+                <button className='text-white w-full outline-none rounded-md bg-gradient-to-r from-[#FD6E0E] to-[#EF9D33] px-6 py-2 font-semibold tracking-wide'>Schedule Call</button>
+              </Link>
+            </div>
+            <div className='bg-[#FFF3E0] p-6 rounded-lg shadow-[0_4px_8px_0px_rgba(0,0,0,0.1),4px_0px_8px_0px_rgba(0,0,0,0.1),-4px_0px_8px_0px_rgba(0,0,0,0.1)]'>
+              <div className='rounded-lg overflow-hidden w-full h-[200px]'>
+                <Image src={physic_no} className='w-full object-cover h-full' />
+              </div>
+              <div className='mt-4 mb-5'>
+                <h3 className='text-[#080810] font-semibold text-lg'>Business Name Consultation</h3>
+                <p className='text-[#656565] font-semibold font-nunito leading-[1.35rem] '>AstroNumerology readings offer a detailed look into your life, covering everything from name compatibility to identifying your lucky years, colors, stones, and elements. They also provide personalized remedies for personal and professional growth, along with success tips for the next five years.</p>
+              </div>
+              <Link href="/appointment">
+                <button className='text-white w-full outline-none rounded-md bg-gradient-to-r from-[#FD6E0E] to-[#EF9D33] px-6 py-2 font-semibold tracking-wide'>Schedule Call</button>
+              </Link>
+            </div>
+          </div>
+        </div>
+        <div className='my-12'>
           <VenkyExp />
         </div>
         <div>
-          <h2 className='text-center font-semibold text-[#10101E] text-[33px]'>Services <span className='text-[#261891]'>Offered</span></h2>
+          <h2 className='text-center font-semibold text-[#10101E] text-[33px]'>Our Happy <span className='text-[#261891]'>Clients</span> say about us</h2>
           <p className='text-center text-lg font-medium font-nunito text-[#3D3D3D]'>Unlock your destiny with Venky Musti, the AstroNumerology expert, and embark on a<br />transformative journey towards abundance and fulfillment, Get Best Astro Numerology Consultation Service</p>
-          <div className='w-full flex justify-center gap-10 my-10'>
-            <Link href="/our-global-presence/usa"><h3 className={`${pathname.includes("usa") ? "text-[#FC993E] border-b-[3px] border-[#FC993E]" : "text-[#3D3D3D]"} font-semibold text-lg`}>Astro Numerology</h3></Link>
-            <Link href="/our-global-presence/australia"><h3 className={`${pathname.includes("australia") ? "text-[#FC993E] border-b-[3px] border-[#FC993E]" : "text-[#3D3D3D]"} font-semibold text-lg`}>Career Numerology</h3></Link>
-            <Link href="/our-global-presence/dubai"><h3 className={`${pathname.includes("dubai") ? "text-[#FC993E] border-b-[3px] border-[#FC993E]" : "text-[#3D3D3D]"} font-semibold text-lg`}>Relationship Numerology</h3></Link>
-            <Link href="/our-global-presence/dubai"><h3 className={`${pathname.includes("dubai") ? "text-[#FC993E] border-b-[3px] border-[#FC993E]" : "text-[#3D3D3D]"} font-semibold text-lg`}>Business Numerology</h3></Link>
-            <Link href="/our-global-presence/dubai"><h3 className={`${pathname.includes("dubai") ? "text-[#FC993E] border-b-[3px] border-[#FC993E]" : "text-[#3D3D3D]"} font-semibold text-lg`}>New Born Numerology</h3></Link>
+          <div className='mt-16 grid grid-cols-2 gap-10'>
+            <div className='border-[0.5px] border-[#aaaaaaaf] rounded-md px-8 py-3'>
+              <div className='flex gap-8 items-center border-b pb-2'>
+                <Image className='rounded-full w-11 h-11  bg-gray-300' />
+                <div>
+                  <h4 className='text-[#080810] font-semibold'>Name</h4>
+                  <p className='font-nunito text-[#3D3D3D] font-semibold leading-4'>Profession</p>
+                </div>
+              </div>
+              <div className='mt-2'>
+                <p className='font-nunito text-[#3D3D3D] font-medium'>Unlock your destiny with Venky Musti, the AstroNumerology expert, and embark on a<br />transformative journey towards abundance and fulfillment, Get Best Astro Numerology Consultation Service</p>
+                <div className='flex justify-between mt-5'>
+                  <p className='text-orange-600'>&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                  <p className='text-[#3D3D3D] font-nunito font-medium text-sm'>10 feb 2021</p>
+                </div>
+              </div>
+            </div>
+            <div className='border-[0.5px] border-[#aaaaaaaf] rounded-md px-8 py-3'>
+              <div className='flex gap-8 items-center border-b pb-2'>
+                <Image className='rounded-full w-11 h-11  bg-gray-300' />
+                <div>
+                  <h4 className='text-[#080810] font-semibold'>Name</h4>
+                  <p className='font-nunito text-[#3D3D3D] font-semibold leading-4'>Profession</p>
+                </div>
+              </div>
+              <div className='mt-2'>
+                <p className='font-nunito text-[#3D3D3D] font-medium'>Unlock your destiny with Venky Musti, the AstroNumerology expert, and embark on a<br />transformative journey towards abundance and fulfillment, Get Best Astro Numerology Consultation Service</p>
+                <div className='flex justify-between mt-5'>
+                  <p className='text-orange-600'>&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                  <p className='text-[#3D3D3D] font-nunito font-medium text-sm'>10 feb 2021</p>
+                </div>
+              </div>
+            </div>
+            <div className='border-[0.5px] border-[#aaaaaaaf] rounded-md px-8 py-3'>
+              <div className='flex gap-8 items-center border-b pb-2'>
+                <Image className='rounded-full w-11 h-11  bg-gray-300' />
+                <div>
+                  <h4 className='text-[#080810] font-semibold'>Name</h4>
+                  <p className='font-nunito text-[#3D3D3D] font-semibold leading-4'>Profession</p>
+                </div>
+              </div>
+              <div className='mt-2'>
+                <p className='font-nunito text-[#3D3D3D] font-medium'>Unlock your destiny with Venky Musti, the AstroNumerology expert, and embark on a<br />transformative journey towards abundance and fulfillment, Get Best Astro Numerology Consultation Service</p>
+                <div className='flex justify-between mt-5'>
+                  <p className='text-orange-600'>&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                  <p className='text-[#3D3D3D] font-nunito font-medium text-sm'>10 feb 2021</p>
+                </div>
+              </div>
+            </div>
           </div>
-          <AstroNumerology />
         </div>
       </div>
     </div>

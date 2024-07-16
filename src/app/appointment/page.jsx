@@ -81,11 +81,7 @@ const Appointment = () => {
           <button data-cal-namespace=""
             data-cal-link="kumar-anil/online-meet"
             data-cal-config='{"layout":"month_view"}'
-            className='text-white font-semibold text-lg tracking-wide bg-gradient-to-r from-[#FF9B50] to-[#E25E3E] px-7 py-1.5 border-[0.5px] border-[#E25E3E80] shadow-[2px_4px_8px_0px_#E25E3E40] rounded-md outline-none mr-8'>1 Hour</button>
-          <button data-cal-namespace=""
-            data-cal-link="kumar-anil/online-meet-30"
-            data-cal-config='{"layout":"month_view"}'
-            className='text-white font-semibold text-lg tracking-wide bg-gradient-to-r from-[#FF9B50] to-[#E25E3E] px-7 py-1.5 border-[0.5px] border-[#E25E3E80] shadow-[2px_4px_8px_0px_#E25E3E40] rounded-md outline-none'>30 Min</button>
+            className='text-white font-semibold text-lg tracking-wide bg-gradient-to-r from-[#FF9B50] to-[#E25E3E] px-7 py-1.5 border-[0.5px] border-[#E25E3E80] shadow-[2px_4px_8px_0px_#E25E3E40] rounded-md outline-none mr-8'>Book Appointment</button>
         </div>
       </div>
       <div className='w-full bg-[#FFF3E0CC] pb-12 pt-8 mt-20'>
@@ -100,11 +96,7 @@ const Appointment = () => {
             <button data-cal-namespace=""
               data-cal-link="kumar-anil/face-to-face-appointment"
               data-cal-config='{"layout":"month_view"}'
-              className='text-white font-semibold text-lg tracking-wide bg-gradient-to-r from-[#FF9B50] to-[#E25E3E] px-7 py-1.5 border-[0.5px] border-[#E25E3E80] shadow-[2px_4px_8px_0px_#E25E3E40] rounded-md outline-none mr-8'>1 Hour</button>
-            <button data-cal-namespace=""
-              data-cal-link="kumar-anil/face-to-face-appointment-30"
-              data-cal-config='{"layout":"month_view"}'
-              className='text-white font-semibold text-lg tracking-wide bg-gradient-to-r from-[#FF9B50] to-[#E25E3E] px-7 py-1.5 border-[0.5px] border-[#E25E3E80] shadow-[2px_4px_8px_0px_#E25E3E40] rounded-md outline-none'>30 Min</button>
+              className='text-white font-semibold text-lg tracking-wide bg-gradient-to-r from-[#FF9B50] to-[#E25E3E] px-7 py-1.5 border-[0.5px] border-[#E25E3E80] shadow-[2px_4px_8px_0px_#E25E3E40] rounded-md outline-none mr-8'>Book Appointment</button>
           </div>
           <div>
             <Image src={venky_musti} alt='' className='w-[400px]' />

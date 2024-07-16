@@ -34,10 +34,12 @@ function PrevArrow(props) {
     );
 }
 
-function SimpleSlider({ data, slides }) {
+function SimpleSlider({ data, slides, auto }) {
     const settings = {
         dots: false,
         infinite: true,
+        autoplay: auto,
+        autoplaySpeed: 5000,
         speed: 700,
         slidesToShow: slides,
         slidesToScroll: 1,
