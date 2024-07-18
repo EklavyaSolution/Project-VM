@@ -1,3 +1,13 @@
+import chrisImg from "@/assets/cchris.png";
+import chiewImg from "@/assets/chiew.png";
+import durgaImg from "@/assets/durga.png";
+import henryImg from "@/assets/henry.png";
+import madhuImg from "@/assets/madhu.png";
+import nithaImg from "@/assets/nitha.png";
+import prajotImg from "@/assets/prajot.png";
+import prashantImg from "@/assets/prashant.png";
+import rahulImg from "@/assets/rahul.png";
+
 
 export const psychicData = [
     {
@@ -479,3 +489,123 @@ export const destinyData = [
         ]
     },
 ]
+
+export const CustomerReview = [{
+    name: "Chris Pascone",
+    review: "This man is absolutely amazing.  A very skilled numerologist.  And more importantly he actually really cares about his clients.  He has a great heart and is extremely gifted.  I would recommend him highly and will continue to use him in the future.  5 stars all day",
+    imgUrl: chrisImg,
+    stars: 5,
+    link: "https://maps.app.goo.gl/Tiku59erKZ7C2Va27"
+}, {
+    name: "Henry Walton",
+    review: "I had a reading with Venky and I was quite shocked to be honest. He described my traits in myself. My strengths and Weaknesses were thoroughly explained. It was like he already knew about me so well. Never believed Numerology can be so detailed. He also pointed out certain areas of my career based on his observations. I am extremely excited to see how my 2024 will be. Venky sent me a reading after a Week of my consultation call which had details about next few years. I highly recommend numerology readings from Venky",
+    imgUrl: henryImg,
+    stars: 5,
+    link: "https://maps.app.goo.gl/3sNgZxntdkHD7MVp6"
+},
+{
+    name: "Nitha R",
+    review: "I recently had an incredible numerology session with Venky Musti. His deep knowledge and intuitive understanding of numbers left me amazed. Venky Musti was warm, professional, and made complex concepts easy to grasp. His advice was practical and actionable, providing me with a clear direction. I left the session feeling empowered and more in tune with my life's path. Highly recommended for anyone looking to gain a fresh perspective through numerology!",
+    imgUrl: nithaImg,
+    stars: 5,
+    link: "https://maps.app.goo.gl/EH56PpKR4THJwkfW7"
+},
+{
+    name: "Madhu Rachakulla",
+    review: "I recently had the pleasure of consulting with Venky Musti at NumerOLogic LLC, and I can confidently say that he is the best numerologist in the USA. Venky's predictions were incredibly accurate and insightful. His guidance has given me a great understanding and  direction to move ahead with right planning based on the numbers coming into my life .I wholeheartedly recommend Venky Musti to anyone seeking clarity and guidance in life through numerology.",
+    imgUrl: madhuImg,
+    stars: 5,
+    link: "https://maps.app.goo.gl/namVqsgoZFLY2sBQ9"
+},
+{
+    name: "Prashant Nangare",
+    review: "Had a consultation with Venky last month. Felt very positive . He righly guessed my past and I m confident his future predictions will work too. His remedy to strengthen my sun is really working.",
+    imgUrl: prashantImg,
+    stars: 5,
+    link: "https://maps.app.goo.gl/c3YojXxw1Tf49iFd6"
+},
+{
+    name: "Prajyot Soor",
+    review: "I had a great experience when i consulted Venky. He spent good amount of time with me to explain how my numbers are and how i can utilize them to get energy from them. it was a wonderful experience. Thankyou Venky for helping me with my numerology",
+    imgUrl: prajotImg,
+    stars: 5,
+    link: "https://maps.app.goo.gl/2YTbgi4ns9eeLwgZ7"
+},
+{
+    name: "Durga Prasad",
+    review: "Very Passionate Numerologist. Helpful and not commercial. Gave me many tips which are working. He was very correct with my Past. Good suggestions with my relationship issues and his remedies are simple and working. Only issue is getting a quicker appointment.",
+    imgUrl: durgaImg,
+    stars: 5,
+    link: "https://maps.app.goo.gl/CoCNuZdWV6tki9zJA"
+},
+{
+    name: "Chiew Lee",
+    review: "Great experience learning about numerology and my number.  Venky is very knowledgeable and gives accurate readings. Definitely the right guy to go to know your number.",
+    imgUrl: chiewImg,
+    stars: 5,
+    link: "https://maps.app.goo.gl/eRCqehDndPog2AMCA"
+},
+{
+    name: "Rahul Singh",
+    review: "Venky is one of the nicest people you will come across in the hour of need. He has helped me by going out of the way in explaining how things work and how to overcome obstacles that come your way. I got in touch with Venky through google search and I cannot express my gratitude to having found him at the right time. If you really want to get a positive change in life and work with someone who truly is passionate about this subject reach out to him. You will not be disappointed imo. Numerology is his passion and it shows in his work.",
+    imgUrl: rahulImg,
+    stars: 5,
+    link: "https://maps.app.goo.gl/W9sbZXcnAHXnXHQb7"
+},
+];
+
+
+export const servicesData = [{
+    name: "Personal Astro Numerology Consultation",
+    data: "Astro Numerology reading gives you a clear picture of your lucky career, health, marriage, relationship compatibility,, personal lucky years, lucky colors, elements, remedies for overall  growth for next 5 years.",
+    meetLink: "",
+    imgUrl: ""
+},
+{
+    name: "Consult for Marriage",
+    data: "Looking to get advice on marriage whether getting delayed, not finding right partner or just want to find out the right timing or anything related to marriage.",
+    meetLink: "",
+    imgUrl: ""
+},
+{
+    name: "Consult for Career",
+    data: " Feel like not getting rewarded or recognized at work or having issues at work or feel things are getting stagnant or anything related to career.",
+    meetLink: "",
+    imgUrl: ""
+},
+{
+    name: "Consult for Education",
+    data: "Facing issues in passing the exam or not sure which professional path to go or any education related matter or not able to focus.",
+    meetLink: "",
+    imgUrl: ""
+},
+{
+    name: "Consult for Life guidance",
+    data: " Feeling clarity less in life?",
+    meetLink: "",
+    imgUrl: ""
+},
+{
+    name: "Business Name Consultation",
+    data: "Want to get in touch for getting ideal business name designed. This would be the best fit.",
+    meetLink: "",
+    imgUrl: ""
+},
+{
+    name: "Compatibility consultation ",
+    data: "Having some compatibility issues or want to find out how compatible you are with your partner.",
+    meetLink: "",
+    imgUrl: ""
+},
+{
+    name: "Personal Name Consultation",
+    data: " If looking for personal name aligned as per numerology focused on overall or one focused area, then you can book here",
+    meetLink: "",
+    imgUrl: ""
+},
+{
+    name: "Business Wellbeing Consultation ",
+    data: "Facing issues in business?",
+    meetLink: "",
+    imgUrl: ""
+}];

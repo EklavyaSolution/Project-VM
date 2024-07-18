@@ -19,6 +19,7 @@ import gallery_img from '@/assets/gallery_img.svg'
 import vid_testimonials from "@/assets/vid_testimonials.svg"
 import why_numero from "@/assets/why_numero.svg"
 import mandala from "@/assets/mandala.svg"
+import { CustomerReview } from '@/components/data/data';
 
 
 const App = () => {
@@ -248,14 +249,14 @@ const App = () => {
       <div className='my-16 font-semibold'>
         <h3 className='text-center text-[#10101E] text-[33px] tracking-[0.5px] mb-1'>What Peoples say <span className='text-[#261891]'>about us</span></h3>
         <p className=' text-center text-[#000000] font-medium font-nunito text-lg mb-10'>See what our Clients have to say about their Numerology Experiences</p>
-        <SliderComp slides={1} auto={true} data={[1, 1, 1, 1, 1].map((item, index) => {
+        <SliderComp slides={1} auto={true} data={CustomerReview.slice(0, 5).map((item, index) => {
           return <div key={index}>
-            <div className="w-full flex flex-col items-center">
-              <p className='text-[#4D4D4D] text-center font-nunito font-semibold italic leading-7 mb-7'>I am not your garden-variety Astro Babaji with a half-baked idea of Vedic Astrology preying on people's vulnerabilities and promoting blind beliefs. I studied astrology for long years under an eminent guru and worked in the corporate world. My blended experience helps me use my knowledge with Logic, Positivity and Empathy to guide you to the right path.</p>
-              <div className='w-16 h-16 rounded-full overflow-hidden bg-red-300'>
-                <Image src className='w-full h-wfull object-cover' />
+            <div className="w-full flex flex-col items-center justify-between">
+              <p className='text-[#4D4D4D] text-center font-nunito font-semibold italic leading-7 mb-7'>{item.review}</p>
+              <div className='w-[52px] h-[52px] rounded-full overflow-hidden'>
+                <Image src={item.imgUrl} alt='' className='w-full h-full object-cover' />
               </div>
-              <h3 className='text-[#E25E3E] font-bold text-lg mt-3'>Rahul Singh</h3>
+              <h3 className='text-[#E25E3E] font-bold text-lg'>{item.name}</h3>
               <p className='text-[#4E4E4E] font-nunito leading-5'>BusinessMan</p>
             </div>
           </div>

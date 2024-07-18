@@ -94,8 +94,8 @@ const Numerology = () => {
         <div className='flex justify-center gap-8 flex-wrap items-center max-w-[1200px] w-full mx-auto mb-6 text-center text-[#100E6A] font-medium leading-5'>
           {calculator_data.map((item, index) => {
             return <div key={index} className='bg-gradient-to-r from-[#FFD69D] to-[#FFAB6B] border-[0.5px] border-[#FC993E] shadow-[0px_4px_4px_0px_#E25E3E40] flex flex-col items-center w-[240px] h-[215px] py-8  rounded-md'>
-              <picture className={`w-${item.width}`}>
-              <Image src={item.image} alt=''  className='w-full object-cover'/>
+              <picture className={`w-${item.width} h-[65%]`}>
+                <Image src={item.image} alt='' className='w-full h-full object-cover' />
               </picture>
               <h3 className='w-48 text-lg mt-6 font-semibold text-[#3D3D3D] leading-6'>{item.name}</h3>
             </div>

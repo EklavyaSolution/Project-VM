@@ -74,8 +74,8 @@ const Header = () => {
             </Link>
             <div className='flex items-center gap-6 font-semibold text-[15px] text-white'>
                 {navlinks.map((item, index) => {
-                    return <div className='relative group'>
-                        <Link key={index} href={item.link} className={`${pathname.startsWith(item.link) ? "text-orange-500" : ""} tracking-wide `
+                    return <div key={index} className='relative group'>
+                        <Link href={item.link} className={`${pathname.startsWith(item.link) ? "text-orange-500" : ""} tracking-wide `
                         }><h3 className='py-3 flex items-center gap-2'>{item.name} {item?.children && <Image src={arrow_down} className='w-3 h-3' />} </h3></Link>
                         {item?.children && <div className='bg-black border border-[#444] p-4 rounded flex-col gap-5 absolute top-11 left-0 hidden group-hover:flex hover:flex'>
                             {item.children?.map((subitem, index) => (
