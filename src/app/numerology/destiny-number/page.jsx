@@ -20,7 +20,7 @@ const Destiny_number = () => {
             <Image src={destiny_img} alt='Physic Numbers in Numerology' className='w-full h-full object-cover' />
           </div>
           <div>
-            <h2 className='text-[#10101E] text-2xl mb-3'>What is Destiny Number?</h2>
+            <h2 className='text-[#10101E] text-2xl mb-1'>What is Destiny Number?</h2>
             <p className='w-[650px] text-lg leading-[26px] font-medium font-nunito text-[#3D3D3D]'>Destiny numbers, also known as Life Path numbers or Bhagyaank, hold special significance in numerology. They reveal a person’s natural talents, gifts, and unique path in life. Think of them as spiritual digits that guide you toward fulfilling your purpose. Unlike Life Path numbers, which involve fated challenges, destiny numbers highlight what comes naturally to you. </p>
           </div>
         </div>
@@ -29,7 +29,7 @@ const Destiny_number = () => {
             <Image src={destiny_img} alt='Physic Numbers in Numerology' className='w-full h-full object-cover' />
           </div>
           <div>
-            <h2 className='text-[#10101E] text-2xl mb-3'>How to Calculate Destiny Number?</h2>
+            <h2 className='text-[#10101E] text-2xl mb-1'>How to Calculate Destiny Number?</h2>
             <p className='w-[650px] text-lg leading-[26px] font-medium font-nunito text-[#3D3D3D]'>Destiny Number / Bhagyank number is calculated by adding the person's date of birth and then reducing the obtained number into a single-digit number. Refer to the below example to calculate your Destiny Number.</p>
 
             <p className='mt-4 text-lg leading-[26px] font-medium font-nunito text-[#3D3D3D]'><span className='font-bold'>For Example</span> <br />

@@ -46,7 +46,7 @@ const PsychicNumbers = ({ params }) => {
             <Image />
           </div>
           <div>
-            <h3 className='text-[#10101E] tracking-wide text-2xl'>Ruling Planet of Number 1</h3>
+            <h3 className='text-[#10101E] tracking-wide text-2xl'>Ruling Planet of Number {params.id}</h3>
             <ul className='w-[600px] font-medium font-nunito text-[#3D3D3D] text-lg mt-2.5 leading-5 ml-5 list-disc'>
               {psychicData[params.id - 1].rulingPlanet.map((item, index) => {
                 return <li key={index} className='mb-2'>{item}</li>

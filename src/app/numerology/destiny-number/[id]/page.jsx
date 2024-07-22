@@ -10,6 +10,7 @@ import BookNumeroSession from '@/components/BookNumeroSession';
 import Numbers from '@/components/Numbers';
 import { destinyData } from '@/components/data/data';
 import { notFound } from 'next/navigation';
+import AboutVenky from '@/components/AboutVenky';
 
 
 const DestinyNumbers = ({ params }) => {
@@ -33,25 +34,41 @@ const DestinyNumbers = ({ params }) => {
                     </div>
                 </div>
             </div>
-            <div className='w-full mx-auto max-w-[1200px] mt-16 flex flex-col items-center'>
-                <h3 className='text-center font-semibold text-[#100E6A] md:text-lg lg:text-xl xl:text-3xl 2xl:text-4xl leading-4'>Number {params.id} as Destiny Number</h3>
-                <p className='text-center text-[#EA8427] font-semibold text-2xl mx-auto mt-4 w-[90%]'>{destinyData[params.id - 1]?.mainPara}</p>
-                <div className='w-[500px] h-[280px] rounded-lg overflow-hidden mt-12 mb-8'>
+            <div className='w-full mx-auto max-w-[1200px] mt-12 flex flex-col items-center'>
+                <h3 className='text-center text-[#10101E] text-[33px] tracking-wide font-semibold'>Number {params.id} as Destiny Number</h3>
+                <p className='text-center text-[#EA8427] text-2xl mt-2 tracking-wide font-semibold'>{destinyData[params.id > 10 ? params.id - 1 - (1 + ((params.id % 10 - 1) * 10)) : params.id - 1].mainPara}</p>
+                <div className='w-[650px] h-[320px] rounded-lg overflow-hidden mt-12 mb-8'>
                     <Image src={about_vid} alt='Meet Veny Musti' className='w-full h-full object-cover' />
                 </div>
-                <div className='flex justify-center mb-12'>
+                <div className='flex justify-center mb-16'>
                     <Link href="/appointment">
                         <button className='text-white outline-none rounded px-4 py-2 font-semibold tracking-wider bg-[#F2934C]'>Book Appointment</button>
                     </Link>
                 </div>
+                <div className='w-full py-8 px-16 flex gap-10 border border-[#15138C] rounded-md'>
+                    <div className='w-96 h-56 bg-red-400 rounded-md overflow-hidden'>
+                        <Image />
+                    </div>
+                    <div>
+                        <h3 className='text-[#10101E] font-semibold tracking-wide text-2xl'>What Does Destiny Number {params.id} Mean?</h3>
+                        <ul className='w-[600px] font-medium font-nunito text-[#3D3D3D] text-lg mt-2.5 leading-5 ml-5 list-disc'>
+                            {destinyData[params.id > 10 ? params.id - 1 - (1 + ((params.id % 10 - 1) * 10)) : params.id - 1].destinyNum.map((item, index) => {
+                                return <li key={index} className='mb-2'>{item}</li>
+                            })}
+                        </ul>
+                    </div>
+                </div>
             </div>
-            {destinyData[params.id - 1]?.destiny.map((item, index) => {
-                return <div key={index} className='w-full px-44 py-6 bg-[#FFF3E0] mb-4'>
-                    {item.heading && <h3 className='text-[#100E6A] text-3xl font-semibold text-center mb-3'>{item.heading}</h3>}
-                    <p className='font-medium text-lg mt-3 leading-6 text-center whitespace-break-spaces'>{item.para}</p>
+            <BookNumeroSession />
+            {destinyData[params.id > 10 ? params.id - 1 - (1 + ((params.id % 10 - 1) * 10)) : params.id - 1].destiny.map((item, index) => {
+                return <div key={index} className='w-full px-44 py-6 mb-4 text-center'>
+                    <h3 className='text-[#10101E] font-semibold tracking-wide text-2xl'>{item.heading}</h3>
+                    <p className='font-medium text-lg font-nunito text-[#3d3d3d] mt-2.5 leading-6'>{item.para}</p>
                 </div>
             })}
-            <BookNumeroSession />
+            <div className='my-16'>
+                <AboutVenky />
+            </div>
             <Numbers name="destiny" />
         </div>
     )

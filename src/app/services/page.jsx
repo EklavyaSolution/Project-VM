@@ -1,18 +1,14 @@
 "use client"
-import React, { useState } from 'react'
+import React from 'react'
 import services_top from "@/assets/services_top.svg"
-import doublearrow from "@/assets/double-arrow.svg"
 import Image from 'next/image'
 import Link from 'next/link'
-import AstroNumerology from '@/components/services/AstroNumerology'
 import VenkyExp from '@/components/VenkyExp'
-import { usePathname } from 'next/navigation';
 import physic_no from "@/assets/Physicno_img.svg"
 import { CustomerReview, servicesData } from '@/components/data/data'
 
 
 const Services = () => {
-  const pathname = usePathname();
 
   return (
     <div className='w-full h-full min-h-screen mb-16'>

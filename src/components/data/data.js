@@ -336,12 +336,24 @@ export const destinyData = [
         number: 1,
         mainPara: "Destiny number 1 is a highly favorable number. Individuals with this life path possess a vibrant creative energy, enabling them to excel in various endeavors",
         videoUrl: "",
+        destinyNum: [
+            "Born leader with strong willpower, masters their destiny, and excels in leadership roles.",
+            "Intolerant of others' control, driven by creativity and goal orientation.",
+            "Risk of bluntness due to assertiveness and independence.",
+            "Potential perception of selfishness stemming from their drive for autonomy."
+        ],
         destiny: [{
-            heading: "Best Profession",
-            para: "The best career options for Destiny number 1 are IPS, IAS, Public relation, Politician, Entrepreneurs, Diplomat, President, Principal, Production manager, Program director. If Destiny number 1 controls Ego, they can get success in nearly any profession they choose.",
+            heading: "The Need for Power",
+            para: "Those with a destiny for independence thrive in high-power careers like entrepreneurs and CEOs, but may struggle with impatience and bossiness. Their desire for power can strain relationships and hinder personal growth. It's important to practice patience, improve listening skills, and consider soul urge and expression numbers for self-awareness and balance.",
         }, {
-            heading: "Best Marriage Numbers",
-            para: "The most favourable numbers for marriage for Destiny number 1 are 1, 2, 3, 4, 5, 7, 9. They should avoid marrying or having any relationship with Number 6 and 8.",
+            heading: "Picking a Career",
+            para: "Destiny number 1 individuals navigate diverse career paths, often torn between roles offering moderate power in service to others or leadership of larger groups. They must assess personal tendencies to avoid succumbing to ego and excessive ambition. Roles like teacher or principal offer opportunities for leadership in education, fostering creativity while maintaining a healthy balance between professional aspirations and personal life.",
+        }, {
+            heading: "Staying Independent",
+            para: "Destiny number 1 values independence and leadership but risks losing it once established in work, family, and lifestyle. Maintaining harmony involves selecting intuitive staff and a partner comfortable with their leadership style. They should practice humility by seeking help, respecting others' opinions, and occasionally allowing others to lead to maintain balance and avoid selfishness",
+        }, {
+            heading: "Marriage Number",
+            para: "Destiny number 1 is most compatible for marriage with numbers 1, 2, 3, 4, 5, 7, and 9. Relationships with numbers 6 and 8 are less favorable and should be avoided.",
         },
         ]
     },
@@ -349,12 +361,24 @@ export const destinyData = [
         number: 2,
         mainPara: "Destiny number 2 may not be considered the most favorable number, but individuals with this life path are excellent decision-makers.",
         videoUrl: "",
+        destinyNum: [
+            "Diplomatic and cooperative, adept at resolving conflicts calmly.",
+            "Valued for persuasive skills and trusted in mediation roles.",
+            "Careful of overprotectiveness, occasionally seen as patronizing.",
+            "Should strive to avoid unintended patronizing behavior while mediating."
+        ],
         destiny: [{
-            heading: "Best Profession",
-            para: "he best career options for Destiny number 2 are Media, Travel Industry, Engineering, Marketing, Communication, Theatre, Export Commission Merchant, Production house, Creativity, Artistic, Diplomacy. They can also do well in Care Industries, Hotel and Hospitality.",
+            heading: "Your Calm Nature",
+            para: "Destiny number 2 individuals possess a deep calmness that spans work, relationships, and family. Enhanced by their listening, persuasion, and tact, they find serenity in art and beauty, bolstering their composure alongside their sensitivity to media.",
         }, {
-            heading: "Best Marriage Numbers",
-            para: "The best numbers to marry or having a relationship for Destiny Number 2 are 1, 3, 4, 7, 8, 9. They should avoid relationship with people of Number 2, 5 and 6.",
+            heading: "Picking a Career",
+            para: "Destiny number 2 individuals thrive in diplomatic roles like diplomacy, negotiation, or sales, utilizing their convincing nature and cooperative demeanor. They excel in arts-related careers such as acting, poetry, or writing, thanks to their sensitivity and artistic appreciation. They also find fulfillment in roles as teachers, psychologists, or advisors, leveraging their wisdom and ability to maintain composure.",
+        }, {
+            heading: "Being Overbearing",
+            para: "Destiny number 2 individuals, known for their loving nature, should balance their tendency towards overprotection in family and career for healthy relationships and personal growth. By embracing action and problem-solving while fostering open communication, they can ensure a supportive environment where loved ones can thrive independently",
+        }, {
+            heading: "Marriage Number",
+            para: "Destiny number 2 individuals are best suited to marry or have relationships with numbers 1, 3, 4, 7, 8, and 9. Relationships with individuals of numbers 2, 5, and 6 should be avoided.",
         },
         ]
     },
@@ -362,12 +386,21 @@ export const destinyData = [
         number: 3,
         mainPara: "Destiny number 3 is often viewed positively, as individuals following this life path tend to exude optimism and positivity.",
         videoUrl: "",
+        destinyNum: [
+            "Destiny number 3 individuals are optimistic and sociable, known for their natural charm and wit.",
+            "They express themselves creatively through various art forms, showcasing strong creativity.",
+            "Their positive outlook infuses enthusiasm into their approach to life.",
+            "They excel in social settings, adept at building meaningful connections with others."
+        ],
         destiny: [{
-            heading: "Best Profession",
-            para: "The best career options for Destiny number 3 are Publishing, Business Owner, Research, Travel and Tourism, and the import-export business. They can also work well as a musician, poet, actor, artist. ",
+            heading: "Full of Creativity",
+            para: "Destiny number 3 individuals overflow with creativity, expressing through art, music, or writing. They innovate with imaginative solutions, thriving in creative environments to experiment with new ideas. Their creativity spreads joy and inspires innovation globally.",
         }, {
-            heading: "Best Marriage Numbers",
-            para: "The best numbers to marry or having a relationship for Destiny Number 3 are 1, 2, 3, 5, 6, 8, 9. They should avoid having relationship with people of Number 4 and 7.",
+            heading: "Picking a Career",
+            para: "Destiny number 3 individuals excel in creative careers like writing, music, or acting, and thrive in communication-based professions such as teaching or marketing. They flourish in entrepreneurial ventures, media, or entertainment roles, leveraging their expressive nature to make a positive impact.",
+        }, {
+            heading: "Marriage Number",
+            para: "Destiny number 3 individuals are compatible for marriage or relationships with numbers 1, 2, 3, 5, 6, 8, and 9. Relationships with individuals of numbers 4 and 7 are advised to be avoided.",
         },
         ]
     },
@@ -375,12 +408,28 @@ export const destinyData = [
         number: 4,
         mainPara: "In numerology, number 4 signifies individuals who excel as counselors, advisors, and attentive listeners, offering impartial insights essential for sound decision-making.",
         videoUrl: "",
+        destinyNum: [
+            "Destiny number 4 individuals prioritize practicality and reliability.",
+            "They may struggle to incorporate fun into their lives but find fulfillment in work and solitude.",
+            "They value honesty and efficiency in relationships and work.",
+            "Excel at improving systems and managing tasks effectively.",
+            "While perceived as dull by some, they find contentment in their values and priorities."
+        ],
         destiny: [{
-            heading: "Career Path",
-            para: "Choosing the right career path can take a person to pinnacles in the professional world. Destiny number in numerology suggests the best-suited career options favourable for number 4.\n* People with destiny number 4 can choose careers that require counseling skills, such as career counseling or advisory roles, due to their natural ability to provide the right guidance to people.\n* They are also best-suited for professions such as science, technology, farming, and the technology industry because they are practical and methodological in their approach.\n* Careers in architecture, building, engineering, coal, and mining fields are also suitable for number 4.",
+            heading: "Your Organizational Skills",
+            para: "Destiny number 4 individuals excel in leadership with exceptional organizational skills, managing tasks efficiently in both professional and personal realms. They balance self-discipline and confidence, though they should avoid excessive control in relationships, maintaining a healthy balance of assertiveness and sensitivity.",
         }, {
-            heading: "Love and Marriage Relationship",
-            para: "Compatibility in relationships is important for stability and happiness. Destiny number can help a person select partners compatible for them. Know the favourable numbers of life path number 4 for marriage and love relationships. \n* People with numerology number 4 are patient listeners, and hence, this quality can help them have good relationships with others.\n* They seek balance and stability in marriage relationships, again a positive quality that can help destiny number 4 people enjoy good relationships.\n* The best numbers to marry, have a relationship or form a business association for destiny number 4 are 1, 2, 5, 6, 7, and 9. Numbers 3, 4, and 8 should be avoided due to inharmonious vibrations.",
+            heading: "You're Rigid",
+            para: "Destiny number 4 individuals, highly organized yet sometimes rigid, prioritize goals over spontaneity, which can limit fun. They avoid gossip and may seem emotionally detached, seen as dull. Embracing flexibility is crucial for a more balanced, enjoyable life, letting others lead and adapting plans.",
+        }, {
+            heading: "Picking a Career",
+            para: "Destiny number 4 individuals excel in counseling and advisory roles, leveraging their guidance skills. They thrive in practical fields like science, technology, farming, and architecture, as well as engineering, coal, and mining industries.",
+        }, {
+            heading: "Honesty",
+            para: "Destiny number 4 individuals are known for their brutal honesty and straightforwardness, prioritizing career and family over leisure. They value honesty and loyalty in relationships, maintaining high standards in all aspects of life.",
+        }, {
+            heading: "Marriage Number",
+            para: "Destiny number 4 individuals, valued for their patience and stability, cultivate positive relationships that thrive on balance. They find compatibility in partnerships with numbers 1, 2, 5, 6, 7, and 9, while numbers 3, 4, and 8 are less harmonious due to differing vibrations.",
         },
         ]
     },
@@ -388,12 +437,27 @@ export const destinyData = [
         number: 5,
         mainPara: "Destiny number 5 stands out as one of the most favorable numbers in numerology. Individuals with this life path possess captivating and appealing personalities.",
         videoUrl: "",
+        destinyNum: [
+            "Carefree and adventurous communicators thriving on variety.",
+            "Seeking change and new experiences, often outgrowing old friendships and craving travel.",
+            "Restless nature leading to boredom yet fostering progressiveness and adaptability.",
+            "Needing to balance criticism and escapism, focusing on enjoyment and stable careers."
+        ],
         destiny: [{
-            heading: "Best Profession",
-            para: "The best career options for Destiny number 5 are Writer, Lawyer, Business owner, CEO, can work in Top management, Travel Industry, Production house, Creativity, storytellers, sculptors and astrologers.",
+            heading: "Adventure",
+            para: "Destiny number 5 individuals thrive on adventure and change, rejecting routine for daring and varied pursuits. They seek constant progress and fulfillment through exploration of new environments and interactions with diverse people. Their travels are driven by a love for novelty and eccentricity, embodying a spirit of true adventure and exploration.",
         }, {
-            heading: "Best Marriage Numbers",
-            para: "The best numbers to marry or having a relationship for Destiny Number 5 are 1, 3, 4, 5, 6, 7, 8, 9. They should avoid marrying to Number 2 people.",
+            heading: "Changeable, Adventurous Worker",
+            para: "Destiny number 5 individuals thrive in dynamic careers like writing, journalism, and teaching, where they can embrace constant change and variety. They excel in artistic pursuits, enjoying exploration across different mediums and subjects. Politics also appeals to their natural wit and communication skills, offering a platform to make a progressive impact.",
+        }, {
+            heading: "Addiction",
+            para: "Destiny number 5 individuals, prone to addictive tendencies and a constant need for new experiences, benefit from supportive relationships to maintain balance. They should avoid overindulgence in fleeting thrills and embrace moderation with the help of loved ones for stability and support.",
+        }, {
+            heading: "Picking a Career",
+            para: "Destiny number 5 individuals excel in dynamic careers like writing, law, entrepreneurship, and top management. They thrive in creative fields such as storytelling, sculpture, and astrology, leveraging their leadership skills in roles such as CEOs and business owners.",
+        }, {
+            heading: "Marriage Number",
+            para: "Destiny number 5 individuals are compatible with life path numbers 1, 3, 4, 5, 6, 7, 8, and 9, favoring relationships defined by excitement, communication, and mutual growth. Avoiding partnerships with life path number 2 individuals helps prevent temperament conflicts.",
         },
         ]
     },
@@ -401,12 +465,28 @@ export const destinyData = [
         number: 6,
         mainPara: "Destiny number 6 is generally considered less favorable. Individuals with Destiny/life path number 6 often find themselves overwhelmed with their workload.",
         videoUrl: "",
+        destinyNum: [
+            "Characterized by consideration, affection, and responsibility.",
+            "Excel in nurturing others and maintaining high life standards.",
+            "Achieve goals through loyalty and responsibility despite challenges.",
+            "Valuable employees and leaders, benefiting individuals and organizations.",
+            "Aspire to spread love and beauty, fostering a positive global impact."
+        ],
         destiny: [{
-            heading: "Best Profession",
-            para: "The best career options for Destiny number 6 are Hotel Industry, Entertainment Industry, Politics. They can also work in fields related to Commerce and Law.",
+            heading: "The Nurturer",
+            para: "Destiny number 6 individuals, linked with The Lovers in tarot, nurture compassion and happiness in relationships. They thrive in healthcare, teaching, acting, or writing, driven by a mission to uplift others through their nurturing leadership.",
         }, {
-            heading: "Best Marriage Numbers",
-            para: "The best numbers to marry or having a relationship for Destiny Number 6 are 3, 4, 5, 8, 9. They should avoid marrying people with Number 1, 2, 6, 7.",
+            heading: "Perfectionism",
+            para: "Destiny number 6 individuals find fulfillment in nurturing hobbies, charity work, and careers like fashion and interior design, driven by their perfectionism. They should cultivate adaptability and self-compassion to overcome challenges with anger and insecurity, achieving balance in their pursuit of excellence.",
+        }, {
+            heading: "Picking a Career",
+            para: "Destiny number 6 individuals thrive in hospitality, entertainment, politics, commerce, and law careers.",
+        }, {
+            heading: "Romance",
+            para: "Nurturing and perfectionist traits in romance can clash, extending beyond relationships to various aspects of life. Perfectionism may lead to self-criticism, but responsibility and loyalty add a romantic touch. Balance is crucial—embracing romantic aspects without letting perfectionism overshadow enjoyment is key.",
+        }, {
+            heading: "Marriage Number",
+            para: "Best numbers for relationships with Destiny Number 6 are 3, 4, 5, 8, 9. Avoid relationships with Numbers 1, 2, 6, 7.",
         },
         ]
     },
@@ -414,12 +494,28 @@ export const destinyData = [
         number: 7,
         mainPara: "Number 7 is regarded as a positive Destiny number. Individuals with Destiny/life path number 7 are compassionate and provide valuable guidance to others.",
         videoUrl: "",
+        destinyNum: [
+            "Embodies emotional expression, logic, and courage.",
+            "Challenges include intolerance and arrogance, hindering communication.",
+            "Essential to cultivate open-mindedness and expressive communication.",
+            "Self-study and creative outlets integrate logical and mystical aspects, like music.",
+            "Possess a diverse skill set to positively influence others."
+        ],
         destiny: [{
-            heading: "Best Profession",
-            para: "The best career options for Destiny number 7 are research work, teaching, agriculture, photography. They can opt for a career related to Occult science like Astrology, Numerology, etc.",
+            heading: "Your Intellect",
+            para: "Destiny number 7 individuals are intellectual and value education, thriving on presenting new perspectives and wisdom. They may struggle with arrogance due to their strong opinions and reliance on facts, which can strain relationships. Despite talents in study, logic, and music, staying grounded is crucial for balanced interactions.",
         }, {
-            heading: "Best Marriage Numbers",
-            para: "The best numbers to marry or having a relationship for Destiny Number 7 are 1, 2, 4, 5. They should avoid marrying to people with Number 3, 6, 7, 8, 9.",
+            heading: "Your Clairvoyance",
+            para: "Destiny number 7 individuals are drawn to logic, facts, and the occult, appreciating mysteries. They use their wisdom in leadership, teaching, or charity work, guided by honesty in their approach to psychic abilities and phenomena.",
+        }, {
+            heading: "Picking a Career",
+            para: "Ideal career paths for Destiny number 7 include research, teaching, agriculture, and photography. Additionally, they may excel in fields related to Occult sciences such as Astrology and Numerology.",
+        }, {
+            heading: "Your Wisdom",
+            para: "Destiny number 7 individuals blend wisdom and intelligence from life experiences and academics but may wrestle with balancing intellect with clairvoyant abilities, causing self-doubt. Embracing spirituality and overcoming skepticism is crucial for them to utilize psychic gifts to help others, aligning with their destined path.",
+        }, {
+            heading: "Marriage Number",
+            para: "Favorable partners for Destiny Number 7 include those with numbers 1, 2, 4, and 5. It's advisable for individuals with Destiny Number 7 to avoid relationships with people whose numbers are 3, 6, 7, 8, or 9.",
         },
         ]
     },
@@ -427,12 +523,25 @@ export const destinyData = [
         number: 8,
         mainPara: "People with Destiny number 8 often attain success and wealth later in life, gradually building endurance unmatched by other numbers from 1 to 9.",
         videoUrl: "",
+        destinyNum: [
+            "Possess strong leadership qualities and high motivation.",
+            "Known for determination, hard work, and organizational skills.",
+            "Excel in competitive environments but may face challenges in relationships due to competitiveness.",
+            "Essential to maintain balance between work and personal life.",
+            "Resilience and refusal to give in help navigate stressful situations effectively."
+        ],
         destiny: [{
-            heading: "Best Profession",
-            para: "The destiny number also impacts the career choices. Choosing a career favourable for one’s destiny number can prove to be beneficial for the person. Since, people with conductor number 8 are good in organisation, conversations; the best career options for destiny number 8 are judicial services, banking & commerce, armed forces, philanthropist work. They can handle organizational work in companies.",
+            heading: "A Career in Authority",
+            para: "Destiny number 8 individuals are natural leaders excelling in authoritative careers like entrepreneurship, military, government, finance, or banking. Their drive for power propels them to overcome obstacles and excel as managers or hard-working employees, often rising to the top. They should balance ambitions with relationships, prioritizing work-life harmony.",
         }, {
-            heading: "Best Marriage Numbers",
-            para: "Destiny number 8 love life can hit a low bottom because they live with the fear of rejection and separation. By feeling secure and giving time to their relationships, they can enjoy a blissful relationship. The lucky numbers for marriage or love for destiny number 8 are 2, 3, 5, 6. They should avoid marrying people with destiny numbers 1, 4, 7, 8 as these numbers are not compatible with number 8.",
+            heading: "Determination to Succeed",
+            para: "Destiny number 8 individuals value independence and strive for success, driven by a need for freedom and self-expression. They often operate alone due to distrust and competition, focusing on career success for personal growth. Balancing this drive with nurturing relationships is key for holistic fulfillment beyond professional achievements.",
+        }, {
+            heading: "Distrust",
+            para: "Destiny number 8 individuals should manage suspicion and skepticism, acknowledging achievements and resilience amid challenges, without letting distrust overshadow progress.",
+        }, {
+            heading: "Marriage Number",
+            para: "Destiny number 8 individuals face love challenges due to fear of rejection, prioritizing security and relationship nurturing. Lucky numbers for marriage include 2, 3, 5, and 6, while compatibility issues may arise with numbers 1, 4, 7, and 8.",
         },
         ]
     },
@@ -440,12 +549,24 @@ export const destinyData = [
         number: 9,
         mainPara: "Destiny number 9 individuals maintain a strong belief in the value of continuous effort and perseverance.",
         videoUrl: "",
+        destinyNum: [
+            "Artistic and generous, aiming to beautify the world.",
+            "Struggle with impatience and disappointment from unrealistic expectations.",
+            "Sensitivity and intolerance for mediocrity can hinder relationships.",
+            "Essential to develop tolerance and patience for personal growth and meaningful connections."
+        ],
         destiny: [{
-            heading: "Best Profession",
-            para: "The best career options for Destiny number 9 are painter, philosopher, dentist, electrician, diplomat, business owner.",
+            heading: "Selflessness",
+            para: "Destiny number 9 individuals prioritize helping others selflessly, often sacrificing their own resources. While they value the well-being of others over material wealth, they may struggle with being selective in their interactions. Despite their generosity, they seek no recognition or personal gain from their acts of kindness.",
         }, {
-            heading: "Best Marriage Numbers",
-            para: "The best numbers to marry or have a relationship for Destiny Number 9 are 1, 2, 3, 4, 5, 6, 9. They should avoid marrying people with Number 7, 8.",
+            heading: "Sensitivity",
+            para: "Destiny number 9 individuals balance selflessness with sensitivity and a visionary mindset. They strive to beautify their surroundings but may face challenges with overly sensitive reactions. Managing emotions and focusing positively on their sensitivity is crucial. They should also be cautious of being impressionable to avoid disappointment.",
+        }, {
+            heading: "Impatience",
+            para: "Destiny number 9 individuals pursue idealistic goals to beautify the world but may face challenges with unrealistic expectations and impatience. They can exhibit selfish tendencies when goals aren't met, overshadowing past generosity. Learning patience and tolerance is essential, especially towards others they may perceive as lesser.",
+        }, {
+            heading: "Marriage Number",
+            para: "Ideal partners for Destiny Number 9 individuals include those with Destiny Numbers 1, 2, 3, 4, 5, 6, and 9. They should steer clear of relationships with individuals whose Destiny Numbers are 7 or 8.",
         },
         ]
     },
@@ -453,12 +574,21 @@ export const destinyData = [
         number: 11,
         mainPara: "Destiny number 11 signifies spiritual enlightenment and intuitive wisdom, embodying spiritual leadership and profound cosmic connection.",
         videoUrl: "",
+        destinyNum: [
+            "Thrive in show business, captivating audiences with charisma and talent.",
+            "Excel as communicators, sharing knowledge and skills effortlessly.",
+            "Strategic alliances with powerful figures propel careers to new heights.",
+            "Must remain vigilant against arrogance and maintain humility despite success."
+        ],
         destiny: [{
-            heading: "Best Profession",
-            para: "The best career options for Destiny number 9 are painter, philosopher, dentist, electrician, diplomat, business owner.",
+            heading: "Communicating Into Power",
+            para: "Destiny number 11 individuals thrive in spotlight careers like acting, artistry, music, and writing, often facing challenges to break in but leveraging communication skills to build influential relationships. Despite potential shortcuts, their strong business acumen helps achieve independence and leadership at the top.",
         }, {
-            heading: "Best Marriage Numbers",
-            para: "The best numbers to marry or have a relationship for Destiny Number 9 are 1, 2, 3, 4, 5, 6, 9. They should avoid marrying people with Number 7, 8.",
+            heading: "Compassion",
+            para: "Destiny number 11 individuals excel in communication, essential for media attention. Successful public figures need energy, charisma, and humor. Compassion is crucial for stardom, requiring ethical boundaries. Their communication highlights their maturity and depth.",
+        }, {
+            heading: "Ruthlessness",
+            para: "Destiny number 11 individuals should eliminate ruthlessness and embrace empathy, as their determination can lead to arrogance. Accepting diverse opinions helps maintain integrity and compassion.",
         },
         ]
     },
@@ -466,12 +596,21 @@ export const destinyData = [
         number: 22,
         mainPara: "Destiny number 22 embodies visionary leaders who excel in strategic thinking and practical innovation, empowering others through disciplined, long-term vision.",
         videoUrl: "",
+        destinyNum: [
+            "Destiny number 22 blends magnetism and practicality, yet may lean towards arrogance and laziness.",
+            "Their charm and charisma, coupled with a practical approach, ensures efficient goal achievement.",
+            "This practicality captures interest and facilitates realistic goal attainment.",
+            "Others are drawn to their knack for turning aspirations into tangible realities."
+        ],
         destiny: [{
-            heading: "Best Profession",
-            para: "The best career options for Destiny number 9 are painter, philosopher, dentist, electrician, diplomat, business owner.",
+            heading: "Charisma",
+            para: "Destiny number 22 attracts success effortlessly with charisma in visibility-driven careers. Building friendships and a humanitarian image enhance influence. Balancing ambition with humility prevents arrogance, ensuring positive impact and goodwill in fame pursuits.",
         }, {
-            heading: "Best Marriage Numbers",
-            para: "The best numbers to marry or have a relationship for Destiny Number 9 are 1, 2, 3, 4, 5, 6, 9. They should avoid marrying people with Number 7, 8.",
+            heading: "Self-Confidence",
+            para: "Expression number and charisma fuel self-confidence, driving action towards goals like spreading wisdom and helping others. This independence enhances effectiveness, enriching humanitarian efforts and inspiring through positive examples. Advocating for self-positivity and ethical values with humility is key.",
+        }, {
+            heading: "Your Lazy Side",
+            para: "As a 22, occasional laziness and greed may stem from high life expectations. Desire for power can lead to a controlling ego. Cultivate humility and gratitude, prioritizing relationships and acknowledging personal limitations over pursuing power.",
         },
         ]
     },
@@ -479,12 +618,22 @@ export const destinyData = [
         number: 33,
         mainPara: "Destiny number 33 in numerology signifies great compassion, guidance, and spiritual leadership, embodying the traits of a master teacher and healer.",
         videoUrl: "",
+        destinyNum: [
+            "Destiny number 33 is a unique, creative, and nurturing master number.",
+            "These individuals undervalue their work and prioritize others.",
+            "They need purposeful work beyond just earning.",
+            "Accepting help and sharing responsibilities can benefit them.",
+            "They share traits with destiny numbers 3 and 6. Understanding these can provide better insight into their own number."
+        ],
         destiny: [{
-            heading: "Best Profession",
-            para: "The best career options for Destiny number 9 are painter, philosopher, dentist, electrician, diplomat, business owner.",
+            heading: "Finding an Outlet for Creativity",
+            para: "Embrace writing, drawing, or performing for self-expression. Consider screenwriting or novel writing. Use music, dance, and drawing privately. Explore creative careers like teaching, childcare, or nursing, which nurture and comfort others creatively.",
         }, {
-            heading: "Best Marriage Numbers",
-            para: "The best numbers to marry or have a relationship for Destiny Number 9 are 1, 2, 3, 4, 5, 6, 9. They should avoid marrying people with Number 7, 8.",
+            heading: "Your Kindness",
+            para: "Destiny number 33 individuals spread harmony and nurture others naturally. They excel in healing professions like medicine and benefit from creative hobbies for stress management. Balancing generosity between strangers and loved ones is crucial for them.",
+        }, {
+            heading: "Permission Problems",
+            para: "Destiny number 33 individuals often prioritize others over themselves, needing to focus on self-acceptance and kindness. They should embrace a creative outlet to avoid internal conflict, utilizing their natural talents for personal comfort. Balancing attention between themselves and others can yield positive outcomes.",
         },
         ]
     },

@@ -16,7 +16,6 @@ import Slider from "react-slick";
 import SliderComp from '@/components/SliderComp';
 import carbon_time from "@/assets/carbon_time.svg"
 import gallery_img from '@/assets/gallery_img.svg'
-import vid_testimonials from "@/assets/vid_testimonials.svg"
 import why_numero from "@/assets/why_numero.svg"
 import mandala from "@/assets/mandala.svg"
 import { CustomerReview } from '@/components/data/data';
