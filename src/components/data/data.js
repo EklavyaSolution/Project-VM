@@ -1,7 +1,7 @@
 import chrisImg from "@/assets/cchris.png";
 import chiewImg from "@/assets/chiew.png";
 import durgaImg from "@/assets/durga.png";
-import henryImg from "@/assets/henry.png";
+import krishnaImg from "@/assets/krishna.png";
 import madhuImg from "@/assets/madhu.png";
 import nithaImg from "@/assets/nitha.png";
 import prajotImg from "@/assets/prajot.png";
@@ -646,11 +646,11 @@ export const CustomerReview = [{
     stars: 5,
     link: "https://maps.app.goo.gl/Tiku59erKZ7C2Va27"
 }, {
-    name: "Henry Walton",
-    review: "I had a reading with Venky and I was quite shocked to be honest. He described my traits in myself. My strengths and Weaknesses were thoroughly explained. It was like he already knew about me so well. Never believed Numerology can be so detailed. He also pointed out certain areas of my career based on his observations. I am extremely excited to see how my 2024 will be. Venky sent me a reading after a Week of my consultation call which had details about next few years. I highly recommend numerology readings from Venky",
-    imgUrl: henryImg,
+    name: "Krishna Siddhada",
+    review: "Venky is one of the best people who can understand my past life. He suggested me wonderful tips, which helped a lot. I recommend Services from Venky.",
+    imgUrl: krishnaImg,
     stars: 5,
-    link: "https://maps.app.goo.gl/3sNgZxntdkHD7MVp6"
+    link: "https://maps.app.goo.gl/Nwh5BpyvwiBd3UFp9"
 },
 {
     name: "Nitha R",
