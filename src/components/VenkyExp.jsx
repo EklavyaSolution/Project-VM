@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 const VenkyExp = () => {
     return (
-        <div className='w-full text-center py-12 flex items-center justify-center gap-16 font-semibold text-[#10101E]'>
+        <div className='w-full text-center py-12 flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-16 font-semibold text-[#10101E]'>
             <div className='shadow-[0px_0px_17.6px_2px_rgba(0,0,0,0.10)] flex gap-6 rounded-md px-6 py-2.5'>
                 <Image className='w-12' src={experience} alt='20+ yrs experience' />
                 <div>

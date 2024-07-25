@@ -57,7 +57,7 @@ const Services = () => {
           </div>
         </div>
         <div className='my-12'>
-          {/* <VenkyExp /> */}
+          <VenkyExp />
         </div>
         <div className=''>
           <h2 className='text-center font-semibold text-[#10101E] text-3xl lg:text-[33px] mb-2'>Our Happy <span className='text-[#261891]'>Clients</span> say about us</h2>
