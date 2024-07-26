@@ -68,15 +68,15 @@ const Numbers = ({ name }) => {
     },
     ];
     return (
-        <section className='w-full px-12'>
-            <h3 className='text-center font-semibold text-[#10101E] text-[33px] mb-12 capitalize'>{name} <span className='text-[#261891]'>Numbers</span></h3>
-            <div className='flex flex-wrap items-center justify-center gap-10'>
+        <section className='w-full px-6 lg:px-12'>
+            <h3 className='text-center font-semibold text-[#10101E] text-3xl lg:text-[33px] mb-8 lg:mb-12 capitalize'>{name} <span className='text-[#261891]'>Numbers</span></h3>
+            <div className='flex flex-wrap items-center justify-center gap-5 lg:gap-10'>
                 {data.map((item) => {
                     if (name !== "destiny" && item.id > 10) {
                         return;
                     } else {
-                        return <Link key={item.id} href={`/numerology/${name}-number/${item.id}`}>
-                            <div className='w-[250px] rounded overflow-hidden bg-white shadow-[0_0px_10px_0px_rgba(0,0,0,0.25)]'>
+                        return <Link key={item.id} href={`/numerology/${name}-number/${item.id}`} className='w-[47%] lg:w-fit'>
+                            <div className='lg:w-[250px] rounded overflow-hidden bg-white shadow-[0_0px_10px_0px_rgba(0,0,0,0.25)]'>
                                 <Image src={item.img} alt='' className='w-full object-cover' />
                                 <h3 className='py-3 text-center font-semibold text-lg tracking-wide capitalize'>{name} Number {item.id > 10 ? "" : 0}{item.id}</h3>
                             </div>
