@@ -148,7 +148,7 @@ const App = () => {
           <picture className='w-[650px] h-[320px] rounded-xl overflow-hidden mt-5 shadow-[0_0px_10px_0px_rgba(0,0,0,0.25)]'>
             <Image src={about_vid} alt='Meet Veny Musti' className='w-full h-full object-cover' />
           </picture>
-          <p className='w-[65%] text-center leading-6 text-[#3D3D3D] font-nunito text-lg mt-8'>It all started in 1999 when I was talking to a friend from Gujarat experts I realizame attributes being represented all started in 1999 when I was talking to a friend from G when I was talking to a friend from Gd from G when I was talking to a friend from G.</p>
+          <p className='w-[75%] text-center leading-6 text-[#3D3D3D] font-nunito text-lg mt-8'>Numerology has always fascinated me. My interest in numbers and their meanings fuels my passion for discovering how they influence our lives. I love exploring new ways to apply numerology to everyday situations, continuously learning and expanding my knowledge. <br /><br />My journey began in 1999 during a conversation with a friend from Gujarat, India. He introduced me to a book that connected him to his birth number, sparking my curiosity. This newfound interest led me to read numerous books and engage with many experts in the field. <br /><br />Over the years, I have deepened my understanding by studying different numerology systems and analyzing hundreds of birth and event dates. This research has revealed intriguing patterns, reinforcing my belief in the power and potential of numerology.</p>
           <Link href="/services" className='mt-10'>
             <button className='bg-gradient-to-r from-[#FD6E0E] to-[#EF9D33] px-7 py-2 rounded-md tracking-wider text-white'>Book Your Slot</button></Link>
         </div>
@@ -245,26 +245,27 @@ const App = () => {
           </Link>
         </div>
       </div> */}
-      <div className='my-16 font-semibold'>
+      <div className='mt-16 mb-8 font-semibold'>
         <h3 className='text-center text-[#10101E] text-[33px] tracking-[0.5px] mb-1'>What Peoples say <span className='text-[#261891]'>about us</span></h3>
         <p className=' text-center text-[#000000] font-medium font-nunito text-lg mb-10'>See what our Clients have to say about their Numerology Experiences</p>
         <SliderComp slides={1} auto={true} data={CustomerReview.slice(0, 5).map((item, index) => {
           return <div key={index}>
             <div className="w-full flex flex-col items-center justify-between">
               <p className='text-[#4D4D4D] text-center font-nunito font-semibold italic leading-7 mb-7'>{item.review}</p>
-              <div className='w-[52px] h-[52px] rounded-full overflow-hidden'>
-                <Image src={item.imgUrl} alt='' className='w-full h-full object-cover' />
-              </div>
-              <h3 className='text-[#E25E3E] font-bold text-lg'>{item.name}</h3>
-              <p className='text-[#4E4E4E] font-nunito leading-5'>BusinessMan</p>
+              <Link href={item.link}>
+                <div className='w-[52px] h-[52px] mx-auto rounded-full overflow-hidden'>
+                  <Image src={item.imgUrl} alt='' className='w-full h-full object-cover' />
+                </div>
+                <h3 className='text-[#E25E3E] font-bold text-lg mt-2'>{item.name}</h3>
+              </Link>
             </div>
           </div>
         })} />
-        <div className='flex justify-center'>
+        {/* <div className='flex justify-center'>
           <Link href="/articles&updates" className='mt-12'>
             <button className='text-white outline-none rounded-md bg-gradient-to-r from-[#FD6E0E] to-[#EF9D33] px-6 py-2 font-semibold tracking-wide'>View More</button>
           </Link>
-        </div>
+        </div> */}
       </div>
       <div className='w-full py-12'>
         <div className='w-[90%] mx-auto max-w-[1200px] bg-[#FFF3E0] rounded-md py-6 px-10 flex justify-between items-center'>

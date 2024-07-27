@@ -27,8 +27,8 @@ const About = () => {
           <Image src={about_vid} alt='Meet Veny Musti' className='w-full h-full object-cover' />
         </div>
         <div className='mt-7 lg:mt-12 text-center font-nunito font-medium text-[#3D3D3D]'>
-          <p className='w-full lg:w-[80%] mx-auto lg:text-lg mb-3'>Numerology has always fascinated me. My interest in numbers and their meanings fuels my passion for discovering how they influence our lives. I love exploring new ways to apply numerology to everyday situations, continuously learning and expanding my knowledge. </p>
-          <p className='w-full lg:w-[80%] mx-auto lg:text-lg mb-3'>My journey began in 1999 during a conversation with a friend from Gujarat, India. He introduced me to a book that connected him to his birth number, sparking my curiosity. This newfound interest led me to read numerous books and engage with many experts in the field. </p>
+          <p className='w-full lg:w-[80%] mx-auto lg:text-lg mb-3'>Numerology has always fascinated me. My interest in numbers and their meanings fuels my passion for discovering how they influence our lives. I love exploring new ways to apply numerology to everyday situations, continuously learning and expanding my knowledge.</p>
+          <p className='w-full lg:w-[80%] mx-auto lg:text-lg mb-3'>My journey began in 1999 during a conversation with a friend from Gujarat, India. He introduced me to a book that connected him to his birth number, sparking my curiosity. This newfound interest led me to read numerous books and engage with many experts in the field.</p>
           <p className='w-full lg:w-[80%] mx-auto lg:text-lg'>Over the years, I have deepened my understanding by studying different numerology systems and analyzing hundreds of birth and event dates. This research has revealed intriguing patterns, reinforcing my belief in the power and potential of numerology.</p>
         </div>
         <div className='my-5 lg:my-8'>
