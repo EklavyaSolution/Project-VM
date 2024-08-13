@@ -74,7 +74,7 @@ const Numerology = () => {
             </Link>
           </div>
         </div>
-        <div className='flex flex-col lg:flex-row gap-8 lg:gap-0 lg:justify-between bg-[#ECF7FF] mt-12 py-6 lg:py-10 px-6 lg:px-12'>
+        <div className='flex flex-col-reverse lg:flex-row gap-8 lg:gap-0 lg:justify-between bg-[#ECF7FF] mt-12 py-6 lg:py-10 px-6 lg:px-12'>
           <div>
             <h2 className='text-[#10101E] text-xl lg:text-2xl font-semibold mb-1 lg:mb-3'>Destiny Number </h2>
             <p className='w-full max-w-[600px] lg:text-lg leading-[22px] lg:leading-[26px] font-medium font-nunito text-[#3D3D3D]'>Destiny numbers, also known as Life Path numbers or Bhagyaank, hold special significance in numerology. They reveal a person's natural talents, gifts, and unique path in life. Think of them as spiritual digits that guide you toward fulfilling your purpose. Unlike Life Path numbers, which involve fated challenges, destiny numbers highlight what comes naturally to you.</p>
@@ -98,7 +98,7 @@ const Numerology = () => {
               <picture className={`w-${item.width} h-[55%] lg:h-[65%]`}>
                 <Image src={item.image} alt='' className='w-full h-full object-cover' />
               </picture>
-              <h3 className='w-full lg:w-48 px-2 lg:px-0 lg:text-lg mt-6 font-semibold text-[#3D3D3D] leading-6 mb-3'>{item.name}</h3>
+              <h3 className='w-full lg:w-48 px-1 lg:px-0 lg:text-lg mt-6 font-semibold text-[#3D3D3D] leading-6 mb-3'>{item.name}</h3>
             </div>
           })}
         </div>

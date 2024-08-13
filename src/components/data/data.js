@@ -706,7 +706,7 @@ export const CustomerReview = [{
 
 export const servicesData = [{
     name: "Personal Astro Numerology Consultation",
-    data: "Astro Numerology reading gives you a clear picture of your lucky career, health, marriage, relationship compatibility,, personal lucky years, lucky colors, elements, remedies for overall  growth for next 5 years.",
+    data: "Astro Numerology reading gives you a clear picture of your lucky career, health, marriage, relationship compatibility, personal lucky years, lucky colors, elements, remedies for overall  growth for next 5 years.",
     meetLink: "",
     imgUrl: ""
 },

@@ -19,8 +19,8 @@ const PsychicNumbers = ({ params }) => {
   }
 
   return (
-    <div className='w-full h-full min-h-screen mb-16'>
-      <div className='w-full h-[300px] bg-about_bg bg-cover bg-center flex justify-between items-center px-36 pt-12 overflow-hidden'>
+    <div className='w-full h-full min-h-screen mb-8 lg:mb-16'>
+      {/* <div className='w-full h-[300px] bg-about_bg bg-cover bg-center flex justify-between items-center px-36 pt-12 overflow-hidden'>
         <div className='text-white font-semibold relative ml-28'>
           <h2 className='text-3xl tracking-wider  border-b-2 border-white pb-3 text-center'>Psychic Number {params.id}</h2>
           <h5 className='text-5xl tracking-wider mt-2'>Numerology</h5>
@@ -29,19 +29,19 @@ const PsychicNumbers = ({ params }) => {
         <div>
           <Image src={banner_man} alt='Venky Musti | Best Numerologist' className='w-80' />
         </div>
-      </div>
-      <div className='w-full mx-auto max-w-[1200px] mt-10 flex flex-col items-center font-semibold'>
-        <h3 className='text-center text-[#10101E] text-[33px] tracking-wide'>{psychicData[params.id - 1].mainHeading}</h3>
-        <p className='text-center text-[#EA8427] text-2xl mt-3 tracking-wide'>{psychicData[params.id - 1].mainPara}</p>
-        <div className='w-[650px] h-[320px] rounded-lg overflow-hidden mt-12 mb-8'>
+      </div> */}
+      <div className='w-full mx-auto max-w-[1200px] mt-10 px-5 lg:px-0 flex flex-col items-center font-semibold'>
+        <h3 className='text-center text-[#10101E] text-3xl lg:text-[33px]'>{psychicData[params.id - 1].mainHeading}</h3>
+        <p className='text-center text-[#EA8427] text-xl lg:text-2xl mt-3 tracking-wide'>{psychicData[params.id - 1].mainPara}</p>
+        <div className='w-full max-w-[650px] max-[430px]:h-[28vh] max-[767px]:h-[37vh] md:h-[41vh] rounded-lg overflow-hidden mt-12 mb-8'>
           <Image src={about_vid} alt='Meet Veny Musti' className='w-full h-full object-cover' />
         </div>
-        <div className='flex justify-center mb-16'>
+        <div className='flex justify-center mb-10 lg:mb-16'>
           <Link href="/appointment">
             <button className='text-white outline-none rounded-md px-6 py-2 tracking-wider bg-[#F2934C]'>Book Appointment</button>
           </Link>
         </div>
-        <div className='w-full py-8 px-16 flex gap-10 border border-[#15138C] rounded-md'>
+        {/* <div className='w-full py-8 px-16 flex gap-10 border border-[#15138C] rounded-md'>
           <div className='w-96 h-56 bg-red-400 rounded-md overflow-hidden'>
             <Image />
           </div>
@@ -66,16 +66,16 @@ const PsychicNumbers = ({ params }) => {
               })}
             </ul>
           </div>
-        </div>
+        </div> */}
       </div>
       <BookNumeroSession />
       {psychicData[params.id - 1].character.map((item, index) => {
-        return <div key={index} className='w-full px-44 py-6 mb-4 text-center'>
+        return <div key={index} className='w-full px-5 sm:px-16 2xl:px-44 py-6 mb-4 text-center'>
           {item.heading && <h3 className='text-[#10101E] font-semibold tracking-wide text-2xl'>{item.heading}</h3>}
-          <p className='font-medium text-lg font-nunito text-[#3d3d3d] mt-2.5 leading-6 whitespace-break-spaces'>{item.para}</p>
+          <p className='font-medium lg:text-lg font-nunito text-[#3d3d3d] mt-2.5 leading-6 whitespace-break-spaces'>{item.para}</p>
         </div>
       })}
-      <div className='my-16'>
+      <div className='my-10 lg:my-16'>
         <AboutVenky />
       </div>
       <Numbers name="psychic" />
