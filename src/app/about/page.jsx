@@ -23,7 +23,7 @@ const About = () => {
       </div> */}
       <div className='w-full mx-auto max-w-[1200px] font-semibold mt-10 px-5 lg:px-0'>
         <h3 className='text-[#10101E] text-center text-3xl lg:text-[33px]'>Meet <span className='text-[#261891]'>Venky Musti</span></h3>
-        <div className='w-full max-w-[600px] mx-auto h-[24dvh] lg:h-[41dvh] rounded-lg overflow-hidden mt-8'>
+        <div className='w-full max-w-[600px] mx-auto max-[430px]:h-[30vh] max-[767px]:h-[37vh] md:h-[41vh] rounded-lg overflow-hidden mt-8'>
           <Image src={about_vid} alt='Meet Veny Musti' className='w-full h-full object-cover' />
         </div>
         <div className='mt-7 lg:mt-12 text-center font-nunito font-medium text-[#3D3D3D]'>

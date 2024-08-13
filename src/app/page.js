@@ -15,8 +15,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import SliderComp from '@/components/SliderComp';
 import carbon_time from "@/assets/carbon_time.svg"
-import gallery_img from '@/assets/gallery_img.svg'
-import why_numero from "@/assets/why_numero.svg"
+import why_numero from "@/assets/why_numero.png"
 import mandala from "@/assets/mandala.svg"
 import { CustomerReview } from '@/components/data/data';
 
@@ -129,7 +128,7 @@ const App = () => {
       <div className='w-full mx-auto max-w-[1200px] mt-16 font-semibold'>
         <div className='flex gap-12'>
           <picture className='w-[35%] rounded-lg overflow-hidden'>
-            <Image src={why_numero} alt='' className='w-full h-full object-cover' />
+            <Image src={why_numero} alt='' loading='eager' className='w-full h-full object-cover' />
           </picture>
           <div className='w-[60%]'>
             <h3 className='tracking-[0.2px] text-[#10101E] text-[33px]'>Why Numerology?</h3>

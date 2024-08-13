@@ -1,5 +1,4 @@
 
-
 import localFont from 'next/font/local'
 import "./globals.css";
 import Header from "@/components/Header";
@@ -26,7 +25,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${montserrat.variable} ${nunito.variable} font-montserrat`}>
-        {/* <Header /> */}
+        <Header />
         {children}
         {/* <Footer /> */}
       </body>

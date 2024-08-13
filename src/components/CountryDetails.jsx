@@ -1,9 +1,9 @@
 "use client"
 
 import React from 'react';
-import usa from "@/assets/usa.svg";
-import australia from "@/assets/australia.svg";
-import dubai from "@/assets/dubai.svg";
+import usa from "@/assets/usa.png";
+import australia from "@/assets/australia.png";
+import dubai from "@/assets/dubai.png";
 import Image from 'next/image';
 
 const CountryDetails = ({ country }) => {
@@ -18,6 +18,7 @@ const CountryDetails = ({ country }) => {
         address: "Plot no. 246/123 Al Habtoor Warehouse # 61, Industrial Area 3, Opp. Al Khayam Bakery Al Qusais, Dubai",
         img: dubai,
     }];
+
     const cityfunc = () => {
         if (country === "usa") {
             return countries[0]
