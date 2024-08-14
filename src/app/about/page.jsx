@@ -11,7 +11,7 @@ import VenkyExp from '@/components/VenkyExp'
 const About = () => {
   return (
     <div className='bg-white w-full h-full min-h-screen mb-8 lg:mb-16'>
-      {/* <div className='w-full h-[300px] bg-about_bg bg-cover bg-center overflow-hidden flex justify-between items-center pt-16 px-[152px]'>
+      <div className='w-full h-[300px] bg-about_bg bg-cover bg-center overflow-hidden flex justify-between items-center pt-16 px-[152px]'>
         <div className='text-white font-semibold -mt-8'>
           <h2 className='font-poppins text-[33px] tracking-wider mb-3'>About Venky Musti</h2>
           <h5 className='text-2xl tracking-wider mb-1'>Best Numerologist in New Jersey</h5>
@@ -20,7 +20,7 @@ const About = () => {
         <div>
           <Image src={banner_man} alt='Venky Musti | Best Numerologist' className='w-80' />
         </div>
-      </div> */}
+      </div>
       <div className='w-full mx-auto max-w-[1200px] font-semibold mt-10 px-5 lg:px-0'>
         <h3 className='text-[#10101E] text-center text-3xl lg:text-[33px]'>Meet <span className='text-[#261891]'>Venky Musti</span></h3>
         <div className='w-full max-w-[600px] mx-auto max-[430px]:h-[30vh] max-[767px]:h-[37vh] md:h-[41vh] rounded-lg overflow-hidden mt-8'>

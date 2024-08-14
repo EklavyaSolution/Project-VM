@@ -8,6 +8,32 @@ import prajotImg from "@/assets/prajot.png";
 import prashantImg from "@/assets/prashant.png";
 import rahulImg from "@/assets/rahul.png";
 
+import one from "@/assets/1.jpeg";
+import two from "@/assets/2.png";
+import three from "@/assets/3.jpeg";
+import four from "@/assets/4.jpeg";
+import five from "@/assets/5.png";
+import six from "@/assets/6.jpeg";
+import seven from "@/assets/7.jpeg";
+import eight from "@/assets/8.jpeg";
+import nine from "@/assets/9.jpeg";
+
+import sun from "@/assets/sun.jpg";
+import moon from "@/assets/moon.jpeg";
+import jupiter from "@/assets/Jupiter.webp";
+import neptune from "@/assets/neptune.webp";
+import venus from "@/assets/venus.jpg";
+import mercury from "@/assets/mercury.webp";
+import mars from "@/assets/mars.webp";
+import saturn from "@/assets/saturn.webp";
+
+import business_name from "@/assets/business_name.jpeg";
+import business_service from "@/assets/business_service.jpg";
+import carrer_service from "@/assets/carrer_service.jpg";
+import education_service from "@/assets/education_service.jpg";
+import mariiage_service from "@/assets/mariiage_service.jpg";
+import naming_service from "@/assets/naming_service.jpg";
+
 
 export const psychicData = [
     {
@@ -16,16 +42,22 @@ export const psychicData = [
         mainPara: "Have you ever felt a natural urge to take charge? Do you crave independence and strive to make your mark on the world? If you were born on the 1st, 10th, 19th, or 28th of any month, your Life Path number is 1, and these characteristics might resonate deeply with you.",
         videoUrl: "",
         imgUrl: "",
-        rulingPlanet: [
-            "The ruling planet of number 1 is Sun.",
-            "Individuals born on the 1st, 10th, 19th, or 28th of any month are governed by the Sun.",
-            "These individuals exhibit the best qualities associated with the Sun.",
-            "The Sun has friendly relationships with the Moon, Mars, Jupiter, Neptune, and Uranus."
-        ],
-        luckyColors: [
-            " Lucky colors for persons influenced by sun and born in dates of 1 are yellow, sandal, gold, red of dawn and pale blue of dusk are also lucky for number 1 persons.",
-            "But Number 1 persons should avoid totally black and coffee brown."
-        ],
+        rulingPlanet: {
+            data: [
+                "The ruling planet of number 1 is Sun.",
+                "Individuals born on the 1st, 10th, 19th, or 28th of any month are governed by the Sun.",
+                "These individuals exhibit the best qualities associated with the Sun.",
+                "The Sun has friendly relationships with the Moon, Mars, Jupiter, Neptune, and Uranus."
+            ],
+            img: sun,
+        },
+        luckyColors: {
+            data: [
+                " Lucky colors for persons influenced by sun and born in dates of 1 are yellow, sandal, gold, red of dawn and pale blue of dusk are also lucky for number 1 persons.",
+                "But Number 1 persons should avoid totally black and coffee brown."
+            ],
+            img: one,
+        },
         character: [{
             heading: "Leaders by Nature",
             para: "Life Path 1 individuals are born leaders. Their independence fuels their drive to forge their own paths, making them resistant to being controlled. This independent spirit, coupled with their innovative and inventive minds, positions them perfectly to spearhead teams and organizations.",
@@ -52,16 +84,22 @@ export const psychicData = [
         mainPara: "Is your birthday the 2nd, 11th, 20th, or 29th of any month? Then you belong to the number 2 life path! This number carries a unique blend of traits, making you a fascinating individual.",
         videoUrl: "",
         imgUrl: "",
-        rulingPlanet: [
-            "The ruling planet of number 2 is Moon.",
-            "Individuals born on the 2nd, 11th, 20th, or 29th are influenced by the Moon and exhibit its best qualities.",
-            "The Moon is compatible with the Sun, Jupiter, Uranus, Neptune, Saturn, and Mars, fostering friendly relations.",
-            "Mercury and Venus are incompatible with the Moon, leading to potential disharmony with individuals influenced by the numbers 2, 5, and 6."
-        ],
-        luckyColors: [
-            "Green, yellow, gold, white with green, dark green are lucky colors for number 2 persons.",
-            "But they should avoid black, coffee, red, coffee brown and other dark color."
-        ],
+        rulingPlanet: {
+            data: [
+                "The ruling planet of number 2 is Moon.",
+                "Individuals born on the 2nd, 11th, 20th, or 29th are influenced by the Moon and exhibit its best qualities.",
+                "The Moon is compatible with the Sun, Jupiter, Uranus, Neptune, Saturn, and Mars, fostering friendly relations.",
+                "Mercury and Venus are incompatible with the Moon, leading to potential disharmony with individuals influenced by the numbers 2, 5, and 6."
+            ],
+            img: moon,
+        },
+        luckyColors: {
+            data: [
+                "Green, yellow, gold, white with green, dark green are lucky colors for number 2 persons.",
+                "But they should avoid black, coffee, red, coffee brown and other dark color."
+            ],
+            img: two,
+        },
         character: [{
             heading: "Intuitive and Imaginative",
             para: "Twos are known for their gentle nature, often possessing a strong intuition and a vivid imagination. This makes them artistic, romantic, and dreamers at heart. Think of Bollywood legends like Amitabh Bachchan and Shahrukh Khan – iconic number 2s!",
@@ -84,18 +122,24 @@ export const psychicData = [
         mainPara: "Are you born on the 3rd, 12th, 21st, or 30th of any month? If so, your birth number is 3, ruled by the mighty Planet Jupiter.",
         videoUrl: "",
         imgUrl: "",
-        rulingPlanet: [
-            " The ruling planet of Number 3 is Jupiter.",
-            "Jupiter represents wisdom and knowledge, aiding in a successful career.",
-            "Sun, Moon, Jupiter, Mercury, Venus, Saturn, Mars are the friendly planets.",
-            "People ruled by these friendly planets are likely to be amicable towards those ruled by Jupiter.",
-            "Uranus and Neptune unfriendly planets to Jupiter.",
-            "Therefore, individuals associated with Numbers 4 and 7 are often unfriendly to those ruled by Jupiter(Number 3).",
-        ],
-        luckyColors: [
-            "Lucky colors for Number 3 persons: yellow, sandal, gold, orange, violet, pale blue, pale red.",
-            "Colors to avoid: green, black, brown, dark colors, dark blue.",
-        ],
+        rulingPlanet: {
+            data: [
+                " The ruling planet of Number 3 is Jupiter.",
+                "Jupiter represents wisdom and knowledge, aiding in a successful career.",
+                "Sun, Moon, Jupiter, Mercury, Venus, Saturn, Mars are the friendly planets.",
+                "People ruled by these friendly planets are likely to be amicable towards those ruled by Jupiter.",
+                "Uranus and Neptune unfriendly planets to Jupiter.",
+                "Therefore, individuals associated with Numbers 4 and 7 are often unfriendly to those ruled by Jupiter(Number 3).",
+            ],
+            img: jupiter,
+        },
+        luckyColors: {
+            data: [
+                "Lucky colors for Number 3 persons: yellow, sandal, gold, orange, violet, pale blue, pale red.",
+                "Colors to avoid: green, black, brown, dark colors, dark blue.",
+            ],
+            img: three,
+        },
         character: [{
             heading: "Embrace Your Unique Traits",
             para: "Guided by Wisdom: As a Number 3 person, you are ruled by Jupiter, the Guru of Devas. This celestial influence makes you an excellent teacher, advisor, counsellor, speaker, and orator.",
@@ -122,21 +166,26 @@ export const psychicData = [
         mainPara: "Is your birthday the 4th, 13th, 22nd, or 31st of any month? If so, you might be a Number 4, ruled by the mysterious Uranus (Rahu). Number 4s are a fascinating breed, known for their unconventional thinking and independent spirit.",
         videoUrl: "",
         imgUrl: "",
-        rulingPlanet: [
-            "The ruling planet of number 4 is Rahu, a pseudo planet.",
-            "People born on the 4th, 13th, 22nd, or 31st of any month are influenced by Rahu.",
-            "Best qualities of Rahu are evident in these individuals.",
-            "Sun, Moon, Mercury, Venus, Neptune, and Mars are in harmony with Uranus.",
-            "People ruled by these planets are in harmony with number 4.",
-            "Jupiter and Saturn are enemies of Uranus.",
-            "Numbers 3, 4, and 8 are unfriendly to number 4 individuals.",
-        ],
-
-        luckyColors: [
-            "Lucky colors for Number 4: Electric blue, Grey, Black.",
-            "Grey is the best color for Number 4.",
-            "They can wear grey color clothes or can use this color in their surroundings."
-        ],
+        rulingPlanet: {
+            data: [
+                "The ruling planet of number 4 is Rahu, a pseudo planet.",
+                "People born on the 4th, 13th, 22nd, or 31st of any month are influenced by Rahu.",
+                "Best qualities of Rahu are evident in these individuals.",
+                "Sun, Moon, Mercury, Venus, Neptune, and Mars are in harmony with Uranus.",
+                "People ruled by these planets are in harmony with number 4.",
+                "Jupiter and Saturn are enemies of Uranus.",
+                "Numbers 3, 4, and 8 are unfriendly to number 4 individuals.",
+            ],
+            img: moon,
+        },
+        luckyColors: {
+            data: [
+                "Lucky colors for Number 4: Electric blue, Grey, Black.",
+                "Grey is the best color for Number 4.",
+                "They can wear grey color clothes or can use this color in their surroundings."
+            ],
+            img: four,
+        },
         character: [{
             heading: "Unconventional Thinkers",
             para: "Number 4s see the world through a unique lens, constantly challenging the status quo with their innovative ideas. They're the natural-born reformers, always striving to make things better.",
@@ -163,19 +212,24 @@ export const psychicData = [
         mainPara: "Is your birthday the 5th, 14th, or 23rd of any month? Then you belong to the number 5",
         videoUrl: "",
         imgUrl: "",
-        rulingPlanet: [
-            "The ruling planet of Number 5 is Mercury.",
-            "Individuals born on the 5th, 14th, or 23rd influenced by Mercury.",
-            "Mercury's best qualities evident in them.",
-            "Sun, Jupiter, Uranus, Venus, Neptune, Saturn, Mars harmonize with Mercury, except Moon.",
-            "Psychic number 2 individuals tend to be anti-number 5.",
-            "Numbers 1, 3, 4, 5, 6, 7, 8, 9 tend to be friends with number 5 individuals."
-        ],
-
-        luckyColors: [
-            "Lucky colors for number 5 persons: gray, ash, gold of the dawn, silver, blue of a clear day, white, glistening material",
-            "Colors to avoid: black, coffee brown, all dark colors, green, and any color associated with green"
-        ],
+        rulingPlanet: {
+            data: [
+                "The ruling planet of Number 5 is Mercury.",
+                "Individuals born on the 5th, 14th, or 23rd influenced by Mercury.",
+                "Mercury's best qualities evident in them.",
+                "Sun, Jupiter, Uranus, Venus, Neptune, Saturn, Mars harmonize with Mercury, except Moon.",
+                "Psychic number 2 individuals tend to be anti-number 5.",
+                "Numbers 1, 3, 4, 5, 6, 7, 8, 9 tend to be friends with number 5 individuals."
+            ],
+            img: mercury,
+        },
+        luckyColors: {
+            data: [
+                "Lucky colors for number 5 persons: gray, ash, gold of the dawn, silver, blue of a clear day, white, glistening material",
+                "Colors to avoid: black, coffee brown, all dark colors, green, and any color associated with green"
+            ],
+            img: five,
+        },
         character: [{
             heading: "Reformers",
             para: "They naturally challenge the status quo and seek to improve or change things.",
@@ -206,21 +260,26 @@ export const psychicData = [
         mainPara: "If your birthday falls on the 6th, 15th, or 24th of any month, you belong to a special group: Number 6 individuals, guided by the enchanting planet Venus.",
         videoUrl: "",
         imgUrl: "",
-        rulingPlanet: [
-            "The ruling planet of number 6 is Venus.",
-            "Individuals born on the 6th, 15th, or 24th influenced by Venus.",
-            "Best qualities of Venus evident in them.",
-            "Friends of Venus: Jupiter, Uranus, Mercury, Saturn, Mars.",
-            "Numbers 3, 4, 5, 8, 9 tend to be friends with number 6 individuals.",
-            "Unfriendly to Venus: Sun, Moon, Neptune.",
-            "Numbers 1, 2, 6, 7 are unfriendly to number 6 individuals.",
-        ],
-
-        luckyColors: [
-            " Lucky colors for number 6 persons: Green: Most fortunate color.",
-            "Other colors associated with green: dark green, light green, parrot green, pale blue, reddish green, shades of rose or pink (excluding red, scarlet, or crimson).",
-            "Colors to avoid: rose, red, orange, and yellow for number 6 persons."
-        ],
+        rulingPlanet: {
+            data: [
+                "The ruling planet of number 6 is Venus.",
+                "Individuals born on the 6th, 15th, or 24th influenced by Venus.",
+                "Best qualities of Venus evident in them.",
+                "Friends of Venus: Jupiter, Uranus, Mercury, Saturn, Mars.",
+                "Numbers 3, 4, 5, 8, 9 tend to be friends with number 6 individuals.",
+                "Unfriendly to Venus: Sun, Moon, Neptune.",
+                "Numbers 1, 2, 6, 7 are unfriendly to number 6 individuals.",
+            ],
+            img: venus,
+        },
+        luckyColors: {
+            data: [
+                " Lucky colors for number 6 persons: Green: Most fortunate color.",
+                "Other colors associated with green: dark green, light green, parrot green, pale blue, reddish green, shades of rose or pink (excluding red, scarlet, or crimson).",
+                "Colors to avoid: rose, red, orange, and yellow for number 6 persons."
+            ],
+            img: six,
+        },
         character: [{
             heading: "",
             para: "Venus, the Roman goddess of love and beauty, bestows upon number 6s a captivating charm. Kind, nurturing, and deeply attached to loved ones, you embody the essence of a caring friend and a devoted family member. Just like a mother, you strive to create harmony and peace within your circle.\n\n But your magnetism goes beyond your inner circle. Number 6s possess an irresistible aura that draws people in. A natural eye for beauty, you appreciate the finer things in life and may indulge in luxurious experiences. However, this love for aesthetics can sometimes lead to impulsive spending.",
@@ -232,19 +291,25 @@ export const psychicData = [
         mainPara: "If you were born on the 7th, 16th, or 25th of any month, you might be a Number 7 personality, guided by the enigmatic planet Neptune (Ketu).",
         videoUrl: "",
         imgUrl: "",
-        rulingPlanet: [
-            "The ruling planet of number 7 is Ketu (Neptune).",
-            "Individuals born on the 7th, 16th, or 25th of any month are influenced by Ketu.",
-            "Best qualities of Ketu evident in them.",
-            "Friendly planets of Neptune: Sun, Moon, Uranus, Mercury.",
-            "People ruled by these planets tend to be friendly to number 7 individuals.",
-            "Jupiter, Venus, Saturn, Mars are enemies to Neptune.",
-            "Numbers 3, 6, 7, 8, 9 are unfriendly to number 7 individuals.",
-        ],
-        luckyColors: [
-            "Lucky colors for number 7 persons: pale yellow, pale green, pale blue, white.",
-            "Colors to avoid: black, red, coffee brown, and all dark colors.",
-        ],
+        rulingPlanet: {
+            data: [
+                "The ruling planet of number 7 is Ketu (Neptune).",
+                "Individuals born on the 7th, 16th, or 25th of any month are influenced by Ketu.",
+                "Best qualities of Ketu evident in them.",
+                "Friendly planets of Neptune: Sun, Moon, Uranus, Mercury.",
+                "People ruled by these planets tend to be friendly to number 7 individuals.",
+                "Jupiter, Venus, Saturn, Mars are enemies to Neptune.",
+                "Numbers 3, 6, 7, 8, 9 are unfriendly to number 7 individuals.",
+            ],
+            img: neptune,
+        },
+        luckyColors: {
+            data: [
+                "Lucky colors for number 7 persons: pale yellow, pale green, pale blue, white.",
+                "Colors to avoid: black, red, coffee brown, and all dark colors.",
+            ],
+            img: seven,
+        },
         character: [{
             heading: "Ruled by Intuition and Inquiry",
             para: "Your intuition is a powerful compass, guiding you towards hidden truths. You have a natural curiosity and a thirst for knowledge, especially in areas like philosophy, spirituality, and the occult.",
@@ -271,19 +336,25 @@ export const psychicData = [
         mainPara: "If you were born on the 8th, 17th, or 26th of any month, you might be a Number 8 – a force to be reckoned with in the grand scheme of the universe.",
         videoUrl: "",
         imgUrl: "",
-        rulingPlanet: [
-            "The ruling planet of number 8 is Saturn.",
-            "Individuals born on the 8th, 17th, or 26th of any month are influenced by Saturn.",
-            "Best qualities of Saturn evident in those with 8 as their psychic number.",
-            "Harmony with Saturn: Moon, Jupiter, Mercury, Venus, Mars.",
-            "Friendly numbers of number 8: 2, 3, 5, 6.",
-            "Enemies of Saturn: Sun, Uranus, Neptune, Saturn.",
-            "Unfriendly numbers to number 8: 1, 4, 7, 8, 9.",
-        ],
-        luckyColors: [
-            "Lucky colors for number 8 persons: blue, dark blue, yellow, golden, sandal.",
-            "Colors to avoid: black, coffee brown, red, areca brown, and all dark colors."
-        ],
+        rulingPlanet: {
+            data: [
+                "The ruling planet of number 8 is Saturn.",
+                "Individuals born on the 8th, 17th, or 26th of any month are influenced by Saturn.",
+                "Best qualities of Saturn evident in those with 8 as their psychic number.",
+                "Harmony with Saturn: Moon, Jupiter, Mercury, Venus, Mars.",
+                "Friendly numbers of number 8: 2, 3, 5, 6.",
+                "Enemies of Saturn: Sun, Uranus, Neptune, Saturn.",
+                "Unfriendly numbers to number 8: 1, 4, 7, 8, 9.",
+            ],
+            img: saturn,
+        },
+        luckyColors: {
+            data: [
+                "Lucky colors for number 8 persons: blue, dark blue, yellow, golden, sandal.",
+                "Colors to avoid: black, coffee brown, red, areca brown, and all dark colors."
+            ],
+            img: eight,
+        },
         character: [{
             heading: "",
             para: "Ruled by mighty Saturn, the planet of discipline and karma, Number 8 individuals are known for their ambition, drive, and unwavering determination. They are the architects of their own success, possessing an analytical mind and a relentless work ethic. Justice and fairness are paramount to them, making them natural leaders who can steer any project towards prosperity.\n\n But wait, there's more! Number 8s also possess a magnetic charisma, often hiding a warm heart beneath a composed exterior. However, their relentless pursuit of wealth and material security can sometimes border on obsession.",
@@ -299,20 +370,26 @@ export const psychicData = [
         mainPara: "Born on the 9th, 18th, or 27th of any month? If so, you might be a Number 9 personality, ruled by the powerful planet Mars!",
         videoUrl: "",
         imgUrl: "",
-        rulingPlanet: [
-            "Ruling planet of number 9: Mars.",
-            "Individuals born on dates 9, 18, or 27 influenced by Mars.",
-            "Best qualities of Mars evident in those with 9 as their psychic number.",
-            "Friendly planets of Mars: Sun, Moon, Jupiter, Uranus, Mercury, Venus.",
-            "People with these ruling planets harmonize with those ruled by Mars.",
-            "Neptune and Saturn are anti to Mars.",
-            "Numbers 7 and 8 are anti to number 9."
-        ],
-        luckyColors: [
-            "Mars, the ruling planet of number 9, is associated with the color red.",
-            "Therefore, all shades of red and pink are suitable for individuals influenced by number 9.",
-            "Using pink bed sheets, handkerchiefs, room curtains, and pillow covers can enhance good and smooth interactions for them."
-        ],
+        rulingPlanet: {
+            data: [
+                "Ruling planet of number 9: Mars.",
+                "Individuals born on dates 9, 18, or 27 influenced by Mars.",
+                "Best qualities of Mars evident in those with 9 as their psychic number.",
+                "Friendly planets of Mars: Sun, Moon, Jupiter, Uranus, Mercury, Venus.",
+                "People with these ruling planets harmonize with those ruled by Mars.",
+                "Neptune and Saturn are anti to Mars.",
+                "Numbers 7 and 8 are anti to number 9."
+            ],
+            img: mars,
+        },
+        luckyColors: {
+            data: [
+                "Mars, the ruling planet of number 9, is associated with the color red.",
+                "Therefore, all shades of red and pink are suitable for individuals influenced by number 9.",
+                "Using pink bed sheets, handkerchiefs, room curtains, and pillow covers can enhance good and smooth interactions for them."
+            ],
+            img: nine,
+        },
         character: [{
             heading: "Humanitarians at Heart",
             para: "Number 9s are known for their compassionate and helpful nature. You possess a natural curiosity and a strong desire to protect those around you. With a warrior's spirit, you believe in order, duty, and discipline, striving for control to ensure a just outcome.",
@@ -714,19 +791,19 @@ export const servicesData = [{
     name: "Consult for Marriage",
     data: "Looking to get advice on marriage whether getting delayed, not finding right partner or just want to find out the right timing or anything related to marriage.",
     meetLink: "",
-    imgUrl: ""
+    imgUrl: mariiage_service
 },
 {
     name: "Consult for Career",
     data: " Feel like not getting rewarded or recognized at work or having issues at work or feel things are getting stagnant or anything related to career.",
     meetLink: "",
-    imgUrl: ""
+    imgUrl: carrer_service
 },
 {
     name: "Consult for Education",
     data: "Facing issues in passing the exam or not sure which professional path to go or any education related matter or not able to focus.",
     meetLink: "",
-    imgUrl: ""
+    imgUrl: education_service
 },
 {
     name: "Consult for Life guidance",
@@ -738,10 +815,10 @@ export const servicesData = [{
     name: "Business Name Consultation",
     data: "Want to get in touch for getting ideal business name designed. This would be the best fit.",
     meetLink: "",
-    imgUrl: ""
+    imgUrl: business_name
 },
 {
-    name: "Compatibility consultation ",
+    name: "Compatibility consultation",
     data: "Having some compatibility issues or want to find out how compatible you are with your partner.",
     meetLink: "",
     imgUrl: ""
@@ -750,11 +827,11 @@ export const servicesData = [{
     name: "Personal Name Consultation",
     data: " If looking for personal name aligned as per numerology focused on overall or one focused area, then you can book here",
     meetLink: "",
-    imgUrl: ""
+    imgUrl: naming_service
 },
 {
-    name: "Business Wellbeing Consultation ",
+    name: "Business Wellbeing Consultation",
     data: "Facing issues in business?",
     meetLink: "",
-    imgUrl: ""
+    imgUrl: business_service
 }];

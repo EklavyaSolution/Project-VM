@@ -21,7 +21,7 @@ const DestinyNumbers = ({ params }) => {
 
     return (
         <div className='bg-[#FFFBF6] w-full h-full min-h-screen mb-8 lg:mb-16'>
-            {/* <div className='w-full h-[300px] overflow-hidden relative'>
+            <div className='w-full h-[300px] overflow-hidden relative'>
                 <Image src={about_bg} alt="" className='w-full h-full object-cover' />
                 <div className='w-full absolute top-6 -left-6 flex justify-between items-center px-32'>
                     <div className='text-white font-semibold -mt-10 ml-44 relative'>
@@ -33,7 +33,7 @@ const DestinyNumbers = ({ params }) => {
                         <Image src={banner_man} alt='Venky Musti | Best Numerologist' className='w-80' />
                     </div>
                 </div>
-            </div> */}
+            </div>
             <div className='w-full mx-auto max-w-[1200px] mt-12 px-5 lg:px-0 flex flex-col items-center'>
                 <h3 className='text-center text-[#10101E] text-3xl lg:text-[33px] font-semibold'>Number {params.id} as Destiny Number</h3>
                 <p className='text-center text-[#EA8427] text-xl lg:text-2xl mt-2 tracking-wide font-semibold'>{destinyData[params.id > 10 ? params.id - 1 - (1 + ((params.id % 10 - 1) * 10)) : params.id - 1].mainPara}</p>
@@ -45,7 +45,7 @@ const DestinyNumbers = ({ params }) => {
                         <button className='text-white outline-none rounded px-4 py-2 font-semibold tracking-wider bg-[#F2934C]'>Book Appointment</button>
                     </Link>
                 </div>
-                {/* <div className='w-full py-8 px-16 flex gap-10 border border-[#15138C] rounded-md'>
+                <div className='w-full py-8 px-16 flex gap-10 border border-[#15138C] rounded-md'>
                     <div className='w-96 h-56 bg-red-400 rounded-md overflow-hidden'>
                         <Image />
                     </div>
@@ -57,7 +57,7 @@ const DestinyNumbers = ({ params }) => {
                             })}
                         </ul>
                     </div>
-                </div> */}
+                </div>
             </div>
             <BookNumeroSession />
             {destinyData[params.id > 10 ? params.id - 1 - (1 + ((params.id % 10 - 1) * 10)) : params.id - 1].destiny.map((item, index) => {
