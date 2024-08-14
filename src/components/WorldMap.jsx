@@ -32,22 +32,22 @@ const WorldMap = () => {
             <div className='w-[90%] mx-auto'>
                 <Image src={map} alt='Global Locations of Venky Musti' className='w-full object-cover' />
             </div>
-            <div className='mt-10 flex justify-center text-start gap-32'>
-                <div className='flex gap-6 items-start'>
+            <div className='mt-10 flex flex-wrap px-5 justify-start lg:justify-center text-start gap-12 lg:gap-32'>
+                <div className='max-[880px]:w-[300px] flex gap-6 items-start'>
                     <Image src={usamark} alt='' className='w-5 mt-1.5' />
                     <div>
                         <h3 className='font-semibold text-[#43BCCD] text-2xl'>USA</h3>
                         <p className='font-semibold text-[#3D3D3D] mt-1 font-nunito'>Tulip Ct, Edison, NJ 08820,<br />United States</p>
                     </div>
                 </div>
-                <div className='flex gap-6 items-start'>
+                <div className='max-[880px]:w-[300px] flex gap-6 items-start'>
                     <Image src={australiamark} alt='' className='w-5 mt-1.5' />
                     <div>
                         <h3 className='text-[#A0C261] font-semibold text-2xl'>Australia</h3>
                         <p className='font-semibold text-[#3D3D3D] mt-1 font-nunito'>Sydney, NSW, <br />Australia</p>
                     </div>
                 </div>
-                <div className='flex gap-6 items-start'>
+                <div className='max-[880px]:w-[300px] flex gap-6 items-start'>
                     <Image src={dubaimark} alt='' className='w-5 mt-1.5' />
                     <div>
                         <h3 className='font-semibold text-[#662E9B] text-2xl'>Dubai</h3>

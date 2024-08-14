@@ -11,20 +11,20 @@ const layout = ({ children }) => {
 
     return (
         <div className='w-full h-full min-h-screen mb-16'>
-            <div className='w-full grid place-items-center h-56 bg-header_bg bg-cover bg-center'>
-                <h1 className='text-white font-semibold font-poppins text-5xl tracking-[0.7px]'>Worldwide Presence</h1>
+            <div className='w-full grid place-items-center h-32 lg:h-56 bg-header_bg bg-cover bg-center'>
+                <h1 className='text-white text-center font-semibold font-poppins text-4xl lg:text-5xl tracking-[1px] lg:tracking-[0.7px]'>Worldwide Presence</h1>
             </div>
             <div className='w-full mx-auto max-w-[1200px] mt-10 text-center'>
-                <h2 className='font-semibold text-[#10101E] text-[33px]'>Globally <span className='text-[#261891]'>Locations</span> </h2>
-                <p className='text-lg font-medium font-nunito text-[#3D3D3D] mt-1 mb-12'>Strategically Located to Serve You Better, Offering Comprehensive Solutions Across the Globe</p>
+                <h2 className='font-semibold text-[#10101E] text-3xl lg:text-[33px]'>Globally <span className='text-[#261891]'>Locations</span> </h2>
+                <p className='lg:text-lg font-medium font-nunito text-[#3D3D3D] mb-5 lg:mb-12 mx-auto w-[90%] mt-1'>Strategically Located to Serve You Better, Offering Comprehensive Solutions Across the Globe</p>
                 <WorldMap />
             </div>
             <div className='my-16'>
                 <AboutVenky />
             </div>
             <div className='w-full mx-auto max-w-[1200px] '>
-                <h2 className='font-semibold text-[#10101E] text-2xl text-center'>Get your personalized Numerology reading from Astro Numerologist Venky Musti</h2>
-                <p className='text-lg font-medium font-nunito text-[#3D3D3D] mt-2 mb-10 text-center'>Connecting you with around the World</p>
+                <h2 className='font-semibold text-[#10101E] text-xl lg:text-2xl text-center px-5 lg:px-0'>Get your personalized Numerology reading from Astro Numerologist Venky Musti</h2>
+                <p className='lg:text-lg font-medium font-nunito text-[#3D3D3D] mt-2 mb-10 text-center'>Connecting you with around the World</p>
 
                 <div className='w-full flex justify-center gap-10 mb-4'>
                     <Link href="/our-global-presence/usa"><h3 className={`${pathname.includes("usa") ? "text-[#FC993E] border-b-[3px] border-[#FC993E]" : "text-[#3D3D3D]"} font-semibold text-lg`}>USA</h3></Link>

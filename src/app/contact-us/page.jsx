@@ -70,13 +70,13 @@ const ContactUs = () => {
 
 
   return (
-    <div className='bg-[#FFFBF6] w-full h-full min-h-screen pb-16'>
-      <div className='w-full grid place-items-center h-56 bg-header_bg bg-cover bg-center'>
-        <h1 className='text-white font-semibold font-poppins text-5xl tracking-[0.7px]'>Contact Us</h1>
+    <div className='bg-[#FFFBF6] w-full h-full min-h-screen mb-16'>
+      <div className='w-full grid place-items-center h-32 lg:h-56 bg-header_bg bg-cover bg-center'>
+        <h1 className='text-white font-semibold font-poppins text-4xl lg:text-5xl tracking-[1px] lg:tracking-[0.7px]'>Contact Us</h1>
       </div>
-      <div className='w-full mx-auto max-w-[1200px] mt-16 flex '>
-        <div className='w-[40%]'>
-          <h3 className='font-semibold text-[#10101E] text-[33px]'>Get In Touch and Explore</h3>
+      <div className='w-full mx-auto max-w-[1200px]  mt-8 lg:mt-16 flex lg:flex-row flex-col'>
+        <div className='w-full lg:w-[40%] px-5 lg:px-0'>
+          <h3 className='font-semibold text-[#10101E] text-3xl lg:text-[33px]'>Get In Touch and Explore</h3>
           <p className='font-medium font-nunito text-[#3D3D3D] mt-1'>Fill out the form </p>
           <div className='mt-10'>
             {contactDetails.map((item, index) => {
@@ -95,30 +95,30 @@ const ContactUs = () => {
 
           </div>
         </div>
-        <div className='w-[60%]'>
-          <div className='bg-[#FFF3E0] p-10 shadow-[0_4px_18px_2px_#FFD0A433] border-[0.5px] border-[#FFD0A4] rounded-lg'>
+        <div className='w-full lg:w-[60%] mt-12 lg:mt-0'>
+          <div className='bg-[#FFF3E0] px-6 lg:px-10 p-10 shadow-[0_4px_18px_2px_#FFD0A433] border-[0.5px] border-[#FFD0A4] rounded-lg'>
             <form className='flex flex-wrap justify-between items-center gap-5 font-semibold' onSubmit={handleSubmit}>
-              <div className='w-[47%]'>
+              <div className='w-full lg:w-[47%]'>
                 <label className='text-[#10101E] block mb-0.5'>Name</label>
                 <input type="text" name='name' value={formdata.name} onChange={handleChange} placeholder='Your Name*' className='bg-[#FFFFFF66] font-medium outline-none w-full border-[0.5px] border-[#FFD0A4] px-6 py-1.5 rounded' />
               </div>
-              <div className='w-[47%]'>
+              <div className='w-full lg:w-[47%]'>
                 <label className='text-[#10101E] block mb-0.5'>Mobile Number</label>
                 <input type="number" name='mobile' value={formdata.mobile} onChange={handleChange} placeholder='Mobile No.' className='bg-[#FFFFFF66] font-medium outline-none w-full border-[0.5px] border-[#FFD0A4] px-6 py-1.5 rounded' />
               </div>
-              <div className='w-[47%]'>
+              <div className='w-full lg:w-[47%]'>
                 <label className='text-[#10101E] block mb-0.5'>Email Address</label>
                 <input type="email" name='email' value={formdata.email} onChange={handleChange} placeholder='Email ID' className='bg-[#FFFFFF66] font-medium outline-none w-full border-[0.5px] border-[#FFD0A4] px-6 py-1.5 rounded' />
               </div>
-              <div className='w-[47%]'>
+              <div className='w-full lg:w-[47%]'>
                 <label className='text-[#10101E] block mb-0.5'>Date of Birth</label>
                 <input type="date" name='birthDate' value={formdata.birthDate} onChange={handleChange} placeholder='Date of Birth' className='bg-[#FFFFFF66] font-medium outline-none w-full border-[0.5px] border-[#FFD0A4] px-6 py-1.5 rounded' />
               </div>
-              <div className='w-[47%]'>
+              <div className='w-full lg:w-[47%]'>
                 <label className='text-[#10101E] block mb-0.5'>Birth Time</label>
                 <input type="time" name='birthTime' value={formdata.birthTime} onChange={handleChange} placeholder='Birth Time' className='bg-[#FFFFFF66] font-medium outline-none w-full border-[0.5px] border-[#FFD0A4] px-6 py-1.5 rounded' />
               </div>
-              <div className='w-[47%]'>
+              <div className='w-full lg:w-[47%]'>
                 <label className='text-[#10101E] block mb-0.5'>Birth Place</label>
                 <input type="text" name='birthPlace' value={formdata.birthPlace} onChange={handleChange} placeholder='Place of Birth' className='bg-[#FFFFFF66] font-medium outline-none w-full border-[0.5px] border-[#FFD0A4] px-6 py-1.5 rounded' />
               </div>

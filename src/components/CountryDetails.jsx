@@ -29,10 +29,10 @@ const CountryDetails = ({ country }) => {
         }
     }
     return (
-        <div className='bg-[#FFF3E0] py-10 px-16'>
-            <h3 className='text-center text-[#10101E] text-2xl mt-3 tracking-wide font-semibold'>{cityfunc().address}</h3>
-            <div className='grid place-items-center px-5 lg:px-0 mt-8 mb-10'>
-                <picture className='w-full max-w-[600px] h-[300px] overflow-hidden rounded-xl'>
+        <div className='bg-[#FFF3E0] py-10 px-5 lg:px-16'>
+            <h3 className='text-center text-[#10101E] text-xl lg:text-2xl mt-1 lg:mt-3 tracking-wide font-semibold'>{cityfunc().address}</h3>
+            <div className='grid place-items-center px-3 lg:px-0 mt-8 mb-10'>
+                <picture className='w-full max-w-[600px] h-[200px] lg:h-[300px] overflow-hidden rounded-xl'>
                     <Image src={cityfunc().img} alt='Venky Musti in USA' className='w-full h-full object-cover' />
                 </picture>
             </div>
