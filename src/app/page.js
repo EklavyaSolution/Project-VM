@@ -6,7 +6,7 @@ import about_vid from "@/assets/about_vid.svg"
 import Link from 'next/link';
 import swipePrev from "@/assets/swipePrev.svg"
 import swipeNext from "@/assets/swipeNext.svg"
-import banner_man from "@/assets/banner_man.svg"
+import banner_man from "@/assets/venky.png"
 import numero_sol1 from "@/assets/numero_sol1.svg"
 import numero_sol2 from "@/assets/numero_sol2.svg"
 import numero_sol3 from "@/assets/numero_sol3.svg"
@@ -100,7 +100,7 @@ const App = () => {
               <h5 className='text-xl tracking-wider mb-6'>Astro Numerology | Career | Relationship | Business</h5>
               <Link href="/appointment"><button className='bg-[#F2934C]  px-7 py-2 rounded tracking-wider'>Book Appointment</button></Link>
             </div>
-            <Image src={banner_man} alt='Venky Musti | Best Numerologist' className='w-96' />
+            <Image src={banner_man} alt='Venky Musti | Best Numerologist' className='w-[28rem] -mr-8' />
           </div>
         </div>
         <div>
@@ -110,7 +110,7 @@ const App = () => {
               <h5 className='text-xl tracking-wider mb-6'>Astro Numerology | Career | Relationship | Business</h5>
               <Link href="/appointment"><button className='bg-[#F2934C]  px-7 py-2 rounded tracking-wider'>Book Appointment</button></Link>
             </div>
-            <Image src={banner_man} alt='Venky Musti | Best Numerologist' className='w-96' />
+            <Image src={banner_man} alt='Venky Musti | Best Numerologist' className='w-[28rem] -mr-8' />
           </div>
         </div>
         <div>
@@ -120,7 +120,7 @@ const App = () => {
               <h5 className='text-xl tracking-wider mb-6'>Astro Numerology | Career | Relationship | Business</h5>
               <Link href="/appointment"><button className='bg-[#F2934C]  px-7 py-2 rounded tracking-wider'>Book Appointment</button></Link>
             </div>
-            <Image src={banner_man} alt='Venky Musti | Best Numerologist' className='w-96' />
+            <Image src={banner_man} alt='Venky Musti | Best Numerologist' className='w-[28rem] -mr-8' />
           </div>
         </div>
       </Slider>

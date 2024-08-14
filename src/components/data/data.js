@@ -34,6 +34,19 @@ import education_service from "@/assets/education_service.jpg";
 import mariiage_service from "@/assets/mariiage_service.jpg";
 import naming_service from "@/assets/naming_service.jpg";
 
+import num1 from "@/assets/num1.svg"
+import num2 from "@/assets/num2.svg"
+import num3 from "@/assets/num3.svg"
+import num4 from "@/assets/num4.svg"
+import num5 from "@/assets/num5.svg"
+import num6 from "@/assets/num6.svg"
+import num7 from "@/assets/num7.svg"
+import num8 from "@/assets/num8.svg"
+import num9 from "@/assets/num9.svg"
+import num11 from "@/assets/num11.svg"
+import num22 from "@/assets/num22.svg"
+import num33 from "@/assets/num33.svg"
+
 
 export const psychicData = [
     {
@@ -413,12 +426,15 @@ export const destinyData = [
         number: 1,
         mainPara: "Destiny number 1 is a highly favorable number. Individuals with this life path possess a vibrant creative energy, enabling them to excel in various endeavors",
         videoUrl: "",
-        destinyNum: [
-            "Born leader with strong willpower, masters their destiny, and excels in leadership roles.",
-            "Intolerant of others' control, driven by creativity and goal orientation.",
-            "Risk of bluntness due to assertiveness and independence.",
-            "Potential perception of selfishness stemming from their drive for autonomy."
-        ],
+        destinyNum: {
+            data: [
+                "Born leader with strong willpower, masters their destiny, and excels in leadership roles.",
+                "Intolerant of others' control, driven by creativity and goal orientation.",
+                "Risk of bluntness due to assertiveness and independence.",
+                "Potential perception of selfishness stemming from their drive for autonomy."
+            ],
+            img: num1,
+        },
         destiny: [{
             heading: "The Need for Power",
             para: "Those with a destiny for independence thrive in high-power careers like entrepreneurs and CEOs, but may struggle with impatience and bossiness. Their desire for power can strain relationships and hinder personal growth. It's important to practice patience, improve listening skills, and consider soul urge and expression numbers for self-awareness and balance.",
@@ -438,12 +454,15 @@ export const destinyData = [
         number: 2,
         mainPara: "Destiny number 2 may not be considered the most favorable number, but individuals with this life path are excellent decision-makers.",
         videoUrl: "",
-        destinyNum: [
-            "Diplomatic and cooperative, adept at resolving conflicts calmly.",
-            "Valued for persuasive skills and trusted in mediation roles.",
-            "Careful of overprotectiveness, occasionally seen as patronizing.",
-            "Should strive to avoid unintended patronizing behavior while mediating."
-        ],
+        destinyNum: {
+            data: [
+                "Diplomatic and cooperative, adept at resolving conflicts calmly.",
+                "Valued for persuasive skills and trusted in mediation roles.",
+                "Careful of overprotectiveness, occasionally seen as patronizing.",
+                "Should strive to avoid unintended patronizing behavior while mediating."
+            ],
+            img: num2,
+        },
         destiny: [{
             heading: "Your Calm Nature",
             para: "Destiny number 2 individuals possess a deep calmness that spans work, relationships, and family. Enhanced by their listening, persuasion, and tact, they find serenity in art and beauty, bolstering their composure alongside their sensitivity to media.",
@@ -463,12 +482,15 @@ export const destinyData = [
         number: 3,
         mainPara: "Destiny number 3 is often viewed positively, as individuals following this life path tend to exude optimism and positivity.",
         videoUrl: "",
-        destinyNum: [
-            "Destiny number 3 individuals are optimistic and sociable, known for their natural charm and wit.",
-            "They express themselves creatively through various art forms, showcasing strong creativity.",
-            "Their positive outlook infuses enthusiasm into their approach to life.",
-            "They excel in social settings, adept at building meaningful connections with others."
-        ],
+        destinyNum: {
+            data: [
+                "Destiny number 3 individuals are optimistic and sociable, known for their natural charm and wit.",
+                "They express themselves creatively through various art forms, showcasing strong creativity.",
+                "Their positive outlook infuses enthusiasm into their approach to life.",
+                "They excel in social settings, adept at building meaningful connections with others."
+            ],
+            img: num3,
+        },
         destiny: [{
             heading: "Full of Creativity",
             para: "Destiny number 3 individuals overflow with creativity, expressing through art, music, or writing. They innovate with imaginative solutions, thriving in creative environments to experiment with new ideas. Their creativity spreads joy and inspires innovation globally.",
@@ -485,13 +507,16 @@ export const destinyData = [
         number: 4,
         mainPara: "In numerology, number 4 signifies individuals who excel as counselors, advisors, and attentive listeners, offering impartial insights essential for sound decision-making.",
         videoUrl: "",
-        destinyNum: [
-            "Destiny number 4 individuals prioritize practicality and reliability.",
-            "They may struggle to incorporate fun into their lives but find fulfillment in work and solitude.",
-            "They value honesty and efficiency in relationships and work.",
-            "Excel at improving systems and managing tasks effectively.",
-            "While perceived as dull by some, they find contentment in their values and priorities."
-        ],
+        destinyNum: {
+            data: [
+                "Destiny number 4 individuals prioritize practicality and reliability.",
+                "They may struggle to incorporate fun into their lives but find fulfillment in work and solitude.",
+                "They value honesty and efficiency in relationships and work.",
+                "Excel at improving systems and managing tasks effectively.",
+                "While perceived as dull by some, they find contentment in their values and priorities."
+            ],
+            img: num4,
+        },
         destiny: [{
             heading: "Your Organizational Skills",
             para: "Destiny number 4 individuals excel in leadership with exceptional organizational skills, managing tasks efficiently in both professional and personal realms. They balance self-discipline and confidence, though they should avoid excessive control in relationships, maintaining a healthy balance of assertiveness and sensitivity.",
@@ -514,12 +539,15 @@ export const destinyData = [
         number: 5,
         mainPara: "Destiny number 5 stands out as one of the most favorable numbers in numerology. Individuals with this life path possess captivating and appealing personalities.",
         videoUrl: "",
-        destinyNum: [
-            "Carefree and adventurous communicators thriving on variety.",
-            "Seeking change and new experiences, often outgrowing old friendships and craving travel.",
-            "Restless nature leading to boredom yet fostering progressiveness and adaptability.",
-            "Needing to balance criticism and escapism, focusing on enjoyment and stable careers."
-        ],
+        destinyNum: {
+            data: [
+                "Carefree and adventurous communicators thriving on variety.",
+                "Seeking change and new experiences, often outgrowing old friendships and craving travel.",
+                "Restless nature leading to boredom yet fostering progressiveness and adaptability.",
+                "Needing to balance criticism and escapism, focusing on enjoyment and stable careers."
+            ],
+            img: num5,
+        },
         destiny: [{
             heading: "Adventure",
             para: "Destiny number 5 individuals thrive on adventure and change, rejecting routine for daring and varied pursuits. They seek constant progress and fulfillment through exploration of new environments and interactions with diverse people. Their travels are driven by a love for novelty and eccentricity, embodying a spirit of true adventure and exploration.",
@@ -542,13 +570,16 @@ export const destinyData = [
         number: 6,
         mainPara: "Destiny number 6 is generally considered less favorable. Individuals with Destiny/life path number 6 often find themselves overwhelmed with their workload.",
         videoUrl: "",
-        destinyNum: [
-            "Characterized by consideration, affection, and responsibility.",
-            "Excel in nurturing others and maintaining high life standards.",
-            "Achieve goals through loyalty and responsibility despite challenges.",
-            "Valuable employees and leaders, benefiting individuals and organizations.",
-            "Aspire to spread love and beauty, fostering a positive global impact."
-        ],
+        destinyNum: {
+            data: [
+                "Characterized by consideration, affection, and responsibility.",
+                "Excel in nurturing others and maintaining high life standards.",
+                "Achieve goals through loyalty and responsibility despite challenges.",
+                "Valuable employees and leaders, benefiting individuals and organizations.",
+                "Aspire to spread love and beauty, fostering a positive global impact."
+            ],
+            img: num6,
+        },
         destiny: [{
             heading: "The Nurturer",
             para: "Destiny number 6 individuals, linked with The Lovers in tarot, nurture compassion and happiness in relationships. They thrive in healthcare, teaching, acting, or writing, driven by a mission to uplift others through their nurturing leadership.",
@@ -571,13 +602,16 @@ export const destinyData = [
         number: 7,
         mainPara: "Number 7 is regarded as a positive Destiny number. Individuals with Destiny/life path number 7 are compassionate and provide valuable guidance to others.",
         videoUrl: "",
-        destinyNum: [
-            "Embodies emotional expression, logic, and courage.",
-            "Challenges include intolerance and arrogance, hindering communication.",
-            "Essential to cultivate open-mindedness and expressive communication.",
-            "Self-study and creative outlets integrate logical and mystical aspects, like music.",
-            "Possess a diverse skill set to positively influence others."
-        ],
+        destinyNum: {
+            data: [
+                "Embodies emotional expression, logic, and courage.",
+                "Challenges include intolerance and arrogance, hindering communication.",
+                "Essential to cultivate open-mindedness and expressive communication.",
+                "Self-study and creative outlets integrate logical and mystical aspects, like music.",
+                "Possess a diverse skill set to positively influence others."
+            ],
+            img: num7,
+        },
         destiny: [{
             heading: "Your Intellect",
             para: "Destiny number 7 individuals are intellectual and value education, thriving on presenting new perspectives and wisdom. They may struggle with arrogance due to their strong opinions and reliance on facts, which can strain relationships. Despite talents in study, logic, and music, staying grounded is crucial for balanced interactions.",
@@ -600,13 +634,16 @@ export const destinyData = [
         number: 8,
         mainPara: "People with Destiny number 8 often attain success and wealth later in life, gradually building endurance unmatched by other numbers from 1 to 9.",
         videoUrl: "",
-        destinyNum: [
-            "Possess strong leadership qualities and high motivation.",
-            "Known for determination, hard work, and organizational skills.",
-            "Excel in competitive environments but may face challenges in relationships due to competitiveness.",
-            "Essential to maintain balance between work and personal life.",
-            "Resilience and refusal to give in help navigate stressful situations effectively."
-        ],
+        destinyNum: {
+            data: [
+                "Possess strong leadership qualities and high motivation.",
+                "Known for determination, hard work, and organizational skills.",
+                "Excel in competitive environments but may face challenges in relationships due to competitiveness.",
+                "Essential to maintain balance between work and personal life.",
+                "Resilience and refusal to give in help navigate stressful situations effectively."
+            ],
+            img: num8,
+        },
         destiny: [{
             heading: "A Career in Authority",
             para: "Destiny number 8 individuals are natural leaders excelling in authoritative careers like entrepreneurship, military, government, finance, or banking. Their drive for power propels them to overcome obstacles and excel as managers or hard-working employees, often rising to the top. They should balance ambitions with relationships, prioritizing work-life harmony.",
@@ -626,12 +663,15 @@ export const destinyData = [
         number: 9,
         mainPara: "Destiny number 9 individuals maintain a strong belief in the value of continuous effort and perseverance.",
         videoUrl: "",
-        destinyNum: [
-            "Artistic and generous, aiming to beautify the world.",
-            "Struggle with impatience and disappointment from unrealistic expectations.",
-            "Sensitivity and intolerance for mediocrity can hinder relationships.",
-            "Essential to develop tolerance and patience for personal growth and meaningful connections."
-        ],
+        destinyNum: {
+            data: [
+                "Artistic and generous, aiming to beautify the world.",
+                "Struggle with impatience and disappointment from unrealistic expectations.",
+                "Sensitivity and intolerance for mediocrity can hinder relationships.",
+                "Essential to develop tolerance and patience for personal growth and meaningful connections."
+            ],
+            img: num9,
+        },
         destiny: [{
             heading: "Selflessness",
             para: "Destiny number 9 individuals prioritize helping others selflessly, often sacrificing their own resources. While they value the well-being of others over material wealth, they may struggle with being selective in their interactions. Despite their generosity, they seek no recognition or personal gain from their acts of kindness.",
@@ -651,12 +691,15 @@ export const destinyData = [
         number: 11,
         mainPara: "Destiny number 11 signifies spiritual enlightenment and intuitive wisdom, embodying spiritual leadership and profound cosmic connection.",
         videoUrl: "",
-        destinyNum: [
-            "Thrive in show business, captivating audiences with charisma and talent.",
-            "Excel as communicators, sharing knowledge and skills effortlessly.",
-            "Strategic alliances with powerful figures propel careers to new heights.",
-            "Must remain vigilant against arrogance and maintain humility despite success."
-        ],
+        destinyNum: {
+            data: [
+                "Thrive in show business, captivating audiences with charisma and talent.",
+                "Excel as communicators, sharing knowledge and skills effortlessly.",
+                "Strategic alliances with powerful figures propel careers to new heights.",
+                "Must remain vigilant against arrogance and maintain humility despite success."
+            ],
+            img: num11,
+        },
         destiny: [{
             heading: "Communicating Into Power",
             para: "Destiny number 11 individuals thrive in spotlight careers like acting, artistry, music, and writing, often facing challenges to break in but leveraging communication skills to build influential relationships. Despite potential shortcuts, their strong business acumen helps achieve independence and leadership at the top.",
@@ -673,12 +716,15 @@ export const destinyData = [
         number: 22,
         mainPara: "Destiny number 22 embodies visionary leaders who excel in strategic thinking and practical innovation, empowering others through disciplined, long-term vision.",
         videoUrl: "",
-        destinyNum: [
-            "Destiny number 22 blends magnetism and practicality, yet may lean towards arrogance and laziness.",
-            "Their charm and charisma, coupled with a practical approach, ensures efficient goal achievement.",
-            "This practicality captures interest and facilitates realistic goal attainment.",
-            "Others are drawn to their knack for turning aspirations into tangible realities."
-        ],
+        destinyNum: {
+            data: [
+                "Destiny number 22 blends magnetism and practicality, yet may lean towards arrogance and laziness.",
+                "Their charm and charisma, coupled with a practical approach, ensures efficient goal achievement.",
+                "This practicality captures interest and facilitates realistic goal attainment.",
+                "Others are drawn to their knack for turning aspirations into tangible realities."
+            ],
+            img: num22,
+        },
         destiny: [{
             heading: "Charisma",
             para: "Destiny number 22 attracts success effortlessly with charisma in visibility-driven careers. Building friendships and a humanitarian image enhance influence. Balancing ambition with humility prevents arrogance, ensuring positive impact and goodwill in fame pursuits.",
@@ -695,13 +741,16 @@ export const destinyData = [
         number: 33,
         mainPara: "Destiny number 33 in numerology signifies great compassion, guidance, and spiritual leadership, embodying the traits of a master teacher and healer.",
         videoUrl: "",
-        destinyNum: [
-            "Destiny number 33 is a unique, creative, and nurturing master number.",
-            "These individuals undervalue their work and prioritize others.",
-            "They need purposeful work beyond just earning.",
-            "Accepting help and sharing responsibilities can benefit them.",
-            "They share traits with destiny numbers 3 and 6. Understanding these can provide better insight into their own number."
-        ],
+        destinyNum: {
+            data: [
+                "Destiny number 33 is a unique, creative, and nurturing master number.",
+                "These individuals undervalue their work and prioritize others.",
+                "They need purposeful work beyond just earning.",
+                "Accepting help and sharing responsibilities can benefit them.",
+                "They share traits with destiny numbers 3 and 6. Understanding these can provide better insight into their own number."
+            ],
+            img: num33,
+        },
         destiny: [{
             heading: "Finding an Outlet for Creativity",
             para: "Embrace writing, drawing, or performing for self-expression. Consider screenwriting or novel writing. Use music, dance, and drawing privately. Explore creative careers like teaching, childcare, or nursing, which nurture and comfort others creatively.",

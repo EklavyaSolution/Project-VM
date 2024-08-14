@@ -43,7 +43,7 @@ const PsychicNumbers = ({ params }) => {
         </div>
         <div className='w-full py-8 px-16 flex gap-10 border border-[#15138C] rounded-md'>
           <div className='w-96 h-56 bg-red-400 rounded-md overflow-hidden'>
-            <Image src={psychicData[params.id - 1].rulingPlanet.img} alt='Ruling Planet' />
+            <Image src={psychicData[params.id - 1].rulingPlanet.img} alt='Ruling Planet' className='w-full h-full object-cover' />
           </div>
           <div>
             <h3 className='text-[#10101E] tracking-wide text-2xl'>Ruling Planet of Number {params.id}</h3>
@@ -59,7 +59,7 @@ const PsychicNumbers = ({ params }) => {
             <Image src={psychicData[params.id - 1].luckyColors.img} alt='' className='w-full h-full object-cover' />
           </div>
           <div>
-            <h3 className='text-[#10101E] tracking-wide text-2xl'>Lucky Colors of Number 1</h3>
+            <h3 className='text-[#10101E] tracking-wide text-2xl'>Lucky Colors of Number {params.id}</h3>
             <ul className='w-[600px] font-medium font-nunito text-[#3D3D3D] text-lg mt-2.5 leading-5 ml-5 list-disc'>
               {psychicData[params.id - 1].luckyColors.data.map((item, index) => {
                 return <li key={index} className='mb-2'>{item}</li>
