@@ -14,7 +14,7 @@ function NextArrow(props) {
     const { onClick } = props;
     return (
         <div
-            className="w-10 h-10 hover:bg-[#dedede] bg-[#FFFBF6] rounded-full grid place-items-center cursor-pointer absolute top-1/2 -right-20 translate-y-[-50%] z-10"
+            className="w-10 h-10 hover:bg-[#dedede] bg-[#FFFBF6] rounded-full grid place-items-center cursor-pointer absolute top-1/2 -right-5 min-[840px]:-right-12 min-[1280px]:-right-20 translate-y-[-50%] z-10"
             onClick={onClick}
         >
             <Image src={swipeNext} alt='Next' className='w-3 ml-1' />
@@ -26,7 +26,7 @@ function PrevArrow(props) {
     const { onClick } = props;
     return (
         <div
-            className="w-10 h-10 hover:bg-[#dedede] bg-[#FFFBF6] rounded-full grid place-items-center cursor-pointer absolute top-1/2 -left-20 translate-y-[-50%] z-10"
+            className="w-10 h-10 hover:bg-[#dedede] bg-[#FFFBF6] rounded-full grid place-items-center cursor-pointer absolute top-1/2 -left-5 min-[840px]:-left-12 min-[1280px]:-left-20 translate-y-[-50%] z-10"
             onClick={onClick}
         >
             <Image src={swipePrev} alt='Next' className='w-3 -ml-1' />
@@ -38,16 +38,32 @@ function SimpleSlider({ data, slides, auto }) {
     const settings = {
         dots: false,
         infinite: true,
-        autoplay: auto,
+        autoplay: true,
+        lazyLoad: true,
         autoplaySpeed: 5000,
         speed: 700,
+        pauseOnHover: true,
         slidesToShow: slides,
         slidesToScroll: 1,
         nextArrow: <NextArrow />,
-        prevArrow: <PrevArrow />
+        prevArrow: <PrevArrow />,
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: slides - 1,
+                }
+            },
+            {
+                breakpoint: 840,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
     };
     return (
-        <Slider {...settings} className="w-[1200px] mx-auto">
+        <Slider {...settings} className="w-[87%] min-[1280px]:w-[85%] max-w-[1200px] mx-auto">
             {data}
         </Slider>
     );
