@@ -33,6 +33,9 @@ import carrer_service from "@/assets/carrer_service.jpg";
 import education_service from "@/assets/education_service.jpg";
 import mariiage_service from "@/assets/mariiage_service.jpg";
 import naming_service from "@/assets/naming_service.jpg";
+import compatibility_consultation from "@/assets/compatibility_consultation.png";
+import life_guidance from "@/assets/life_guidance.png";
+import astro from "@/assets/Physicno_img.svg";
 
 import num1 from "@/assets/num1.svg"
 import num2 from "@/assets/num2.svg"
@@ -834,7 +837,7 @@ export const servicesData = [{
     name: "Personal Astro Numerology Consultation",
     data: "Astro Numerology reading gives you a clear picture of your lucky career, health, marriage, relationship compatibility, personal lucky years, lucky colors, elements, remedies for overall  growth for next 5 years.",
     meetLink: "",
-    imgUrl: ""
+    imgUrl: astro
 },
 {
     name: "Consult for Marriage",
@@ -858,7 +861,7 @@ export const servicesData = [{
     name: "Consult for Life guidance",
     data: " Feeling clarity less in life?",
     meetLink: "",
-    imgUrl: ""
+    imgUrl: life_guidance
 },
 {
     name: "Business Name Consultation",
@@ -870,7 +873,7 @@ export const servicesData = [{
     name: "Compatibility consultation",
     data: "Having some compatibility issues or want to find out how compatible you are with your partner.",
     meetLink: "",
-    imgUrl: ""
+    imgUrl: compatibility_consultation
 },
 {
     name: "Personal Name Consultation",

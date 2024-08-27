@@ -17,6 +17,8 @@ import SliderComp from '@/components/SliderComp';
 import carbon_time from "@/assets/carbon_time.svg"
 import why_numero from "@/assets/why_numero.png"
 import mandala from "@/assets/mandala.svg"
+import banner_slide2 from "@/assets/banner_slide2.png"
+import banner_slide3 from "@/assets/banner_slide3.png"
 import { CustomerReview } from '@/components/data/data';
 
 
@@ -94,9 +96,9 @@ const App = () => {
     <div className='bg-white h-full min-h-screen'>
       <Slider ref={slider} {...settings}>
         <div>
-          <div className='w-full relative h-[300px]  min-[820px]:h-[360px] min-[1180px]:h-[400px] bg-banner_bg bg-cover bg-center overflow-hidden'>
-            <div className='text-white font-semibold absolute bottom-20  min-[1180px]:bottom-24 left-11 min-[820px]:left-[56px] min-[890px]:left-[70px] lg:left-24 min-[1180px]:left-32'>
-              <h2 className='text-xl min-[820px]:text-[26px] lg:text-3xl tracking-wider mb-1 lg:mb-2'>Best Numerologist in New Jersey</h2>
+          <div className='w-full relative h-[300px]  min-[820px]:h-[360px] min-[1180px]:h-[430px] bg-banner_bg bg-cover bg-center overflow-hidden'>
+            <div className='text-white font-semibold absolute bottom-20  min-[1180px]:bottom-28 left-11 min-[820px]:left-[56px] min-[890px]:left-[70px] lg:left-24 min-[1180px]:left-32'>
+              <h2 className='text-2xl min-[820px]:text-3xl lg:text-4xl tracking-wider mb-1 lg:mb-2'>Welcome to Numerologist's World</h2>
               <h5 className='min-[680px]:w-full w-[80%] min-[820px]:text-lg lg:text-xl tracking-wider mb-4 lg:mb-6'>Astro Numerology | Career | Relationship | Business</h5>
               <Link href="/appointment"><button className='bg-[#F2934C] py-1.5 px-4 lg:px-7 lg:py-2 max-[820px]:text-sm rounded tracking-wider'>Book Appointment</button></Link>
             </div>

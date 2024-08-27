@@ -2,6 +2,7 @@
 
 import Image from 'next/image'
 import React from 'react';
+import physic_img1 from "@/assets/physic_img1.png";
 import destiny_img from "@/assets/destiny_img.svg"
 import BookNumeroSession from '@/components/BookNumeroSession';
 import Numbers from '@/components/Numbers';
@@ -17,7 +18,7 @@ const Psychic_number = () => {
                 <h5 className='text-center text-[#EA8427] w-full lg:w-[90%] mx-auto font-semibold lg:text-2xl mt-2 px-5 lg:px-0'>Psychic Number is an important Number in Numerology. It is helpful in the long-term planning of events.</h5>
                 <div className='w-full px-5 lg:px-12 py-6 lg:py-8 flex flex-col lg:flex-row gap-6 lg:gap-12 bg-[#FFEECE] mt-10'>
                     <div className='w-full max-w-[380px] h-[190px] lg:h-[240px] overflow-hidden rounded-tl-2xl rounded-br-2xl'>
-                        <Image src={destiny_img} alt='Physic Numbers in Numerology' className='w-full h-full object-cover' />
+                        <Image src={physic_img1} alt='Physic Numbers in Numerology' className='w-full h-full object-cover' />
                     </div>
                     <div>
                         <h2 className='text-[#10101E] text-xl lg:text-2xl font-semibold mb-2 lg:mb-3'>What is Psychic Number?</h2>

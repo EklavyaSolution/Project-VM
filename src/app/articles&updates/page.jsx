@@ -2,8 +2,9 @@
 
 import Image from 'next/image'
 import React from 'react';
-import destiny_no from "@/assets/destinyno_img.svg"
-import physic_no from "@/assets/Physicno_img.svg"
+import article_img1 from "@/assets/article_img1.png"
+import article_img2 from "@/assets/article_img2.png"
+import article_img3 from "@/assets/article_img3.png"
 import Link from 'next/link';
 import BookNumeroSession from '@/components/BookNumeroSession';
 import AboutVenky from '@/components/AboutVenky';
@@ -19,7 +20,7 @@ const ArticlesandUpdates = () => {
         <p className='text-center mt-2 lg:text-lg font-medium font-nunito text-[#3D3D3D] mx-auto mb-10 lg:mb-16 w-full lg:w-[90%] px-5 lg:px-0'>Explore life's secrets with Venky Musti. Harmony and clarity await as you delve into the profound world of AstroNumerology. Best Marriage And Love Compatibility Consultation In Dubai.</p>
         <div className='flex flex-col lg:flex-row gap-7 lg:gap-10 bg-[#FDF2F8] px-5 lg:px-12 py-6 lg:py-10'>
           <div className='w-full max-w-[400px] h-[240px] lg:h-[310px] overflow-hidden rounded-tl-2xl rounded-br-2xl'>
-            <Image src={physic_no} alt='Physic Numbers in Numerology' className='w-full h-full object-cover' />
+            <Image src={article_img1} alt='Physic Numbers in Numerology' className='w-full h-full object-cover' />
           </div>
           <div className='w-full max-w-[660px]'>
             <h2 className='text-[#10101E] text-xl lg:text-2xl mb-1 font-semibold'>Exploring the Numbers: Unraveling the Mysteries of AstroNumerology</h2>
@@ -38,12 +39,12 @@ const ArticlesandUpdates = () => {
             </Link>
           </div>
           <div className='w-full max-w-[400px] h-[240px] lg:h-[310px] overflow-hidden rounded-tr-2xl rounded-bl-2xl'>
-            <Image src={destiny_no} alt='Physic Numbers in Numerology' className='w-full h-full object-cover' />
+            <Image src={article_img2} alt='Physic Numbers in Numerology' className='w-full h-full object-cover' />
           </div>
         </div>
         <div className='flex flex-col lg:flex-row gap-7 lg:gap-10 bg-[#F2FDF5] px-5 lg:px-12 py-6 lg:py-10 mt-12 mb-16'>
           <div className='w-full max-w-[400px] h-[240px] lg:h-[310px] overflow-hidden rounded-tl-2xl rounded-br-2xl'>
-            <Image src={physic_no} alt='Physic Numbers in Numerology' className='w-full h-full object-cover' />
+            <Image src={article_img3} alt='Physic Numbers in Numerology' className='w-full h-full object-cover' />
           </div>
           <div className='w-full max-w-[660px]'>
             <h2 className='text-[#10101E] text-xl lg:text-2xl font-semibold mb-1 lg:mb-2'>Number Traits: Unraveling the Mysteries of Numerology</h2>

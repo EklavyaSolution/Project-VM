@@ -1,10 +1,9 @@
 "use client"
 import React from 'react'
-import services_top from "@/assets/services_top.svg"
+import services_top from "@/assets/services_top.png"
 import Image from 'next/image'
 import Link from 'next/link'
 import VenkyExp from '@/components/VenkyExp'
-import physic_no from "@/assets/Physicno_img.svg"
 import { CustomerReview, servicesData } from '@/components/data/data'
 
 
@@ -42,7 +41,7 @@ const Services = () => {
               return <div key={index} className='bg-[#FFF3E0] min-h-[440px] group flex flex-col justify-between p-6 rounded-lg shadow-[0_4px_8px_0px_rgba(0,0,0,0.1),4px_0px_8px_0px_rgba(0,0,0,0.1),-4px_0px_8px_0px_rgba(0,0,0,0.1)]'>
                 <div>
                   <div className='rounded-lg overflow-hidden w-full h-[200px]'>
-                    <Image src={item.imgUrl ? item.imgUrl : physic_no} className='w-full object-cover h-full group-hover:scale-[1.15] transition duration-300' />
+                    <Image src={item.imgUrl} className='w-full object-cover h-full group-hover:scale-[1.15] transition duration-300' />
                   </div>
                   <div className='mt-4 mb-5'>
                     <h3 className='text-[#080810] font-semibold text-lg mb-1 lg:mb-0'>{item.name}</h3>
