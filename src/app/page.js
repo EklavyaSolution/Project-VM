@@ -49,12 +49,12 @@ const App = () => {
 
   const slider = useRef();
 
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     slider.current.slickNext();
-  //   }, 6000);
-  //   return () => clearInterval(interval);
-  // }, []);
+  useEffect(() => {
+    const interval = setInterval(() => {
+      slider.current.slickNext();
+    }, 6000);
+    return () => clearInterval(interval);
+  }, []);
 
   const settings = {
     dots: true,
@@ -96,7 +96,7 @@ const App = () => {
     <div className='bg-white h-full min-h-screen'>
       <Slider ref={slider} {...settings}>
         <div>
-          <div className='w-full relative h-[300px]  min-[820px]:h-[360px] min-[1180px]:h-[430px] bg-banner_bg bg-cover bg-center overflow-hidden'>
+          <div className='w-full relative h-[300px]  min-[820px]:h-[360px] min-[1180px]:h-[450px] bg-banner_bg bg-cover bg-center overflow-hidden'>
             <div className='text-white font-semibold absolute bottom-20  min-[1180px]:bottom-28 left-11 min-[820px]:left-[56px] min-[890px]:left-[70px] lg:left-24 min-[1180px]:left-32'>
               <h2 className='text-2xl min-[820px]:text-3xl lg:text-4xl tracking-wider mb-1 lg:mb-2'>Welcome to Numerologist's World</h2>
               <h5 className='min-[680px]:w-full w-[80%] min-[820px]:text-lg lg:text-xl tracking-wider mb-4 lg:mb-6'>Astro Numerology | Career | Relationship | Business</h5>
@@ -108,33 +108,24 @@ const App = () => {
           </div>
         </div>
         <div>
-          <div className='w-full relative h-[300px]  min-[820px]:h-[360px] min-[1180px]:h-[400px] bg-banner_bg bg-cover bg-center overflow-hidden'>
-            <div className='text-white font-semibold absolute bottom-16 min-[820px]:bottom-20 left-11 min-[820px]:left-[56px] min-[890px]:left-[70px] lg:left-24 min-[1180px]:bottom-24 min-[1180px]:left-32'>
-              <h2 className='text-xl min-[820px]:text-[26px] lg:text-3xl tracking-wider mb-1 lg:mb-2'>Best Numerologist in New Jersey</h2>
-              <h5 className='min-[820px]:text-lg lg:text-xl tracking-wider mb-4 lg:mb-6'>Astro Numerology | Career | Relationship | Business</h5>
-              <Link href="/appointment"><button className='bg-[#F2934C] py-1.5 px-4 lg:px-7 lg:py-2 max-[820px]:text-sm rounded tracking-wider'>Book Appointment</button></Link>
-            </div>
-            <div className='absolute bottom-0 -right-[52px]  min-[890px]:-right-8 lg:-right-2 min-[1180px]:right-8'>
-              <Image src={banner_man} alt='Venky Musti | Best Numerologist' className='w-[18rem] min-[820px]:w-[21rem] min-[890px]:w-[23rem] lg:w-[25rem] min-[1180px]:w-[28rem]' />
+          <div className='w-full relative h-[300px]  min-[820px]:h-[360px] min-[1180px]:h-[450px] bg-banner_bg bg-cover bg-center overflow-hidden'>
+            <div className='w-full h-full overflow-hidden'>
+              <Image src={banner_slide2} alt='' className='w-full h-full object-cover' />
             </div>
           </div>
         </div>
         <div>
-          <div className='w-full relative h-[300px]  min-[820px]:h-[360px] min-[1180px]:h-[400px] bg-banner_bg bg-cover bg-center overflow-hidden'>
-            <div className='text-white font-semibold absolute bottom-16 min-[820px]:bottom-20 left-11 min-[820px]:left-[56px] min-[890px]:left-[70px] lg:left-24 min-[1180px]:bottom-24 min-[1180px]:left-32'>
-              <h2 className='text-xl min-[820px]:text-[26px] lg:text-3xl tracking-wider mb-1 lg:mb-2'>Best Numerologist in New Jersey</h2>
-              <h5 className='min-[820px]:text-lg lg:text-xl tracking-wider mb-4 lg:mb-6'>Astro Numerology | Career | Relationship | Business</h5>
-              <Link href="/appointment"><button className='bg-[#F2934C] py-1.5 px-4 lg:px-7 lg:py-2 max-[820px]:text-sm rounded tracking-wider'>Book Appointment</button></Link>
-            </div>
-            <div className='absolute bottom-0 -right-[52px]  min-[890px]:-right-8 lg:-right-2 min-[1180px]:right-8'>
-              <Image src={banner_man} alt='Venky Musti | Best Numerologist' className='w-[18rem] min-[820px]:w-[21rem] min-[890px]:w-[23rem] lg:w-[25rem] min-[1180px]:w-[28rem]' />
+          <div className='w-full relative h-[300px]  min-[820px]:h-[360px] min-[1180px]:h-[450px] bg-banner_bg bg-cover bg-center overflow-hidden'>
+            <div className='w-full h-full overflow-hidden'>
+              <Image src={banner_slide3} alt='' className='w-full h-full object-cover' />
             </div>
           </div>
         </div>
+
       </Slider>
 
       <div className='w-full mx-auto max-w-[1200px] mt-10 lg:mt-16 px-5 lg:px-0 font-semibold'>
-        <div className='flex md:flex-row flex-col gap-6 lg:gap-12'>
+        {/* <div className='flex md:flex-row flex-col gap-6 lg:gap-12'>
           <picture className='w-full max-w-[400px] mx-auto md:mx-0 md:w-[35%] rounded-lg overflow-hidden'>
             <Image src={why_numero} alt='' loading='eager' className='w-full h-full object-cover' />
           </picture>
@@ -149,7 +140,7 @@ const App = () => {
               <li className='mb-2 min-[500px]:mb-0 leading-6'><span className='font-bold text-[#10101E]'>Impact the World:</span> Empower change.</li>
             </ul>
           </div>
-        </div>
+        </div> */}
         <div className='mt-12 lg:mt-20 flex flex-col items-center text-center'>
           <h2 className='  text-[#10101E] text-3xl lg:text-[33px]'>Meet <span className='text-[#261891]'>VENKY MUSTI</span></h2>
           <picture className='w-full h-full max-w-[650px] max-h-[320px] rounded-xl overflow-hidden mt-5 shadow-[0_0px_10px_0px_rgba(0,0,0,0.25)]'>
