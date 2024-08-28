@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react';
-import destiny_img from "@/assets/destiny_img.svg"
+import destiny_img1 from "@/assets/destiny_img1.png"
+import destiny_img2 from "@/assets/destiny_img2.png"
 import BookNumeroSession from '@/components/BookNumeroSession';
 import Numbers from '@/components/Numbers';
 
@@ -17,7 +18,7 @@ const Destiny_number = () => {
         <h5 className='text-center text-[#EA8427] w-full lg:w-[90%] mx-auto lg:text-2xl mt-2 px-5 lg:px-0'>Destiny Number is an important Number in Numerology. It is helpful in the long-term planning of events.</h5>
         <div className='w-full px-5 lg:px-12 py-6 lg:py-8 flex flex-col lg:flex-row gap-6 lg:gap-12 bg-[#FFEECE] mt-10'>
           <div className='w-full max-w-[380px] h-[190px] lg:h-[240px] overflow-hidden rounded-tl-2xl rounded-br-2xl'>
-            <Image src={destiny_img} alt='Physic Numbers in Numerology' className='w-full h-full object-cover' />
+            <Image src={destiny_img1} alt='Physic Numbers in Numerology' className='w-full h-full object-cover' />
           </div>
           <div>
             <h2 className='text-[#10101E] text-xl lg:text-2xl mb-1'>What is Destiny Number?</h2>
@@ -26,7 +27,7 @@ const Destiny_number = () => {
         </div>
         <div className='w-full px-5 lg:px-12 py-6 lg:py-8 flex flex-col lg:flex-row gap-6 lg:gap-12 bg-[#FFEECE] mt-8'>
           <div className='w-full max-w-[380px] h-[190px] lg:h-[240px] overflow-hidden rounded-tl-2xl rounded-br-2xl'>
-            <Image src={destiny_img} alt='Physic Numbers in Numerology' className='w-full h-full object-cover' />
+            <Image src={destiny_img2} alt='Physic Numbers in Numerology' className='w-full h-full object-cover' />
           </div>
           <div>
             <h2 className='text-[#10101E] text-xl lg:text-2xl mb-1'>How to Calculate Destiny Number?</h2>

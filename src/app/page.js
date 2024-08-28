@@ -15,11 +15,11 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import SliderComp from '@/components/SliderComp';
 import carbon_time from "@/assets/carbon_time.svg"
-import why_numero from "@/assets/why_numero.png"
 import mandala from "@/assets/mandala.svg"
-import banner_slide2 from "@/assets/banner_slide2.png"
+import rotater from "@/assets/rotater.svg"
+import banner_slide4 from "@/assets/banner_slide4.png"
 import banner_slide3 from "@/assets/banner_slide3.png"
-import { CustomerReview } from '@/components/data/data';
+import { CustomerReview, servicesData } from '@/components/data/data';
 
 
 const App = () => {
@@ -96,51 +96,45 @@ const App = () => {
     <div className='bg-white h-full min-h-screen'>
       <Slider ref={slider} {...settings}>
         <div>
-          <div className='w-full relative h-[350px]  min-[820px]:h-[400px] min-[1180px]:h-[490px] bg-banner_bg bg-cover bg-center overflow-hidden'>
-            <div className='text-white font-semibold absolute bottom-28  min-[1180px]:bottom-36 left-11 min-[820px]:left-[56px] min-[890px]:left-[70px] lg:left-24 min-[1180px]:left-32'>
-              <h2 className='text-2xl min-[820px]:text-3xl lg:text-4xl tracking-wider mb-1 lg:mb-2'>Welcome to Numerologist's World</h2>
-              <h5 className='min-[680px]:w-full w-[80%] min-[820px]:text-lg lg:text-xl tracking-wider mb-4 lg:mb-6'>Astro Numerology | Career | Relationship | Business</h5>
+          <div className='w-full relative  h-[28vh] min-[480px]:h-[32vh] min-[570px]:h-[38vh] min-[650px]:h-[44vh] min-[770px]:h-[52vh]  min-[950px]:h-[60vh] bg-banner_bg bg-cover bg-center overflow-hidden z-10'>
+            <div className='text-white font-semibold absolute bottom-20 min-[650px]:bottom-28 min-[950px]:bottom-36 left-11 min-[820px]:left-[56px] min-[890px]:left-[70px] lg:left-24 min-[1180px]:left-32'>
+              <h2 className=' text-[22px] min-[720px]:text-[26px] min-[845px]:text-3xl lg:text-[33px] min-[1110px]:text-4xl tracking-wider mb-1 lg:mb-2'>Welcome to Numerologist's World</h2>
+              <h5 className='min-[680px]:w-full w-[80%] text-[15px] min-[845px]:text-lg lg:text-xl tracking-wider mb-4 lg:mb-6'>Astro Numerology | Career | Relationship | Business</h5>
               <Link href="/appointment"><button className='bg-[#F2934C] py-1.5 px-4 lg:px-7 lg:py-2 max-[820px]:text-sm rounded tracking-wider'>Book Appointment</button></Link>
             </div>
-            <div className='absolute bottom-0 -right-[60px]  min-[890px]:-right-12 lg:-right-6 min-[1180px]:right-2'>
-              <Image src={banner_man} alt='Venky Musti | Best Numerologist' className='w-[21rem] min-[820px]:w-[24rem] min-[890px]:w-[26rem] lg:w-[28rem] min-[1180px]:w-[32rem]' />
+            <div className='absolute bottom-0 -right-[80px]  min-[900px]:-right-12 min-[1110px]:-right-8'>
+              <Image src={banner_man} alt='Venky Musti | Best Numerologist' className='w-[18rem] min-[650px]:w-[21rem] min-[820px]:w-[24rem] min-[950px]:w-[26rem] lg:w-[28rem]' />
             </div>
           </div>
         </div>
         <div>
-          <div className='w-full relative min-[480px]:h-[32vh] min-[560px]:h-[38vh] min-[650px]:h-[44vh] min-[750px]:h-[50vh]  min-[850px]:h-[56vh] min-[1180px]:h-[66vh] bg-banner_bg bg-cover bg-center overflow-hidden'>
+          <div className='w-full relative h-[28vh] min-[480px]:h-[32vh] min-[570px]:h-[38vh] min-[650px]:h-[44vh] min-[770px]:h-[52vh]  min-[950px]:h-[60vh] bg-banner_bg bg-cover bg-center overflow-hidden z-10'>
             <div className='w-full h-full overflow-hidden'>
-              <Image src={banner_slide2} alt='' className='w-full h-full object-cover' />
+              <Image src={banner_slide4} alt='' className='w-full h-full object-cover' />
             </div>
           </div>
         </div>
         <div>
-          <div className='w-full relative min-[480px]:h-[32vh] min-[560px]:h-[38vh] min-[650px]:h-[44vh] min-[750px]:h-[50vh]  min-[850px]:h-[56vh] min-[1180px]:h-[66vh] bg-banner_bg bg-cover bg-center overflow-hidden'>
+          <div className='w-full relative h-[28vh] min-[480px]:h-[32vh] min-[570px]:h-[38vh] min-[650px]:h-[44vh] min-[770px]:h-[52vh]  min-[950px]:h-[60vh] bg-banner_bg bg-cover bg-center overflow-hidden z-10'>
             <div className='w-full h-full overflow-hidden'>
               <Image src={banner_slide3} alt='' className='w-full h-full object-cover' />
             </div>
           </div>
         </div>
-
       </Slider>
 
-      <div className='w-full mx-auto max-w-[1200px] mt-10 lg:mt-16 px-5 lg:px-0 font-semibold'>
-        {/* <div className='flex md:flex-row flex-col gap-6 lg:gap-12'>
-          <picture className='w-full max-w-[400px] mx-auto md:mx-0 md:w-[35%] rounded-lg overflow-hidden'>
-            <Image src={why_numero} alt='' loading='eager' className='w-full h-full object-cover' />
-          </picture>
-          <div className='w-full max-w-[550px] mx-auto md:mx-0 md:w-[63%] lg:w-[60%]'>
-            <h3 className='tracking-[0.2px] text-[#10101E] text-3xl lg:text-[33px]'>Why Numerology?</h3>
-            <p className=' text-[#3D3D3D] font-nunito lg:text-lg mt-1 leading-6 mb-3'>“Unlock Your Destiny: Why Numerology Matters ” / Unlock Your Life's Code: Discover What Numbers Reveal About You</p>
-            <ul className=' text-[#3D3D3D] font-nunito lg:text-lg list-disc ml-4 lg:ml-8'>
-              <li className='mb-2 min-[500px]:mb-0 leading-6'><span className='font-bold text-[#10101E]'>Life Roadmap:</span> Numerology guides your purpose. </li>
-              <li className='mb-2 min-[500px]:mb-0 leading-6'><span className='font-bold text-[#10101E]'>Energies Aligned:</span> Use numbers strategically.</li>
-              <li className='mb-2 min-[500px]:mb-0 leading-6'><span className='font-bold text-[#10101E]'>Self-Discovery:</span> Understand strengths and growth.</li>
-              <li className='mb-2 min-[500px]:mb-0 leading-6'><span className='font-bold text-[#10101E]'>Relationship Insights:</span> Decode connections.</li>
-              <li className='mb-2 min-[500px]:mb-0 leading-6'><span className='font-bold text-[#10101E]'>Impact the World:</span> Empower change.</li>
-            </ul>
-          </div>
-        </div> */}
+      <div className='w-full mx-auto max-w-[1200px] mt-10 lg:mt-16 px-5 lg:px-0 font-semibold relative'>
+        <div className='absolute -top-20 -left-64 w-[550px] h-[550px] z-[5]'>
+          <Image src={rotater} alt='' className='w-full h-full object-cover animate-[spin_15s_linear_infinite]'/>
+        </div>
+        <div className='ml-[480px] w-[700px]'>
+          <h5 className='font-medium text-lg font-nunito text-[#3D3D3D] mb-2'>Hi there..</h5>
+          <h3 className='font-bold text-[#10101E] text-3xl lg:text-[33px]'>I am Venky Musti</h3>
+          <p className='font-medium text-lg font-nunito text-[#3D3D3D] mt-1'>Achieving balance and harmony in all areas of life is essential for overall well-being. <span className='font-semibold text-[#FC993E]'>Venky Musti</span> Inner Alignment approach combines powerful techniques of Vastu, AstroNumerology, Meditation, Intuition, Energy Healing, and Spirituality to help you find inner peace and fulfillment.
+            <br /><br />
+            Together, we can unlock your true potential and create a life filled with joy and abundance. Let's get started on your journey towards a happier, healthier you!</p>
+        </div>
+
         <div className='mt-12 lg:mt-20 flex flex-col items-center text-center'>
           <h2 className='  text-[#10101E] text-3xl lg:text-[33px]'>Meet <span className='text-[#261891]'>VENKY MUSTI</span></h2>
           <picture className='w-full h-full max-w-[650px] max-h-[320px] rounded-xl overflow-hidden mt-5 shadow-[0_0px_10px_0px_rgba(0,0,0,0.25)]'>
@@ -175,19 +169,19 @@ const App = () => {
       <div className='mt-16 mb-20 font-semibold'>
         <h3 className='text-center text-[#10101E] text-[33px] tracking-[0.5px] mb-1'>Numerology <span className='text-[#261891]'>Solutions</span></h3>
         <p className=' text-center text-[#000000] font-medium font-nunito text-lg mb-10'>Unlocking the Power of Numbers in your Life</p>
-        <SliderComp slides={3} auto={false} data={services_data.map((item, index) => {
+        <SliderComp slides={3} auto={false} data={servicesData.map((item, index) => {
           return <div key={index}>
             <div className='w-[350px] h-[360px] mx-auto rounded-md overflow-hidden bg-white border-[#9e9e9eb3] border-[0.5px]'>
               <div className="w-full h-1/2">
-                <Image src={item.image} alt='' className='w-full h-full object-cover' />
+                <Image src={item.imgUrl} alt='' className='w-full h-full object-cover' />
               </div>
               <div className="p-4 flex flex-col justify-between h-1/2">
                 <div>
-                  <h3 className='text-[#10101E] text-lg'>{item.name}</h3>
-                  <p className='font-medium text-[#3D3D3D] font-nunito mt-1 text-sm tracking-wide'>{item.para}</p>
+                  <h3 className='text-[#10101E] text-lg leading-5'>{item.name}</h3>
+                  <p className='font-medium text-[#3D3D3D] line-clamp-3 font-nunito mt-2 text-sm tracking-wide'>{item.data}</p>
                 </div>
                 <div>
-                  <Link href={item.link}><button className='border-[#EF9D33] hover:text-white hover:bg-[#EF9D33] transition-all ease-out duration-300 border font-medium px-4 py-1.5 rounded tracking-wider text-[#EF9D33]'>More details</button></Link>
+                  <Link href="/appointment" ><button className='border-[#EF9D33] hover:text-white hover:bg-[#EF9D33] transition-all ease-out duration-300 border font-medium px-4 py-1.5 rounded tracking-wider text-[#EF9D33]'>More details</button></Link>
                 </div>
               </div>
             </div>
