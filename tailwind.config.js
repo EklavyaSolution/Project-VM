@@ -10,7 +10,7 @@ module.exports = {
       backgroundImage: {
         'header_bg': "url('../assets/header_bg.svg')",
         'appointment_bg': "url('../assets/appointment_bg.svg')",
-        'about_bg': "url('../assets/about_bg.svg')",
+        'about_bg': "url('../assets/about_bg.png')",
         'booknumerosession_bg': "url('../assets/booknumerosession_bg.svg')",
         'banner_bg': "url('../assets/banner_bg.png')",
       },
