@@ -25,7 +25,7 @@ const Footer = () => {
       <div className='flex lg:flex-row flex-col justify-between'>
         <div className='px-0 lg:px-12 flex lg:flex-col flex-row flex-wrap items-start'>
           <Link href="/">
-            <Image src={venky_logo} alt='Venki Musti (Numerlogy Expert)' className='w-16' />
+            <Image src={venky_logo} alt='Venki Musti (Numerlogy Expert)' className='w-40' />
           </Link>
           <p className='lg:mt-5 ml-8 max-[840px]:mb-0 lg:ml-0 font-medium w-[80%] max-w-[550px] lg:w-[400px] border-b-2 border-white pb-4 text-justify text-[15px] mb-4 text-[#EF9D33]'>I have always been interested in numbers and their meanings. I love finding out what numbers mean and how they can impact our lives. I am constantly studying numerology and finding new and interesting ways to apply it to my life.</p>
           <div className="max-[840px]:w-full mb-12">

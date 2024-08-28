@@ -71,9 +71,9 @@ const Header = () => {
     if (pathname.startsWith("/v")) return <></>;
 
     return (
-        <nav className={`w-full px-4 min-[700px]:px-7 min-[1200px]:px-4 min-[1270px]:px-10 flex items-center py-2 transition-all duration-300 delay-200 ease-out justify-between sticky left-0 bg-black  z-[999] ${visible ? "-top-[100%]" : "top-0"}`}>
+        <nav className={`w-full pr-4  min-[700px]:pr-7 min-[1200px]:pr-4 min-[1270px]:pr-7 flex items-center -py-8 transition-all duration-300 delay-200 ease-out justify-between sticky left-0 bg-black  z-[999] ${visible ? "-top-[100%]" : "top-0"}`}>
             <Link href="/">
-                <Image src={venky_logo} alt='Venki Musti (Numerology Expert)' className='sm:w-16 sm:h-16 w-12 h-12' />
+                <Image src={venky_logo} alt='Venki Musti (Numerology Expert)' className='sm:w-32 sm:h-32 w-20 h-20' />
             </Link>
             <div className='hidden min-[1200px]:flex items-center gap-6 font-semibold text-[15px] text-white'>
                 {navlinks.map((item, index) => {

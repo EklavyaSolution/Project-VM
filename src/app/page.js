@@ -49,12 +49,12 @@ const App = () => {
 
   const slider = useRef();
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      slider.current.slickNext();
-    }, 6000);
-    return () => clearInterval(interval);
-  }, []);
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     slider.current.slickNext();
+  //   }, 6000);
+  //   return () => clearInterval(interval);
+  // }, []);
 
   const settings = {
     dots: true,
@@ -96,26 +96,26 @@ const App = () => {
     <div className='bg-white h-full min-h-screen'>
       <Slider ref={slider} {...settings}>
         <div>
-          <div className='w-full relative h-[300px]  min-[820px]:h-[360px] min-[1180px]:h-[450px] bg-banner_bg bg-cover bg-center overflow-hidden'>
-            <div className='text-white font-semibold absolute bottom-20  min-[1180px]:bottom-28 left-11 min-[820px]:left-[56px] min-[890px]:left-[70px] lg:left-24 min-[1180px]:left-32'>
+          <div className='w-full relative h-[350px]  min-[820px]:h-[400px] min-[1180px]:h-[490px] bg-banner_bg bg-cover bg-center overflow-hidden'>
+            <div className='text-white font-semibold absolute bottom-28  min-[1180px]:bottom-36 left-11 min-[820px]:left-[56px] min-[890px]:left-[70px] lg:left-24 min-[1180px]:left-32'>
               <h2 className='text-2xl min-[820px]:text-3xl lg:text-4xl tracking-wider mb-1 lg:mb-2'>Welcome to Numerologist's World</h2>
               <h5 className='min-[680px]:w-full w-[80%] min-[820px]:text-lg lg:text-xl tracking-wider mb-4 lg:mb-6'>Astro Numerology | Career | Relationship | Business</h5>
               <Link href="/appointment"><button className='bg-[#F2934C] py-1.5 px-4 lg:px-7 lg:py-2 max-[820px]:text-sm rounded tracking-wider'>Book Appointment</button></Link>
             </div>
-            <div className='absolute bottom-0 -right-[52px]  min-[890px]:-right-8 lg:-right-2 min-[1180px]:right-8'>
-              <Image src={banner_man} alt='Venky Musti | Best Numerologist' className='w-[18rem] min-[820px]:w-[21rem] min-[890px]:w-[23rem] lg:w-[25rem] min-[1180px]:w-[28rem]' />
+            <div className='absolute bottom-0 -right-[60px]  min-[890px]:-right-12 lg:-right-6 min-[1180px]:right-2'>
+              <Image src={banner_man} alt='Venky Musti | Best Numerologist' className='w-[21rem] min-[820px]:w-[24rem] min-[890px]:w-[26rem] lg:w-[28rem] min-[1180px]:w-[32rem]' />
             </div>
           </div>
         </div>
         <div>
-          <div className='w-full relative h-[300px]  min-[820px]:h-[360px] min-[1180px]:h-[450px] bg-banner_bg bg-cover bg-center overflow-hidden'>
+          <div className='w-full relative min-[480px]:h-[32vh] min-[560px]:h-[38vh] min-[650px]:h-[44vh] min-[750px]:h-[50vh]  min-[850px]:h-[56vh] min-[1180px]:h-[66vh] bg-banner_bg bg-cover bg-center overflow-hidden'>
             <div className='w-full h-full overflow-hidden'>
               <Image src={banner_slide2} alt='' className='w-full h-full object-cover' />
             </div>
           </div>
         </div>
         <div>
-          <div className='w-full relative h-[300px]  min-[820px]:h-[360px] min-[1180px]:h-[450px] bg-banner_bg bg-cover bg-center overflow-hidden'>
+          <div className='w-full relative min-[480px]:h-[32vh] min-[560px]:h-[38vh] min-[650px]:h-[44vh] min-[750px]:h-[50vh]  min-[850px]:h-[56vh] min-[1180px]:h-[66vh] bg-banner_bg bg-cover bg-center overflow-hidden'>
             <div className='w-full h-full overflow-hidden'>
               <Image src={banner_slide3} alt='' className='w-full h-full object-cover' />
             </div>
