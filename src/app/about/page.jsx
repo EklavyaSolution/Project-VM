@@ -16,9 +16,6 @@ const About = () => {
           <h2 className='font-poppins text-[33px] tracking-wider mb-3'>About Venky Musti</h2>
           <h5 className='text-2xl tracking-wider mb-1'>Best Numerologist in New Jersey</h5>
           <h5 className=' tracking-wider '>Astro Numerology | Career | Relationship | Business</h5>
-        </div>
-        <div>
-          <Image src={banner_man} alt='Venky Musti | Best Numerologist' className='w-80' />
         </div> */}
       </div>
       <div className='w-full mx-auto max-w-[1200px] font-semibold mt-10 px-5 lg:px-0'>
