@@ -6,6 +6,7 @@ import venky_logo from "@/assets/venky_logo.svg"
 import arrow_down from "@/assets/arrow-down.svg"
 import close from "@/assets/close.png"
 import hamburger from "@/assets/hamburger.png"
+import venky_name from "@/assets/venky_name_frame.png"
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
@@ -96,14 +97,16 @@ const Header = () => {
                 <Image src={hamburger} alt='Hamburger Menu' className=' cursor-pointer w-12 p-2 ' onClick={() => setNavActive(true)} />
             </div>
             <div className={` ${navActive ? "pointer-events-auto" : "pointer-events-none"} fixed block min-[1200px]:hidden top-0 left-0 w-screen h-screen`}>
-                <div className={`absolute top-0 pointer-events-auto w-full max-w-[380px] h-screen bg-gray-400 -mr-1 scale-[1.02] transition-all duration-500 ease-in-out  ${navActive ? "right-0" : "-right-[100%]"}`}>
+                <div className={`absolute top-0 pointer-events-auto w-full max-w-[380px] h-screen -mr-1 bg-[#656565] scale-[1.02] transition-all duration-500 ease-in-out  ${navActive ? "right-0" : "-right-[100%]"}`}>
                     <Image src={close} alt='Close Icon' className='absolute top-5 right-8  w-12 p-2 cursor-pointer' onClick={() => setNavActive(false)} />
 
-                    <div className='mt-[68px]'>
-                        <h3 className='text-3xl font-semibold text-center mb-8'>Venky Musti</h3>
+                    <div className='mt-[88px]'>
+                        <div className='w-48 h-11 mx-auto mb-5'>
+                        <Image src={venky_name} alt='Venky Musti' className='w-full h-full object-cover' />
+                        </div>
                         <ul className=' text-center'>
                             {navlinks.map((item, index) => {
-                                return <li key={index}><Link href={item.link} className='mb-5 inline-block' onClick={() => setNavActive(false)}><h3 className='font-medium text-xl'>{item.name}</h3></Link></li>
+                                return <li key={index}><Link href={item.link} className='mb-5 inline-block' onClick={() => setNavActive(false)}><h3 className='font-medium text-2xl'>{item.name}</h3></Link></li>
                             })}
                         </ul>
                     </div>

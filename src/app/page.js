@@ -19,6 +19,7 @@ import mandala from "@/assets/mandala.svg"
 import rotater from "@/assets/rotater.svg"
 import banner_slide4 from "@/assets/banner_slide4.png"
 import banner_slide3 from "@/assets/banner_slide3.png"
+import banner_slide1 from "@/assets/banner1.png"
 import { CustomerReview, servicesData } from '@/components/data/data';
 
 
@@ -96,14 +97,10 @@ const App = () => {
     <div className='bg-white h-full min-h-screen'>
       <Slider ref={slider} {...settings}>
         <div>
-          <div className='w-full relative  h-[28vh] min-[480px]:h-[32vh] min-[570px]:h-[38vh] min-[650px]:h-[44vh] min-[770px]:h-[52vh]  min-[950px]:h-[60vh] bg-banner_bg bg-cover bg-center overflow-hidden z-10'>
-            <div className='text-white font-semibold absolute bottom-20 min-[650px]:bottom-28 min-[950px]:bottom-36 left-11 min-[820px]:left-[56px] min-[890px]:left-[70px] lg:left-24 min-[1180px]:left-32'>
-              <h2 className=' text-[22px] min-[720px]:text-[26px] min-[845px]:text-3xl lg:text-[33px] min-[1110px]:text-4xl tracking-wider mb-1 lg:mb-2'>Welcome to Numerologist's World</h2>
-              <h5 className='min-[680px]:w-full w-[80%] text-[15px] min-[845px]:text-lg lg:text-xl tracking-wider mb-4 lg:mb-6'>Astro Numerology | Career | Relationship | Business</h5>
-              <Link href="/appointment"><button className='bg-[#F2934C] py-1.5 px-4 lg:px-7 lg:py-2 max-[820px]:text-sm rounded tracking-wider'>Book Appointment</button></Link>
-            </div>
-            <div className='absolute bottom-0 -right-[80px]  min-[900px]:-right-12 min-[1110px]:-right-8'>
-              <Image src={banner_man} alt='Venky Musti | Best Numerologist' className='w-[18rem] min-[650px]:w-[21rem] min-[820px]:w-[24rem] min-[950px]:w-[26rem] lg:w-[28rem]' />
+          <div className='w-full relative h-[28vh] min-[480px]:h-[32vh] min-[570px]:h-[38vh] min-[650px]:h-[44vh] min-[770px]:h-[52vh]  min-[950px]:h-[60vh] bg-banner_bg bg-cover bg-center overflow-hidden z-10'>
+            <div className='w-full h-full overflow-hidden relative'>
+              <Image src={banner_slide1} alt='' className='w-full h-full object-cover' />
+              <Link href="/appointment" className='absolute max-[950px]:top-56 min-[900px]:left-8 min-[950px]:top-64 min-[1080px]:left-20 min-[1150px]:left-24 min-[1200px]:top-60 min-[1200px]:left-32  min-[1250px]:left-36  min-[1450px]:left-40'><button className='bg-[#F2934C] px-7 py-2 max-[820px]:text-sm rounded tracking-wider font-semibold'>Book Appointment</button></Link>
             </div>
           </div>
         </div>
@@ -124,13 +121,13 @@ const App = () => {
       </Slider>
 
       <div className='w-full mx-auto max-w-[1200px] mt-10 lg:mt-16 px-5 lg:px-0 font-semibold relative'>
-        <div className='absolute -top-20 -left-64 w-[550px] h-[550px] z-[5]'>
-          <Image src={rotater} alt='' className='w-full h-full object-cover animate-[spin_15s_linear_infinite]'/>
+        <div className='hidden min-[1025px]:block absolute -top-20 -left-64 w-[550px] h-[550px] z-[5]'>
+          <Image src={rotater} alt='' className='w-full h-full object-cover animate-[spin_15s_linear_infinite]' />
         </div>
-        <div className='ml-[480px] w-[700px]'>
-          <h5 className='font-medium text-lg font-nunito text-[#3D3D3D] mb-2'>Hi there..</h5>
-          <h3 className='font-bold text-[#10101E] text-3xl lg:text-[33px]'>I am Venky Musti</h3>
-          <p className='font-medium text-lg font-nunito text-[#3D3D3D] mt-1'>Achieving balance and harmony in all areas of life is essential for overall well-being. <span className='font-semibold text-[#FC993E]'>Venky Musti</span> Inner Alignment approach combines powerful techniques of Vastu, AstroNumerology, Meditation, Intuition, Energy Healing, and Spirituality to help you find inner peace and fulfillment.
+        <div className='w-full max-[1025px]:mx-auto max-[1025px]:text-center min-[1025px]:ml-[320px] min-[1180px]:ml-[480px] max-w-[700px]'>
+          <h5 className='font-medium text-lg font-nunito text-[#3D3D3D] mb-1'>Hi there..</h5>
+          <h3 className='font-bold text-[#10101E] max-[1025px]:text-4xl text-3xl lg:text-[33px]'>I am Venky Musti</h3>
+          <p className='font-medium text-lg font-nunito text-[#3D3D3D] mt-2'>Achieving balance and harmony in all areas of life is essential for overall well-being. <span className='font-semibold text-[#FC993E]'>Venky Musti</span> Inner Alignment approach combines powerful techniques of Vastu, AstroNumerology, Meditation, Intuition, Energy Healing, and Spirituality to help you find inner peace and fulfillment.
             <br /><br />
             Together, we can unlock your true potential and create a life filled with joy and abundance. Let's get started on your journey towards a happier, healthier you!</p>
         </div>

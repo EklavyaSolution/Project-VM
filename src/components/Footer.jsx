@@ -34,18 +34,22 @@ const Footer = () => {
               <div className='rounded px-2 py-1 text-white'>
                 <Image src={fb} alt="Venky's facebook" className='w-6' />
               </div>
-              <div className='rounded-sm px-2 py-1 text-white'>
-                <Image src={ig} alt="Venky's instagram" className='w-6' />
-              </div>
+              <Link href="https://www.instagram.com/numerologic369/">
+                <div className='rounded-sm px-2 py-1 text-white'>
+                  <Image src={ig} alt="Venky's instagram" className='w-6' />
+                </div>
+              </Link>
               <div className='rounded-sm px-2 py-1 text-white'>
                 <Image src={x} alt="Venky's x" className='w-6' />
               </div>
               <div className='rounded-sm px-2 py-1 text-white'>
                 <Image src={linkedin} alt="Venky's linkedin" className='w-6' />
               </div>
-              <div className='rounded-sm px-2 py-1 text-white'>
-                <Image src={yt} alt="Venky's youtube" className='w-6' />
-              </div>
+              <Link href="https://www.youtube.com/@numerologyVenky/videos">
+                <div className='rounded-sm px-2 py-1 text-white'>
+                  <Image src={yt} alt="Venky's youtube" className='w-6' />
+                </div>
+              </Link>
             </div>
           </div>
         </div>
@@ -61,10 +65,10 @@ const Footer = () => {
             </div>
             <div className='font-medium tracking-wide'>
               <h2 className='font-semibold mb-3 tracking-wide text-nowrap'>Quick Links</h2>
-              <Link href="#"> <h4 className='mb-1.5 text-sm'>About</h4> </Link>
-              <Link href="#"> <h4 className='mb-1.5 text-sm'>Contact</h4> </Link>
-              <Link href="#"> <h4 className='mb-1.5 text-sm'>Testimonials</h4> </Link>
-              <Link href="#"> <h4 className='mb-1.5 text-sm'>FAQs</h4> </Link>
+              <Link href="/about"> <h4 className='mb-1.5 text-sm'>About</h4> </Link>
+              <Link href="/services"> <h4 className='mb-1.5 text-sm'>Services</h4> </Link>
+              <Link href="/gallery"> <h4 className='mb-1.5 text-sm'>Gallery</h4> </Link>
+              <Link href="/our-global-presence"> <h4 className='mb-1.5 text-sm'>Global Presence</h4> </Link>
             </div>
           </div>
           <div className='font-medium mt-6 tracking-wide'>
@@ -75,16 +79,16 @@ const Footer = () => {
                 <h4 className='text-sm'>+1 7327980415</h4>
               </div>
             </Link>
-            <Link href="tel:14512545454545">
+            <Link target="blank" href='https://wa.link/cpimdn'>
               <div className='flex gap-4 items-center mb-3'>
                 <Image src={whatsapp} alt="Venky's Whatsapp" className='h-[18px]' />
                 <h4 className='text-sm'>Chat on Whatsapp</h4>
               </div>
             </Link>
-            <Link href="mailto:venkymusti@eklavyasolution.com">
+            <Link href="mailto:numerologic369@gmail.com">
               <div className='flex gap-4 items-center mb-3'>
                 <Image src={mail} alt="Venky's E-Mail" className='h-3.5' />
-                <h4 className='text-sm'>venkymusti@eklavyasolution.com</h4>
+                <h4 className='text-sm'>Numerologic369@gmail.com</h4>
               </div>
             </Link>
           </div>

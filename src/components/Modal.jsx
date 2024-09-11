@@ -6,7 +6,7 @@ const Modal = ({ show, setShow, children }) => {
         return null
     }
     return (
-        <div className='w-screen h-screen grid place-items-center fixed z-[9999] top-0 left-0  backdrop-blur-sm' onClick={(e) => setShow(!show)}>
+        <div className='w-screen h-screen grid place-items-center fixed z-[9999] top-0 left-0  backdrop-blur-lg'>
             {children}
         </div>
     )

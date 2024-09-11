@@ -2,7 +2,15 @@
 
 import Image from 'next/image'
 import React from 'react';
-import gallery_img from '@/assets/gallery_img.svg'
+import gallery1 from '@/assets/gallery1.jpeg'
+import gallery2 from '@/assets/gallery2.jpeg'
+import gallery4 from '@/assets/gallery4.jpeg'
+import gallery5 from '@/assets/gallery5.jpeg'
+import gallery6 from '@/assets/gallery6.jpeg'
+import gallery7 from '@/assets/gallery7.jpeg'
+import gallery8 from '@/assets/gallery8.jpeg'
+import gallery9 from '@/assets/gallery9.jpeg'
+import gallery3 from '@/assets/gallery3.png'
 
 const Gallery = () => {
   return (
@@ -15,27 +23,32 @@ const Gallery = () => {
         <p className='lg:text-lg font-medium font-nunito text-[#3D3D3D] mt-2 mb-5 lg:mb-12 mx-auto w-[90%]'>Here you'll find some of our favorite snapshots over the past few years these include my clients and also pictures taken when i attended various cultural events and met some wonderful people from movie and other industries</p>
         <div className='grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-10 p-8 lg:p-6'>
           <div className=' overflow-hidden rounded'>
-            <Image src={gallery_img} alt='A photo with Ram' />
+            <Image src={gallery1} alt='A photo with Ram' />
           </div>
           <div className=' overflow-hidden rounded-md'>
-            <Image src={gallery_img} alt='A photo with Ram' />
+            <Image src={gallery2} alt='A photo with Ram' />
           </div>
           <div className=' overflow-hidden rounded-md'>
-            <Image src={gallery_img} alt='A photo with Ram' />
+            <Image src={gallery3} alt='A photo with Ram' />
           </div>
           <div className=' overflow-hidden rounded-md'>
-            <Image src={gallery_img} alt='A photo with Ram' />
+            <Image src={gallery4} alt='A photo with Ram' />
           </div>
           <div className=' overflow-hidden rounded-md'>
-            <Image src={gallery_img} alt='A photo with Ram' />
+            <Image src={gallery5} alt='A photo with Ram' />
           </div>
           <div className=' overflow-hidden rounded-md'>
-            <Image src={gallery_img} alt='A photo with Ram' />
+            <Image src={gallery6} alt='A photo with Ram' />
           </div>
           <div className=' overflow-hidden rounded-md'>
-            <Image src={gallery_img} alt='A photo with Ram' />
+            <Image src={gallery7} alt='A photo with Ram' />
           </div>
-
+          <div className=' overflow-hidden rounded-md'>
+            <Image src={gallery8} alt='A photo with Ram' />
+          </div>
+          <div className=' overflow-hidden rounded-md'>
+            <Image src={gallery9} alt='A photo with Ram' />
+          </div>
         </div>
       </div>
     </div>
