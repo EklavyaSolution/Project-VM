@@ -2,24 +2,27 @@
 
 import Article from '@/components/admin/Article';
 import Banner from '@/components/admin/Banner';
+import Clients from '@/components/admin/Clients';
 import Gallery from '@/components/admin/Gallery';
 import Leads from '@/components/admin/Leads';
 import React, { useState } from 'react'
 
 const Profile = () => {
     const [activeLink, setActiveLink] = useState(0);
-    const links = ["Article", "Banner", "Gallery", "Leads"];
+    const links = ["Article", "Leads", "Clients"];  //"Banner", "Gallery",
 
     const renderTabs = () => {
         switch (activeLink) {
             case 0:
                 return <Article />;
+            // case 1:
+            //     return <Banner />;
+            // case 2:
+            //     return <Gallery />;
             case 1:
-                return <Banner />;
-            case 2:
-                return <Gallery />;
-            case 3:
                 return <Leads />;
+            case 2:
+                return <Clients />;
             default:
                 break;
         }
