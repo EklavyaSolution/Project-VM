@@ -1,7 +1,6 @@
 "use client"
 
 import React from 'react'
-import banner_man from "@/assets/banner_man.svg"
 import Image from 'next/image'
 import about_vid from "@/assets/about_vid.svg"
 import Link from 'next/link'
@@ -11,12 +10,7 @@ import VenkyExp from '@/components/VenkyExp'
 const About = () => {
   return (
     <div className='bg-white w-full h-full min-h-screen mb-8 lg:mb-16'>
-      <div className='w-full h-[400px] bg-about_bg bg-cover bg-center overflow-hidden flex justify-between items-center pt-16 px-[152px]'>
-        {/* <div className='text-white font-semibold -mt-8'>
-          <h2 className='font-poppins text-[33px] tracking-wider mb-3'>About Venky Musti</h2>
-          <h5 className='text-2xl tracking-wider mb-1'>Best Numerologist in New Jersey</h5>
-          <h5 className=' tracking-wider '>Astro Numerology | Career | Relationship | Business</h5>
-        </div> */}
+      <div className='w-full h-[20vh] min-[380px]:h-[24vh] min-[470px]:h-[28vh] min-[545px]:h-[32vh] min-[615px]:h-[36vh] min-[740px]:h-[44vh] min-[880px]:h-[52vh] min-[1040px]:h-[60vh] bg-about_bg bg-cover bg-center overflow-hidden flex justify-between items-center'>
       </div>
       <div className='w-full mx-auto max-w-[1200px] font-semibold mt-10 px-5 lg:px-0'>
         <h3 className='text-[#10101E] text-center text-3xl lg:text-[33px]'>Meet <span className='text-[#261891]'>Venky Musti</span></h3>
