@@ -96,10 +96,10 @@ const Footer = () => {
       </div>
       <div className='border-t-2 border-white pt-5 font-medium mt-7 flex flex-col lg:flex-row justify-between items-center px-8 tracking-wide'>
         <h5 className='text-[15px]'><span className='text-[17px]'>&copy;</span> 2024 All Rights Reserved</h5>
-        <div className='flex items-center gap-4 lg:gap-12 flex-wrap mt-7 lg:mt-0'>
+        <div className='flex items-center mt-7 mr-0 lg:mr-7 lg:mt-0'>
           <Link href="/disclaimer"><h5 className='text-[15px]'>Disclaimer</h5></Link>
-          <Link href="/terms-conditions"><h5 className='text-[15px]'>Terms & Conditions</h5></Link>
-          <Link href="/privacy-policy"><h5 className='text-[15px]'>Privacy Policy</h5></Link>
+          {/* <Link href="/terms-conditions"><h5 className='text-[15px]'>Terms & Conditions</h5></Link> */}
+          {/* <Link href="/privacy-policy"><h5 className='text-[15px]'>Privacy Policy</h5></Link> */}
         </div>
       </div>
     </footer>

@@ -50,12 +50,12 @@ const App = () => {
 
   const slider = useRef();
 
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     slider.current.slickNext();
-  //   }, 6000);
-  //   return () => clearInterval(interval);
-  // }, []);
+  useEffect(() => {
+    const interval = setInterval(() => {
+      slider.current.slickNext();
+    }, 6000);
+    return () => clearInterval(interval);
+  }, []);
 
   const settings = {
     dots: true,
@@ -100,7 +100,7 @@ const App = () => {
           <div className='w-full relative h-[28vh] min-[480px]:h-[32vh] min-[570px]:h-[38vh] min-[650px]:h-[44vh] min-[770px]:h-[52vh]  min-[950px]:h-[60vh] bg-banner_bg bg-cover bg-center overflow-hidden z-10'>
             <div className='w-full h-full overflow-hidden relative'>
               <Image src={banner_slide1} alt='' className='w-full h-full object-cover' />
-              <Link href="/appointment" className='absolute max-[950px]:top-56 min-[900px]:left-8 min-[950px]:top-64 min-[1080px]:left-20 min-[1150px]:left-24 min-[1200px]:top-60 min-[1200px]:left-32  min-[1250px]:left-36  min-[1450px]:left-40'><button className='bg-[#F2934C] px-7 py-2 max-[820px]:text-sm rounded tracking-wider font-semibold'>Book Appointment</button></Link>
+              <Link href="/appointment" className='absolute max-[950px]:top-56 min-[900px]:left-8 min-[950px]:top-64 min-[1080px]:left-20 min-[1150px]:left-24 min-[1200px]:top-60 min-[1200px]:left-32  min-[1250px]:left-36  min-[1450px]:left-40'><button className='bg-[#F2934C] px-7 py-2 max-[820px]:text-sm rounded tracking-wider font-semibold text-white'>Book Appointment</button></Link>
             </div>
           </div>
         </div>

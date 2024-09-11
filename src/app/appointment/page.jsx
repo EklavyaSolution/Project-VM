@@ -5,6 +5,7 @@ import React, { useState } from 'react'
 import venky_musti from "@/assets/venky_musti.svg"
 import Modal from '@/components/Modal'
 import ContactForm from '@/components/ContactForm'
+import Link from 'next/link'
 
 
 const Appointment = () => {
@@ -27,7 +28,10 @@ const Appointment = () => {
               <li>Online Zoom Meeting or Google Meet or Face to Face</li>
               <li>You can ask everything about your business, Carrier, etc.</li>
             </ul>
-            <button className='text-white font-semibold text-lg tracking-wide bg-gradient-to-r from-[#FF9B50] to-[#E25E3E] px-7 py-1.5 border-[0.5px] border-[#E25E3E80] shadow-[2px_4px_8px_0px_#E25E3E40] rounded-md outline-none mr-8 mt-6' onClick={() => setShow(!show)}>Book Appointment</button>
+            <Link href="/disclaimer">
+              <h3 className='font-semibold font-nunito text-red-500 text-lg mt-4'>You are required to read my <span className='text-blue-700'>Disclaimer</span> prior to booking a reading.</h3>
+            </Link>
+            <button className='text-white font-semibold text-lg tracking-wide bg-gradient-to-r from-[#FF9B50] to-[#E25E3E] px-7 py-1.5 border-[0.5px] border-[#E25E3E80] shadow-[2px_4px_8px_0px_#E25E3E40] rounded-md outline-none mr-8 mt-3' onClick={() => setShow(!show)}>Book Appointment</button>
           </div>
           <div>
             <Image src={venky_musti} alt='' className='w-[400px] max-[580px]:mt-3' />
