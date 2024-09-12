@@ -48,22 +48,22 @@ const ContactUs = () => {
   };
 
   const contactDetails = [{
-    link: "",
+    link: "https://wa.link/cpimdn",
     img: globe,
     heading: "Have Queries?",
     ptag: "Chat with us",
   },
   {
-    link: "tel:+41 87541258",
+    link: "tel:+17327980415",
     img: phoneicon,
     heading: "Mobile Number",
-    ptag: "+41 87541258",
+    ptag: "+1 7327980415",
   },
   {
-    link: "mailto:venky@gmnail.com",
+    link: "mailto:numerologic369@gmail.com",
     img: mailicon,
     heading: "E-Mail ID",
-    ptag: "venky@gmnail.com",
+    ptag: "Numerologic369@gmail.com",
     height: "63%"
   }
   ];

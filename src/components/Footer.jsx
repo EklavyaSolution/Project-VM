@@ -57,11 +57,11 @@ const Footer = () => {
           <div className='flex gap-16 min-[1020px]:gap-32'>
             <div className='font-medium tracking-wide'>
               <h2 className='font-semibold mb-3 tracking-wide'>Consultation</h2>
-              <Link href="#"> <h4 className='mb-1.5 text-sm'>Career Numerology</h4> </Link>
-              <Link href="#"> <h4 className='mb-1.5 text-sm'>Relationship Numerology</h4> </Link>
-              <Link href="#"> <h4 className='mb-1.5 text-sm'>Name Numerology</h4> </Link>
-              <Link href="#"> <h4 className='mb-1.5 text-sm'>Business Numerology</h4> </Link>
-              <Link href="#"> <h4 className='mb-1.5 text-sm'>New Born Numerology</h4> </Link>
+              <Link href="/services"> <h4 className='mb-1.5 text-sm'>Career Numerology</h4> </Link>
+              <Link href="/services"> <h4 className='mb-1.5 text-sm'>Relationship Numerology</h4> </Link>
+              <Link href="/services"> <h4 className='mb-1.5 text-sm'>Name Numerology</h4> </Link>
+              <Link href="/services"> <h4 className='mb-1.5 text-sm'>Business Numerology</h4> </Link>
+              <Link href="/services"> <h4 className='mb-1.5 text-sm'>New Born Numerology</h4> </Link>
             </div>
             <div className='font-medium tracking-wide'>
               <h2 className='font-semibold mb-3 tracking-wide text-nowrap'>Quick Links</h2>
