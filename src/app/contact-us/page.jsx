@@ -36,7 +36,7 @@ const ContactUs = () => {
     try {
       setLoading(true);
       const isSubmit = formdata.name.length > 2 && formdata.email && formdata.mobile.length === 10 && formdata.birthDate && formdata.birthTime && formdata.birthPlace;
-      if (!isSubmit) return setError("Please fill in all details properly.");
+      if (!isSubmit) return setError("Kindly! Fill yhe given details properly.");
       const data = await axios.post("http://localhost:5000/admin/leads/create", formdata);
       setError("");
       setFormdata(initialform)
