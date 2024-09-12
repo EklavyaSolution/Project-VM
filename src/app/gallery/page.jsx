@@ -10,7 +10,7 @@ import gallery6 from '@/assets/gallery6.jpeg'
 import gallery7 from '@/assets/gallery7.jpeg'
 import gallery8 from '@/assets/gallery8.jpeg'
 import gallery9 from '@/assets/gallery9.jpeg'
-import gallery3 from '@/assets/gallery3.png'
+import gallery3 from '@/assets/gallery3.PNG'
 
 const Gallery = () => {
   return (
