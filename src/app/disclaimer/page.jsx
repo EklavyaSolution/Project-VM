@@ -5,8 +5,8 @@ import React from 'react'
 const Disclaimer = () => {
     return (
         <div className='w-full h-full min-h-screen mb-8 lg:mb-16'>
-            <div className='w-full grid place-items-center h-32 lg:h-56 bg-header_bg bg-cover bg-center'>
-                <h1 className='text-white font-semibold font-poppins text-4xl lg:text-5xl tracking-[1px] lg:tracking-[0.7px]'>Disclaimer</h1>
+            <div className='w-full grid place-items-center h-44 min-[600px]:h-60 bg-header_bg bg-cover bg-center'>
+                <h1 className='text-white font-semibold font-poppins text-4xl min-[600px]:text-5xl tracking-[1px] lg:tracking-[0.7px]'>Disclaimer</h1>
             </div>
             <div className='w-full mx-auto max-w-[1000px] mt-7 lg:mt-10 px-6 lg:px-0 '>
                 <h3 className='text-xl lg:text-[28px] font-semibold mb-2 lg:mb-4 text-[#1a1a1a]'>Upon purchasing an astrological reading or any other service  from Venky Musti or Numerologic , you acknowledge that you:</h3>

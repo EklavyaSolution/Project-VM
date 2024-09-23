@@ -12,8 +12,8 @@ import AboutVenky from '@/components/AboutVenky';
 const ArticlesandUpdates = () => {
   return (
     <div className='w-full h-full min-h-screen mb-8 lg:mb-16'>
-      <div className='w-full grid place-items-center h-32 lg:h-60 bg-header_bg bg-cover bg-center'>
-        <h1 className='text-white text-center font-semibold font-poppins text-4xl lg:text-5xl tracking-[1px] lg:tracking-[0.7px]'>Articles & Updates</h1>
+      <div className='w-full grid place-items-center h-44 min-[600px]:h-60 bg-header_bg bg-cover bg-center'>
+        <h1 className='text-white text-center font-semibold font-poppins text-4xl min-[600px]:text-5xl tracking-[1px] lg:tracking-[0.7px]'>Articles & Updates</h1>
       </div>
       <div className='w-full mx-auto max-w-[1200px] mt-10'>
         <h2 className='text-center font-semibold text-[#10101E] text-3xl lg:text-[33px]'>Articles </h2>

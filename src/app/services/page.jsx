@@ -11,8 +11,8 @@ const Services = () => {
 
   return (
     <div className='w-full h-full min-h-screen mb-8 lg:mb-16'>
-      <div className='w-full grid place-items-center h-32 lg:h-56 bg-header_bg bg-cover bg-center'>
-        <h1 className='text-white font-semibold font-poppins text-4xl lg:text-5xl tracking-[1px] lg:tracking-[0.7px]'>Services</h1>
+      <div className='w-full grid place-items-center h-44 min-[600px]:h-60 bg-header_bg bg-cover bg-center'>
+        <h1 className='text-white font-semibold font-poppins text-4xl min-[600px]:text-5xl tracking-[1px] lg:tracking-[0.7px]'>Services</h1>
       </div>
       <div className='w-full mx-auto max-w-[1200px] mt-7 lg:mt-16 px-5 lg:px-0'>
         <div className='flex flex-col lg:flex-row items-center gap-8'>
