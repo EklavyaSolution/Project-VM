@@ -75,7 +75,7 @@ const Numbers = ({ name }) => {
                     if (name !== "destiny" && item.id > 10) {
                         return;
                     } else {
-                        return <Link key={item.id} href={`/numerology/${name}-number/${item.id}`} className='w-[47%] lg:w-fit'>
+                        return <Link key={item.id} href={`/numerology/${name}-number/${item.id}`} className='w-[47%] max-w-[300px] lg:w-fit'>
                             <div className='lg:w-[250px] rounded overflow-hidden bg-white shadow-[0_0px_10px_0px_rgba(0,0,0,0.25)]'>
                                 <Image src={item.img} alt='' className='w-full object-cover' />
                                 <h3 className='py-3 text-center font-semibold text-lg tracking-wide capitalize'>{name} Number {item.id > 10 ? "" : 0}{item.id}</h3>

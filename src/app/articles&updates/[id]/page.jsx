@@ -1,7 +1,12 @@
 import Image from 'next/image'
+import { usePathname } from 'next/navigation';
 import React from 'react'
 
 const page = () => {
+    const pathname = usePathname();
+    if (params.country !== "dubai" && params.country !== "usa" && params.country !== "australia") {
+        return notFound();
+    }
     return (
         <div className='w-full h-full min-h-screen mb-16'>
             <div className='w-full mx-auto max-w-[1200px] mt-10 font-semibold'>

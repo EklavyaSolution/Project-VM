@@ -46,12 +46,12 @@ const DestinyNumbers = ({ params }) => {
                     </Link>
                 </div>
                 <div className='w-full py-8 px-16 flex gap-10 border border-[#15138C] rounded-md'>
-                    <div className='w-96 h-56 bg-red-400 rounded-md overflow-hidden'>
+                    <div className='w-full max-w-[400px] h-[200px] lg:h-[240px] rounded-md overflow-hidden'>
                         <Image src={destinyData[params.id > 10 ? params.id - 1 - (1 + ((params.id % 10 - 1) * 10)) : params.id - 1].destinyNum.img} alt='' className='w-full h-full object-cover'/>
                     </div>
                     <div>
                         <h3 className='text-[#10101E] font-semibold tracking-wide text-2xl'>What Does Destiny Number {params.id} Mean?</h3>
-                        <ul className='w-[600px] font-medium font-nunito text-[#3D3D3D] text-lg mt-2.5 leading-5 ml-5 list-disc'>
+                        <ul className='w-full max-w-[600px] lg:text-lg leading-[22px] lg:leading-[26px] font-medium font-nunito text-[#3D3D3D] mt-2.5 ml-5 list-disc'>
                             {destinyData[params.id > 10 ? params.id - 1 - (1 + ((params.id % 10 - 1) * 10)) : params.id - 1].destinyNum.data.map((item, index) => {
                                 return <li key={index} className='mb-2'>{item}</li>
                             })}

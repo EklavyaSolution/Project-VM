@@ -81,7 +81,7 @@ const Header = () => {
                     return <div key={index} className='relative group'>
                         <Link href={item.link} className={`${pathname.startsWith(item.link) ? "text-orange-500" : ""} tracking-wide `
                         }><h3 className='py-3 flex items-center gap-2'>{item.name} {item?.children && <Image src={arrow_down} className='w-3 h-3' />} </h3></Link>
-                        {item?.children && <div className='bg-black border border-[#444] p-4 rounded flex-col gap-5 absolute top-11 left-0 hidden group-hover:flex hover:flex'>
+                        {item?.children && <div className='bg-black border border-[#333] p-4 rounded flex-col gap-5 absolute top-11 -left-1 hidden group-hover:flex hover:flex'>
                             {item.children?.map((subitem, index) => (
                                 <Link key={index} href={subitem.sublink} className="tracking-wide"><h3 className='text-nowrap'>{subitem.name}</h3></Link>
                             ))}
@@ -96,17 +96,17 @@ const Header = () => {
             <div className='block min-[1200px]:hidden min-[700px]:-mr-3'>
                 <Image src={hamburger} alt='Hamburger Menu' className=' cursor-pointer w-12 p-2 ' onClick={() => setNavActive(true)} />
             </div>
-            <div className={` ${navActive ? "pointer-events-auto" : "pointer-events-none"} fixed block min-[1200px]:hidden top-0 left-0 w-screen h-screen`}>
-                <div className={`absolute top-0 pointer-events-auto w-full max-w-[380px] h-screen -mr-1 bg-[#656565] scale-[1.02] transition-all duration-500 ease-in-out  ${navActive ? "right-0" : "-right-[100%]"}`}>
-                    <Image src={close} alt='Close Icon' className='absolute top-5 right-8  w-12 p-2 cursor-pointer' onClick={() => setNavActive(false)} />
+            <div className={` ${navActive ? "pointer-events-auto" : "pointer-events-none"} fixed block p-5 min-[1200px]:hidden top-0 left-0 w-screen h-screen`}>
+                <div className={`absolute top-0 min-[700px]:top-5 pointer-events-auto w-full max-w-[350px] text-white h-screen min-[700px]:h-[95vh] min-[700px]:my-auto -mr-1 min-[700px]:mr-5 min-[700px]:rounded-xl bg-[#263238] scale-[1.02] transition-all duration-500 ease-in-out  ${navActive ? "right-0" : "-right-[100%]"}`}>
+                    <Image src={close} alt='Close Icon' className='absolute top-6 right-8 min-[700px]:right-5  w-12 p-2 cursor-pointer' onClick={() => setNavActive(false)} />
 
                     <div className='mt-[88px]'>
                         <div className='w-48 h-11 mx-auto mb-5'>
-                        <Image src={venky_name} alt='Venky Musti' className='w-full h-full object-cover' />
+                            <Image src={venky_name} alt='Venky Musti' className='w-full h-full object-cover' />
                         </div>
                         <ul className=' text-center'>
                             {navlinks.map((item, index) => {
-                                return <li key={index}><Link href={item.link} className='mb-5 inline-block' onClick={() => setNavActive(false)}><h3 className='font-medium text-2xl'>{item.name}</h3></Link></li>
+                                return <li key={index}><Link href={item.link} className='mb-5 inline-block opacity-55 transition hover:opacity-100' onClick={() => setNavActive(false)}><h3 className='font-medium text-2xl'>{item.name}</h3></Link></li>
                             })}
                         </ul>
                     </div>

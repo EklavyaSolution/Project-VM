@@ -6,7 +6,6 @@ import about_vid from "@/assets/about_vid.svg"
 import Link from 'next/link';
 import swipePrev from "@/assets/swipePrev.svg"
 import swipeNext from "@/assets/swipeNext.svg"
-import banner_man from "@/assets/venky.png"
 import numero_sol1 from "@/assets/numero_sol1.svg"
 import numero_sol2 from "@/assets/numero_sol2.svg"
 import numero_sol3 from "@/assets/numero_sol3.svg"
@@ -17,7 +16,7 @@ import SliderComp from '@/components/SliderComp';
 import carbon_time from "@/assets/carbon_time.svg"
 import mandala from "@/assets/mandala.svg"
 import rotater from "@/assets/rotater.svg"
-import banner_slide4 from "@/assets/banner_slide4.png"
+import banner_slide2 from "@/assets/banner_slide2.PNG"
 import banner_slide3 from "@/assets/banner_slide3.png"
 import banner_slide1 from "@/assets/banner1.png"
 import { CustomerReview, servicesData } from '@/components/data/data';
@@ -97,22 +96,23 @@ const App = () => {
     <div className='bg-white h-full min-h-screen'>
       <Slider ref={slider} {...settings}>
         <div>
-          <div className='w-full relative h-[28vh] min-[480px]:h-[32vh] min-[570px]:h-[38vh] min-[650px]:h-[44vh] min-[770px]:h-[52vh]  min-[950px]:h-[60vh] bg-banner_bg bg-cover bg-center overflow-hidden z-10'>
+          <div className='w-full relative bg-banner_bg bg-cover bg-center overflow-hidden z-10'>
             <div className='w-full h-full overflow-hidden relative'>
               <Image src={banner_slide1} alt='' className='w-full h-full object-cover' />
-              <Link href="/appointment" className='absolute max-[950px]:top-56 min-[900px]:left-8 min-[950px]:top-64 min-[1080px]:left-20 min-[1150px]:left-24 min-[1200px]:top-60 min-[1200px]:left-32  min-[1250px]:left-36  min-[1450px]:left-40'><button className='bg-[#F2934C] px-7 py-2 max-[820px]:text-sm rounded tracking-wider font-semibold text-white'>Book Appointment</button></Link>
+              <Link href="/appointment" className='absolute bottom-[35%] min-[440px]:bottom-[38%] min-[600px]:bottom-[42%] min-[950px]:bottom-[45%] min-[1170px]:bottom-[48%] left-[10.5%] '><button className='bg-[#F2934C] px-2.5 py-0 min-[400px]:py-1 min-[550px]:px-5  min-[550px]:py-1.5 min-[950px]:px-7 min-[950px]:py-2 max-[400px]:text-[9px] max-[520px]:text-[12px] max-[820px]:text-sm rounded tracking-wider font-semibold text-white'>Book Appointment</button></Link>
             </div>
           </div>
         </div>
         <div>
-          <div className='w-full relative h-[28vh] min-[480px]:h-[32vh] min-[570px]:h-[38vh] min-[650px]:h-[44vh] min-[770px]:h-[52vh]  min-[950px]:h-[60vh] bg-banner_bg bg-cover bg-center overflow-hidden z-10'>
-            <div className='w-full h-full overflow-hidden'>
-              <Image src={banner_slide4} alt='' className='w-full h-full object-cover' />
+          <div className='w-full h-full overflow-hidden relative'>
+            <div className='w-full h-full overflow-hidden relative'>
+              <Image src={banner_slide2} alt='' className='w-full h-full object-cover' />
+              <Link href="/services" className='absolute top-[34%] min-[350px]:top-[35.5%] min-[430px]:top-[38%] min-[505px]:top-[40%] min-[630px]:top-[42%] min-[785px]:top-[43%] left-[42%] '><button className='bg-[#F2934C] px-1 min-[430px]:px-2.5 py-0 min-[630px]:py-1 min-[630px]:px-5  min-[730px]:py-1.5 min-[950px]:px-7 min-[1100px]:py-2 max-[430px]:text-[7px] max-[430px]:leading-[13px] max-[630px]:text-[9px] max-[730px]:text-[12px] max-[950px]:text-sm max-[430px]:rounded-sm rounded tracking-wider font-semibold text-white'>Consult Now</button></Link>
             </div>
           </div>
         </div>
         <div>
-          <div className='w-full relative h-[28vh] min-[480px]:h-[32vh] min-[570px]:h-[38vh] min-[650px]:h-[44vh] min-[770px]:h-[52vh]  min-[950px]:h-[60vh] bg-banner_bg bg-cover bg-center overflow-hidden z-10'>
+          <div className='w-full h-full overflow-hidden relative'>
             <div className='w-full h-full overflow-hidden'>
               <Image src={banner_slide3} alt='' className='w-full h-full object-cover' />
             </div>
@@ -124,7 +124,7 @@ const App = () => {
         <div className='hidden min-[1025px]:block absolute -top-20 -left-64 w-[550px] h-[550px] z-[5]'>
           <Image src={rotater} alt='' className='w-full h-full object-cover animate-[spin_15s_linear_infinite]' />
         </div>
-        <div className='w-full max-[1025px]:mx-auto max-[1025px]:text-center min-[1025px]:ml-[320px] min-[1180px]:ml-[480px] max-w-[700px]'>
+        <div className='w-full max-[1025px]:mx-auto max-[1025px]:text-center min-[1025px]:ml-[320px] min-[1190px]:ml-[480px] max-w-[700px]'>
           <h5 className='font-medium text-lg font-nunito text-[#3D3D3D] mb-1'>Hi there..</h5>
           <h3 className='font-bold text-[#10101E] max-[1025px]:text-4xl text-3xl lg:text-[33px]'>I am Venky Musti</h3>
           <p className='font-medium text-lg font-nunito text-[#3D3D3D] mt-2'>Achieving balance and harmony in all areas of life is essential for overall well-being. <span className='font-semibold text-[#FC993E]'>Venky Musti</span> Inner Alignment approach combines powerful techniques of Vastu, AstroNumerology, Meditation, Intuition, Energy Healing, and Spirituality to help you find inner peace and fulfillment.

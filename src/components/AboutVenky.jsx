@@ -9,7 +9,7 @@ import avatar from "@/assets/avatar.svg"
 const AboutVenky = () => {
     return (
         <div className='w-full'>
-            <div className='max-w-[1300px] rounded-md mx-auto w-[95%] py-5 lg:py-8 px-6 lg:px-24 flex flex-col lg:flex-row lg:items-center justify-between shadow-[0px_4px_18px_2px_rgba(0,0,0,0.10)] '>
+            <div className='max-w-[1300px] rounded-md mx-auto w-[95%] py-5 lg:py-8 px-6 lg:px-24 flex flex-col min-[718px]:flex-row lg:items-center justify-between shadow-[0px_4px_18px_2px_rgba(0,0,0,0.10)] '>
                 <div className='flex gap-4 lg:gap-8 mb-8 lg:mb-0'>
                     <picture className='w-20 h-20 flex-shrink-0 rounded-full overflow-hidden'>
                         <Image src={avatar} alt='Avatar' className='w-full h-full object-cover' />
