@@ -15,15 +15,15 @@ const Services = () => {
         <h1 className='text-white font-semibold font-poppins text-4xl min-[600px]:text-5xl tracking-[1px] lg:tracking-[0.7px]'>Services</h1>
       </div>
       <div className='w-full mx-auto max-w-[1200px] mt-7 lg:mt-16 px-5 lg:px-0'>
-        <div className='flex flex-col lg:flex-row items-center gap-8'>
-          <div className='w-full lg:w-[33%] overflow-hidden'>
+        <div className='flex flex-col min-[1080px]:flex-row items-center gap-8'>
+          <div className='w-full min-w-[400px] max-w-[440px] min-[1080px]:w-[33%] overflow-hidden'>
             <Image src={services_top} alt='Numerology Services' className='w-full h-full object-cover' />
           </div>
-          <div className='w-full lg:w-[64%] '>
-            <h3 className='text-[#10101E] text-xl lg:text-2xl font-semibold mb-2'>Personalized Consultations for Success <br />and Fulfillment</h3>
-            <p className=' lg:text-lg leading lg:leading-[26px] font-medium font-nunito text-[#3D3D3D]'>Venky conducts Face to face, Telephone or web-meeting based consultations for Clients. Utilizing a variety of methods, such as AstroNumerology, Predictive Numerology, Vedic Astrology, KP system, and Intuitive system, he uses a strengths-based approach to evaluate the data from your birth chart. He can then offer insight into several aspects of your life, including your profession, finances, health, relationships, and more, Get Best Astro Numerology Consultation Service in dubai UAE. Each conversation is customized to meet your specific needs and is intended to leave you with a generative vision, a stronger commitment, and an action plan for obtaining your ideal results. Your empowerment on your path to greater clarity, focus, abundance, and harmony is Venky's ultimate aim, Get Best Astro Numerology Consultation Service.</p>
-            <div className='flex flex-col items-center lg:flex-row gap-2 lg:gap-8 mt-8 lg:mt-6'>
-              <Link href="/about" className='mb-2 lg:mb-0 block'>
+          <div className='w-full max-[1080px]:max-w-[900px] min-[1080px]:w-[64%] max-[1080px]:mt-4'>
+            <h3 className='text-[#10101E] text-xl min-[700px]:text-2xl font-semibold mb-2 max-[1080px]:text-center'>Personalized Consultations for Success <br />and Fulfillment</h3>
+            <p className=' min-[700px]:text-lg max-[1080px]:text-center leading min-[700px]:leading-[26px] font-medium font-nunito text-[#3D3D3D]'>Venky conducts Face to face, Telephone or web-meeting based consultations for Clients. Utilizing a variety of methods, such as AstroNumerology, Predictive Numerology, Vedic Astrology, KP system, and Intuitive system, he uses a strengths-based approach to evaluate the data from your birth chart. He can then offer insight into several aspects of your life, including your profession, finances, health, relationships, and more, Get Best Astro Numerology Consultation Service in dubai UAE. Each conversation is customized to meet your specific needs and is intended to leave you with a generative vision, a stronger commitment, and an action plan for obtaining your ideal results. Your empowerment on your path to greater clarity, focus, abundance, and harmony is Venky's ultimate aim, Get Best Astro Numerology Consultation Service.</p>
+            <div className='flex flex-wrap max-[1080px]:justify-center items-center flex-row gap-2 lg:gap-8 mt-8 lg:mt-6'>
+              <Link href="/about" className='max-[512px]:mb-2 block'>
                 <button className='text-[#FC993E] outline-none rounded-md border border-[#FC993E] px-16 lg:px-8 py-2 font-semibold tracking-wide'>Learn More</button>
               </Link>
               <Link href="/appointment">
@@ -33,12 +33,12 @@ const Services = () => {
           </div>
         </div>
 
-        <div className='mt-12 '>
+        <div className='mt-12'>
           <h2 className='text-center font-semibold text-[#10101E] text-3xl lg:text-[33px] mb-2'>Services <span className='text-[#261891]'>Offered</span></h2>
           <p className='text-center lg:text-lg font-medium font-nunito text-[#3D3D3D]'>Unlock your destiny with Venky Musti, the AstroNumerology expert, and embark on a<br />transformative journey towards abundance and fulfillment, Get Best Astro Numerology Consultation Service</p>
-          <div className='grid grid-cols-1 lg:grid-cols-3 gap-7 lg:gap-10 mt-12 '>
+          <div className='flex flex-wrap justify-center gap-7 mt-12 '>
             {servicesData.map((item, index) => {
-              return <div key={index} className='bg-[#FFF3E0] min-h-[440px] group flex flex-col justify-between p-6 rounded-lg shadow-[0_4px_8px_0px_rgba(0,0,0,0.1),4px_0px_8px_0px_rgba(0,0,0,0.1),-4px_0px_8px_0px_rgba(0,0,0,0.1)]'>
+              return <div key={index} className='bg-[#FFF3E0] w-[380px] min-h-[440px] group flex flex-col justify-between p-6 rounded-lg shadow-[0_4px_8px_0px_rgba(0,0,0,0.1),4px_0px_8px_0px_rgba(0,0,0,0.1),-4px_0px_8px_0px_rgba(0,0,0,0.1)]'>
                 <div>
                   <div className='rounded-lg overflow-hidden w-full h-[200px]'>
                     <Image src={item.imgUrl} className='w-full object-cover h-full group-hover:scale-[1.15] transition duration-300' />

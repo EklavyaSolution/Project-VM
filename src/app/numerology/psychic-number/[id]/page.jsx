@@ -21,11 +21,11 @@ const PsychicNumbers = ({ params }) => {
   return (
     <div className='w-full h-full min-h-screen mb-8 lg:mb-16'>
       <div className='w-full h-[300px] bg-about_bg bg-cover bg-center flex justify-between items-center px-36 pt-12 overflow-hidden'>
-        <div className='text-white font-semibold relative ml-28'>
+        {/* <div className='text-white font-semibold relative ml-28'>
           <h2 className='text-3xl tracking-wider  border-b-2 border-white pb-3 text-center'>Psychic Number {params.id}</h2>
           <h5 className='text-5xl tracking-wider mt-2'>Numerology</h5>
           <h4 className='text-[#FFFFFF33] text-[270px] absolute -top-[160%] left-1/2 -translate-x-[50%]'>{params.id}</h4>
-        </div>
+        </div> */}
         <div>
           <Image src={banner_man} alt='Venky Musti | Best Numerologist' className='w-80' />
         </div>

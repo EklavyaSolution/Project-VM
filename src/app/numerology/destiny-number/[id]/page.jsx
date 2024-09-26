@@ -21,8 +21,8 @@ const DestinyNumbers = ({ params }) => {
 
     return (
         <div className='bg-[#FFFBF6] w-full h-full min-h-screen mb-8 lg:mb-16'>
-            <div className='w-full h-[300px] overflow-hidden relative'>
-                <Image src={about_bg} alt="" className='w-full h-full object-cover' />
+            <div className='w-full h-[300px] overflow-hidden relative  bg-about_bg bg-cover bg-center'>
+                {/* <Image src={about_bg} alt="" className='w-full h-full object-cover' />
                 <div className='w-full absolute top-6 -left-6 flex justify-between items-center px-32'>
                     <div className='text-white font-semibold -mt-10 ml-44 relative'>
                         <h2 className='text-3xl tracking-wider  border-b-2 border-white pb-3 text-center'>Destiny Number {params.id}</h2>
@@ -31,8 +31,8 @@ const DestinyNumbers = ({ params }) => {
                     </div>
                     <div>
                         <Image src={banner_man} alt='Venky Musti | Best Numerologist' className='w-80' />
-                    </div>
-                </div>
+                    </div> */}
+                {/* </div> */}
             </div>
             <div className='w-full mx-auto max-w-[1200px] mt-12 px-5 lg:px-0 flex flex-col items-center'>
                 <h3 className='text-center text-[#10101E] text-3xl lg:text-[33px] font-semibold'>Number {params.id} as Destiny Number</h3>
